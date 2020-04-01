@@ -284,9 +284,7 @@ a, a:visited, a:hover {
   color: #9f9f9f
 }
 
-a:hover{
-  text-decoration: none;
-}
+
 .lastprojects{
  line-height: 1em;
   list-style: none;
