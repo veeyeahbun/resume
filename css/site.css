@@ -14,7 +14,7 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a, a:hover {
+a {
   color: #0366d6;
 }
 
@@ -279,8 +279,7 @@ li {
       border: none;
   }
 
-a, a:visited {
-  color: #fff;
+a, a:visited, a:hover {
   text-decoration: none;
   color: #9f9f9f
 }
