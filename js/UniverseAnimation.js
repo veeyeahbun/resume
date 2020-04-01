@@ -303,33 +303,25 @@ function goMovie() {
 
 function playDelayedEffects(){
 
-    //initialize my service text 
-    setTimeout(
-    function(){
-        
-      
-        document.getElementById('keywords').style.opacity = 1;
-        document.getElementById('contacts-pad').style.opacity = 1;
-        document.getElementById('btngroup').style.opacity = 1;
-        document.getElementById('lastprojects').style.opacity = 1;
-        document.getElementById('service').style.opacity = 1;    
-        document.getElementById('companies').style.opacity = 1;   
-        canvas.style.opacity = 1;
-        canvas.style.width = '100%';
-        },1000);
- 
 
+    //initialize my service text   
+    canvas.style.opacity = 1;
+    canvas.style.width = '100%';
     //initialize "skoro" text
     setTimeout(
-    function(){
+    function(){    
         document.getElementById('almost').style.fontSize = document.getElementById('sd').style.fontSize;
-        },5000);
+        },3000);
 }
 
 
 playDelayedEffects();
-
 goMovie();
+
+
+
+
+
 
 
 // particles mouse effect 

@@ -68,7 +68,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: rgb(3, 15, 22);
+  background-color: rgb(1, 14, 20);
  
 }
 
@@ -81,7 +81,7 @@ canvas {
   width: 10%;
 
 
-  background-color:rgb(3, 15, 22);
+  background-color:rgb(1, 14, 20);
   background-repeat: no-repeat;
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
@@ -91,7 +91,6 @@ canvas {
 }
 
 #almost{
-
   transition: font-size 1s;
 }
 .footer {
@@ -110,6 +109,10 @@ canvas {
   transform: translate(-50%, -50%);
 }
 
+
+
+
+
 label {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -121,16 +124,13 @@ label {
 }
 
 
-
-
-
 #jr, #sd, #service, #companies,#keywords,#lastprojects,#btngroup,#contacts-pad, #button {
-  transition: all 1s;
+  transition: all 500ms;
   transition-property: width, opacity;
 }
 
 canvas{
-  transition: all 650ms;
+  transition: all 1s;
   transition-property: width, opacity;
 }
 
@@ -202,7 +202,7 @@ background: white;
 
 .companies {
   height: 50px;
-  margin: 25px 0;
+  margin: 40px 0;
   overflow: hidden;
   position: relative;
 }
