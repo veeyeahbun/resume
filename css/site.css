@@ -79,7 +79,7 @@ canvas {
   background-color: transparent;
   margin: 0px;
   width: 10%;
-  transition: width 1s;
+
 
   background-color:rgb(3, 15, 22);
   background-repeat: no-repeat;
@@ -124,9 +124,18 @@ label {
 
 
 
-#jr, #sd, #service, #button, canvas {
+#jr, #sd, #service, #companies,#keywords,#lastprojects,#btngroup,#contacts-pad, #button {
+  transition: all 1s;
+  transition-property: width, opacity;
+}
+
+canvas{
   transition: all 650ms;
   transition-property: width, opacity;
+}
+
+#btngroup{
+  width: 100%;
 }
 
 
@@ -335,7 +344,9 @@ margin-top: 10px;
   html {
       font-size: 16px;
   }
-
+#btngroup{
+  width: auto;
+}
 
   .companies_top li {
       width: 135px;

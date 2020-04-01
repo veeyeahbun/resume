@@ -278,7 +278,7 @@ function initCanvas() {
     canvas.setAttribute('height', window.innerHeight);
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
-    canvas.style.width='100%';
+  
    
 }
 
@@ -303,23 +303,33 @@ function goMovie() {
 
 function playDelayedEffects(){
 
+    //initialize my service text 
+    setTimeout(
+    function(){
+        
+      
+        document.getElementById('keywords').style.opacity = 1;
+        document.getElementById('contacts-pad').style.opacity = 1;
+        document.getElementById('btngroup').style.opacity = 1;
+        document.getElementById('lastprojects').style.opacity = 1;
+        document.getElementById('service').style.opacity = 1;    
+        document.getElementById('companies').style.opacity = 1;   
+        canvas.style.opacity = 1;
+        canvas.style.width = '100%';
+        },1000);
  
+
+    //initialize "skoro" text
     setTimeout(
     function(){
         document.getElementById('almost').style.fontSize = document.getElementById('sd').style.fontSize;
-        },2500);
-
-    setTimeout(
-    function(){
-        document.getElementById('service').style.opacity = 1;
         },5000);
- 
 }
 
 
+playDelayedEffects();
+
 goMovie();
-
-
 
 
 // particles mouse effect 
@@ -382,6 +392,7 @@ button2.addEventListener('mouseleave', function (e) {
     button.style.opacity = '100%';
     document.getElementById('jr').style.opacity = '100%';
     document.getElementById('sd').style.opacity = '100%';
+
 });
 
 
