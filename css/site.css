@@ -279,11 +279,14 @@ li {
       border: none;
   }
 
-a, a:visited, a:hover {
+a, a:visited {
   text-decoration: none;
-  color: #9f9f9f
+  color: #9f9f9f;
 }
-
+a:hover{
+ text-decoration: none;
+  color: #9f9f9f;
+}
 
 .lastprojects{
  line-height: 1em;
