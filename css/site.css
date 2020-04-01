@@ -1,0 +1,353 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 10px;
+}
+
+#mainpage {
+  margin:50px 15px;
+}
+
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: rgb(3, 15, 22);
+ 
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: -9999;
+  background-color: transparent;
+  margin: 0px;
+  width: 10%;
+  transition: width 1s;
+
+  background-color:rgb(3, 15, 22);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+
+}
+
+#almost{
+
+  transition: font-size 1s;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  background-color: white;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin:0px 0px;
+  color: #fff;
+}
+
+
+
+
+
+#jr, #sd, #service, #button, canvas {
+  transition: all 650ms;
+  transition-property: width, opacity;
+}
+
+
+.keywords li {
+  background: #fff;
+  padding: 3px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  list-style: none;
+  color: #000;
+  display: block;
+  float: left;
+  margin: 5px;
+  line-height: 1em;
+  cursor: default;
+  font-weight: bold;
+  
+}
+
+
+.contacts-pad{
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  float: right;
+  
+}
+
+.contacts li {
+background: white;
+  border-color: #9f9f9f;
+  padding: 10px;
+  border-radius: 30px;
+  list-style: none;
+  color: #000;
+  display: block;
+  float: left;
+  margin: 5px;
+  line-height: 0.8em;
+  cursor: default;
+  font-weight: bold;
+
+}
+.contacts li:hover {
+  background:  #9f9f9f;
+    border-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    list-style: none;
+    color: #000;
+    display: block;
+    float: left;
+    margin: 5px;
+    line-height: 0.8em;
+    cursor: default;
+    font-weight: bold;
+  
+  }
+
+.keywords {
+  margin: 10;
+  float: left;
+}
+
+.companies {
+  height: 50px;
+  margin: 25px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.companies_top {
+  height: 100%;
+  margin: 0;
+}
+
+  .companies_top li {
+      display: inline-block;
+      width: 120px;
+      height: 100%;
+      text-align: center;
+      vertical-align: left;
+      position: relative;
+      cursor: pointer;
+      margin-right: 10px
+  }
+
+      .companies_top li > div {
+          position: absolute;
+          left: 0;
+          top: 60px;
+          width: 100%;
+          -webkit-transition: top .3s ease;
+          transition: top .3s ease
+      }
+
+          .companies_top li > div span {
+              line-height: 1 em;
+              width: 100%;
+              display: block;
+              margin-bottom: 0 auto;
+              font-size: 11px;
+              color: #fff;
+
+          }
+          .companies_top li > div span > label{
+            margin:0px
+          }
+
+      .companies_top li > img {
+          -webkit-transition: opacity .2s ease;
+          transition: opacity .2s ease
+      }
+
+      .companies_top li:hover > img {
+          opacity: 0
+      }
+
+      .companies_top li:hover > div {
+          top: -4px;
+      }
+
+
+
+.companies_bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px
+}
+
+  .companies_bottom li {
+      width: 112px;
+      height: 4px;
+      background: #fff;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 12px
+  }
+
+li {
+  border-bottom: 5px solid #fff;
+}
+
+  li > ul > li:first-child {
+      border-top: 5px solid #fff;
+  }
+
+  li > ul > li:last-child {
+      border: none;
+  }
+
+a, a:visited {
+  color: #fff;
+  text-decoration: none;
+  color: #9f9f9f
+}
+
+a:hover{
+  text-decoration: none;
+}
+.lastprojects{
+ line-height: 1em;
+  list-style: none;
+}
+.lastprojects li{
+  border:0px;
+  margin: 0;
+
+text-align: left;
+}
+
+
+.lastprojects li::before {
+  list-style: none;
+
+  content: "• ";
+color: #9f9f9f;
+ /* or whatever color you prefer */
+ font-size: 20px;
+ padding:0;
+ margin:0;
+ height:20px
+}
+
+.lastprojects li:hover::before {
+  color:#fff;
+}
+
+
+
+.companies_top li > img {
+
+margin-top: 10px;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  #mainpage {
+      margin: 120px;
+  }
+
+  html {
+      font-size: 16px;
+  }
+
+
+  .companies_top li {
+      width: 135px;
+  }
+
+
+      .companies_top li > div span {
+          font-size: 12px;
+          line-height: 1.2em;
+      }
+
+      .companies_top li:hover > div {
+          top: -2px;
+      }
+}
