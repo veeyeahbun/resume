@@ -35,7 +35,11 @@ a {
 html {
   font-size: 10px;
 }
+  
 
+p{
+  font-size: 12px;
+}
 #mainpage {
   margin:50px 15px;
 }
@@ -301,6 +305,12 @@ a:hover{
   color: #9f9f9f;
 }
 
+
+a:hover  canvas{
+  opacity: 0.5;
+  width: 80%;
+}
+
 .lastprojects{
  line-height: 1em;
   list-style: none;
@@ -337,16 +347,89 @@ margin-top: 10px;
 }
 
 
+#sketch{
+
+  float: right;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 25px;
+
+}
+
+ol >li{
+  border: 0px;
+  color: #fff;
+  margin-left: 15px;
+  line-height: 0.5;
+}
+
+p{
+  color: #fff;
+}
+
+.container-fluid>.row{
+  margin-top: 30px;
+  background:rgba(250, 250, 250, .5) ;
+  border-radius: 25px;
+width: auto;
+ min-width: 200px;
+padding: 10px;
+word-wrap: break-word;
+
+}
+.col-sm>p{
+  word-wrap: break-word;
+}
+
+.col-sm{
+  margin-bottom: 25px;
+
+}
+.col-sm>img{
+
+  height:50px;
+   width: 100px;
+  margin: 10px;
+  float: left;
+}
+
+.float-right-sm{
+  float: right;
+}
 
 
+h2>label{
+
+ font-weight: bolder;
+
+  transition: width 1s;
+
+}
 @media (min-width: 768px) {
 
+  .col-sm>img{
+    height:120px;
+    width: 200px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   float: none;
+  }
+  .float-right-sm{
+    float: none;
+  }
   #mainpage {
       margin: 120px;
   }
 
   html {
       font-size: 16px;
+  }
+
+  p{
+    font-size: 16px;
   }
 #btngroup{
   width: auto;
@@ -364,5 +447,19 @@ margin-top: 10px;
 
       .companies_top li:hover > div {
           top: -2px;
+      }
+
+      .container-fluid>.row{
+        padding: 10px 50px;
+      }
+
+      #sketch{
+
+        float: right;
+        width: 375px;
+
+        margin-left: 50px;
+    
+      
       }
 }

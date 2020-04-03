@@ -294,28 +294,16 @@ window.addEventListener('resize', function (e) {
 
 function goMovie() {  
    
-    initCanvas();      
+    initCanvas();   
+      //initialize my service text   
+       
     initBalls(window.innerWidth/15);
     window.requestAnimationFrame(render);
-    playDelayedEffects();
-}
-
-
-function playDelayedEffects(){
-
-
-    //initialize my service text   
-    canvas.style.opacity = 1;
     canvas.style.width = '100%';
-    //initialize "skoro" text
-    setTimeout(
-    function(){    
-        document.getElementById('almost').style.fontSize = document.getElementById('sd').style.fontSize;
-        },3000);
 }
 
 
-playDelayedEffects();
+
 goMovie();
 
 
@@ -358,34 +346,6 @@ mainpage.addEventListener('click', function (e) {
 });
 
 
-
-
-//handling button hover
-
-
-var button = document.getElementById('button');
-button.addEventListener('mouseenter', function (e) {
-    spawnMoreBalls(e.pageX, e.pageY);
-});
-
-var button2 = document.getElementById('button2');
-button2.addEventListener('mouseenter', function (e) {
-
-    canvas.style.width = '90%';
-    canvas.style.opacity=  '30%';
-    button.style.opacity = '20%';
-    document.getElementById('jr').style.opacity = '20%';
-    document.getElementById('sd').style.opacity = '20%';
-});
-button2.addEventListener('mouseleave', function (e) {
-
-    canvas.style.width = '100%';
-    canvas.style.opacity=  '100%';
-    button.style.opacity = '100%';
-    document.getElementById('jr').style.opacity = '100%';
-    document.getElementById('sd').style.opacity = '100%';
-
-});
 
 
 
