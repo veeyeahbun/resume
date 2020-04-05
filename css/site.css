@@ -72,7 +72,11 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: rgb(1, 14, 20);
+  background-image: url('./../contents/keyboard.png'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  
 }
 
@@ -89,7 +93,6 @@ canvas {
   width: 10%;
 
 
-  background-color:rgb(1, 14, 20);
   background-repeat: no-repeat;
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
@@ -381,10 +384,6 @@ word-wrap: break-word;
   word-wrap: break-word;
 }
 
-.col-sm{
-  margin-bottom: 25px;
-
-}
 .col-sm>img{
 
   height:50px;
@@ -405,6 +404,13 @@ h2>label{
   transition: width 1s;
 
 }
+
+input[type="text"]:focus {
+  outline: none
+}
+
+
+
 @media (min-width: 768px) {
 
   .col-sm>img{
@@ -456,7 +462,7 @@ h2>label{
       #sketch{
 
         float: right;
-        width: 375px;
+        width: 380px;
 
         margin-left: 50px;
     
