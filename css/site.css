@@ -71,8 +71,8 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  background-image: url('./../contents/keyboard.png'); 
+  margin-bottom: 60px;  
+  background: url('./../contents/keyboard.png'); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,11 +93,7 @@ canvas {
   width: 10%;
 
 
-  background-repeat: no-repeat;
-  -webkit-background-size: cover; /* For WebKit*/
-  -moz-background-size: cover;    /* Mozilla*/
-  -o-background-size: cover;      /* Opera*/
-  background-size: cover;         /* Generic*/
+ 
 
 }
 
