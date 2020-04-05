@@ -380,6 +380,14 @@ padding: 10px;
 word-wrap: break-word;
 
 }
+.pricelist>.row{
+  padding: 10px 50px;
+}
+
+
+.col-sm{
+  width: 50%;
+}
 .col-sm>p{
   word-wrap: break-word;
 }
@@ -456,16 +464,21 @@ input[type="text"]:focus {
       }
 
       .container-fluid>.row{
+        padding: 20px 50px;
+      }
+      .pricelist>.row{
         padding: 10px 50px;
       }
-
+      
+     
       #sketch{
 
         float: right;
-        width: 380px;
+        width: 420px;
 
         margin-left: 50px;
     
       
       }
+     
 }

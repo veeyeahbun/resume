@@ -24,27 +24,44 @@
                 Nyní jsem fullstack developer. To znamená, že nejsem webový specialista ani Android expert, ale jsem schopný naprogramovat obojí.
                 Zkušenosti mám i s  operačními systémy macOS a Linux. Realizuji komplexní informační systémy s uživatelským rozhraním (UI) a serverovou částí (API) a jsem platformově nezávislý.
             </p>
-  <br><p>Používám aktuální technologie a sleduju trendy ve světě IT. Držím se tzv. design patterns (např. MVVM, MVC) a dodržuji tzv. solid principles. Moje algoritmy <strong>zefektivňují výrobu, šetří náklady a automatizují procesy</strong>.</p><br>
+<<<<<<< HEAD
+            <br><p>Používám aktuální technologie a sleduju trendy ve světě IT. Držím se tzv. design patterns (např. MVVM, MVC) a dodržuji tzv. solid principles. Moje algoritmy <strong>zefektivňují výrobu, šetří náklady a automatizují procesy</strong>.</p><br>
                 <h4 style="color: #fff;">Workflow</h4>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
- <h2>1. Koncept</h2>
+                            <h2>1. Koncept</h2>
+=======
+            <br><p>Používám aktuální technologie a sleduju trendy ve světě IT. Držím se tzv. design patterns (např. MVVM, MVC) a dodržuji tzv. solid principles. Moje algoritmy <strong>zefektivňují výrobu, šetří náklady a automatizují procesy</strong>. </p><br>
+            <div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2>Koncept</h2>
+>>>>>>> b1a1bff78a84ed5adf827716d9fd6aeab71ba113
                             <img src="./contents/conception.png" />
                             <p style="word-wrap: break-word;">
                                 Po analýze požadavků, výběru vhodné technologie a postupu, vzniknou první
-                                náčrtky a prototypy. Ty Vám budou představeny jako součást nezávazné nabídky ceny.
+                                náčrtky a prototypy. Ty budou vypracovány zdarma a Vám představeny jako součást nezávazné nabídky ceny.
                             </p>
                         </div>
                         <div class="col-sm">
-  <h2>2. Vývoj</h2>
+<<<<<<< HEAD
+                            <h2>2. Vývoj</h2>
+=======
+                            <h2>Vývoj</h2>
+>>>>>>> b1a1bff78a84ed5adf827716d9fd6aeab71ba113
                             <img class="float-right-sm" src="./contents/production.png" />
-                            <p>Po schválení konceptu se pustím do práce a začnu programovat a implementovat Vámi dodaný materiál. Během této fáze bude vytvořen, zdokumentován a otestován kód.</p>
+                            <p>Po schválení konceptu se pustím do práce a začnu programovat a implementovat Vámi dodaný materiál. Připadné provozní náklady spojené například s nákupem domény hradím já, vy platíte až za hotový produkt.</p>
                         </div>
                         <div class="col-sm">
-       <h2>3. Distribuce</h2>
+<<<<<<< HEAD
+                            <h2>3. Distribuce</h2>
+=======
+                            <h2>Distribuce</h2>
+>>>>>>> b1a1bff78a84ed5adf827716d9fd6aeab71ba113
                             <img src="./contents/finalization.png" />
-                            <p>Závěrečná konzultace s prostorem pro Vaše připomínky. Po distribuci produktu (nahrání do Storu, spuštění online, vytvoření instalačního média) následuje fakturace</p>
+                            <p>Závěrečná konzultace s prostorem pro Vaše připomínky. Po distribuci produktu (nahrání do Storu, spuštění online s optimalizací vyhledáváče, vytvoření instalačního média) následuje fakturace</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +71,7 @@
  
     </main>
     <div class="footer" id="contacts-pad">
-        <a href="index.html">zpět</a> | <a href="cena.html">ceny</a><br>
+        <a href="index.html">zpět</a> <a href="cena.html">ceny</a><br>
         <p><label id="kontakt">Pro více informací mě neváhejte kontaktovat:</label></p>
         <ul class="contacts">
             <li>
