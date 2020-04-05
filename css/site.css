@@ -386,17 +386,24 @@ word-wrap: break-word;
 
 
 .col-sm{
-  width: 50%;
+  width: 100%;
+margin:  10px 5px;
 }
+
+.pricelist .col-sm{
+  width: 50%;
+  margin: 0px;
+}
+
 .col-sm>p{
   word-wrap: break-word;
 }
 
 .col-sm>img{
 
-  height:50px;
-   width: 100px;
-  margin: 10px;
+  height:40px;
+   width: 80px;
+  margin: 5px;
   float: left;
 }
 
@@ -474,7 +481,7 @@ input[type="text"]:focus {
       #sketch{
 
         float: right;
-        width: 420px;
+        width: 450px;
 
         margin-left: 50px;
     
