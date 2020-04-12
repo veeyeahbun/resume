@@ -67,6 +67,7 @@ button.accept-policy {
 html {
   position: relative;
   min-height: 100%;
+
 }
 
 body {
@@ -128,8 +129,9 @@ label {
   user-select: none;
   margin:0px 0px;
   color: #fff;
-}
 
+
+}
 
 #jr, #sd, #service, #companies,#keywords,#lastprojects,#btngroup,#contacts-pad, #button {
   transition: all 500ms;
@@ -428,7 +430,7 @@ input[type="text"]:focus {
 
   .col-sm>img{
     height:120px;
-    width: 200px;
+    width: 180px;
     display: block;
     margin-top: 25px;
     margin-left: auto;
@@ -480,10 +482,7 @@ input[type="text"]:focus {
 
         float: right;
         width: 450px;
-
-        margin-left: 50px;
-    
-      
+        margin-left: 50px;   
       }
      
 }
