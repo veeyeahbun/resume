@@ -203,7 +203,7 @@ function getDisOf(b1, b2) {
 
 // add balls if there a little balls
 function addBallIfy() {
-    if (balls.length < window.innerWidth/10) {
+    if (balls.length < window.innerWidth/15) {
         balls.push(getRandomBall());
     }
 }
@@ -293,16 +293,18 @@ window.addEventListener('resize', function (e) {
 });
 
 function goMovie() {  
-   
+
+    document.body.style.backgroundImage = "url('./contents/keyboard.png')";
+    console.log('hit');
+
     initCanvas();   
       //initialize my service text   
        
-    initBalls(window.innerWidth/15);
+    initBalls(window.innerWidth/20);
     window.requestAnimationFrame(render);
     canvas.style.width = '100%';
    
-    document.body.style.backgroundImage = "url('./contents/keyboard.png')";
-    console.log('hit');
+
 }
 
 
