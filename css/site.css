@@ -334,6 +334,10 @@ text-align: left;
  margin:0;
 }
 
+.lastprojects li img{
+  cursor: help;
+}
+
 .lastprojects li:hover::before {
   color:#fff;
 }
