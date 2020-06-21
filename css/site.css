@@ -72,7 +72,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-
+background-color: black;
   background  : url('../contents/keyboard.png');
   margin-bottom: 60px;  
   -webkit-background-size: cover;
