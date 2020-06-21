@@ -300,6 +300,9 @@ function goMovie() {
     initBalls(window.innerWidth/15);
     window.requestAnimationFrame(render);
     canvas.style.width = '100%';
+   
+    document.body.style.backgroundImage = "url('./contents/keyboard.png')";
+    console.log('hit');
 }
 
 
@@ -337,7 +340,7 @@ mainpage.addEventListener('mousemove', function (e) {
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 
-    moveMouseBall();
+    //moveMouseBall();
 });
 
 
