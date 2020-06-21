@@ -479,10 +479,13 @@ input[type="text"]:focus {
       
      
       #sketch{
-
-        float: right;
-        width: 450px;
-        margin-left: 50px;   
+        height:350px;
+        width: 300px;
+        display: block;
+       margin: 0px;
+     
+       float: left;
       }
+      
      
 }
