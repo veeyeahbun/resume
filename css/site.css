@@ -327,14 +327,11 @@ text-align: left;
 
 .lastprojects li::before {
   list-style: none;
-
   content: "• ";
-color: #9f9f9f;
- /* or whatever color you prefer */
- font-size: 20px;
+  color: #9f9f9f;
+
  padding:0;
  margin:0;
- height:20px
 }
 
 .lastprojects li:hover::before {
