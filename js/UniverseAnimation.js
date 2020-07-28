@@ -203,7 +203,7 @@ function getDisOf(b1, b2) {
 
 // add balls if there a little balls
 function addBallIfy() {
-    if (balls.length < window.innerWidth/10) {
+    if (balls.length < window.innerWidth/15) {
         balls.push(getRandomBall());
     }
 }
@@ -278,7 +278,7 @@ function initCanvas() {
     canvas.setAttribute('height', window.innerHeight);
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
-    canvas.style.width='100%';
+  
    
 }
 
@@ -293,31 +293,26 @@ window.addEventListener('resize', function (e) {
 });
 
 function goMovie() {  
-   
-    initCanvas();      
-    initBalls(window.innerWidth/15);
+
+    document.body.style.backgroundImage = "url('./contents/keyboard.png')";
+    console.log('hit');
+
+    initCanvas();   
+      //initialize my service text   
+       
+    initBalls(window.innerWidth/20);
     window.requestAnimationFrame(render);
-    playDelayedEffects();
+    canvas.style.width = '100%';
+   
+
 }
 
-
-function playDelayedEffects(){
-
- 
-    setTimeout(
-    function(){
-        document.getElementById('almost').style.fontSize = document.getElementById('sd').style.fontSize;
-        },2500);
-
-    setTimeout(
-    function(){
-        document.getElementById('service').style.opacity = 1;
-        },5000);
- 
-}
 
 
 goMovie();
+
+
+
 
 
 
@@ -347,7 +342,7 @@ mainpage.addEventListener('mousemove', function (e) {
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 
-    moveMouseBall();
+    //moveMouseBall();
 });
 
 
@@ -356,33 +351,6 @@ mainpage.addEventListener('click', function (e) {
 });
 
 
-
-
-//handling button hover
-
-
-var button = document.getElementById('button');
-button.addEventListener('mouseenter', function (e) {
-    spawnMoreBalls(e.pageX, e.pageY);
-});
-
-var button2 = document.getElementById('button2');
-button2.addEventListener('mouseenter', function (e) {
-
-    canvas.style.width = '90%';
-    canvas.style.opacity=  '30%';
-    button.style.opacity = '20%';
-    document.getElementById('jr').style.opacity = '20%';
-    document.getElementById('sd').style.opacity = '20%';
-});
-button2.addEventListener('mouseleave', function (e) {
-
-    canvas.style.width = '100%';
-    canvas.style.opacity=  '100%';
-    button.style.opacity = '100%';
-    document.getElementById('jr').style.opacity = '100%';
-    document.getElementById('sd').style.opacity = '100%';
-});
 
 
 
