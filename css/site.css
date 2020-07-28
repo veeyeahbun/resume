@@ -5,6 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   padding: 0;
   border: 0;
   outline: 0;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 a.navbar-brand {
@@ -35,7 +36,7 @@ a {
 html {
   font-size: 12px;
 }
-  
+
 
 p{
   font-size: 12px;
@@ -161,8 +162,9 @@ canvas{
   line-height: 1em;
   cursor: default;
   font-weight: bold;
-  
+
 }
+
 
 
 .contacts-pad{
@@ -444,7 +446,7 @@ input[type="text"]:focus {
     float: none;
   }
   #mainpage {
-      margin: 150px;
+      margin: 175px;
   }
 
   html {
