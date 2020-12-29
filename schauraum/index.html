@@ -28,71 +28,42 @@
 	<link rel="icon" href="../favicon.ico">
 </head>
 <body id="mainpage" style="background-color:black">
-	<div class="maincontent">
- 
-        <main >
-            <div>
-                <h1  ><label>Schauraum 3D</label></h1> 
-                <h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">Vizualizace produktu</label></h3> <br><br><br>
 
-				<p style="color: #fff;">					
-					<label id="service">Tento <strong>osobní projekt</strong> je ipspirován skutečným showroomem firmy Zabransky GmbH. Jednoduchá scéna je vytvořena v Unreal Engine 4.23 za pomocí C++ a je hratelná jako videohra přímo v prohlížeči.</label>
-				 </p>
-        		 <br>
-				<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="schauraum.PNG"> 
-				<br>	
-				     
-				 <br>		 <br>
-				<p style="color: #fff;">					
-					<label id="service">Některé 3D modely jsem stáhl z internetu, jiné jsem vytvořil celé sám. V obou případech jsem je pak připravil pro export do UE4.</label>
-				</p>
+ <div>
+		<h1><label>Schauraum 3D</label></h1> 
+		<h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">Vizualizace produktu</label></h3> <br><br><br>
 
-				<h2><label>Radio</label></h2>
-				<p style="color: #fff;">					
-					<label id="service">Po zapnutí rádia se rozsvítí displej a hráč může změnit melodii</label>
-				</p>
-				<br>
-				<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="radio.png"> 
+		<p style="color: #fff;">					
+			<label id="service">Tento <strong>nekomerční projekt</strong> je ipspirován produktovým showroomem firmy Zabransky GmbH. Jednoduchá scéna vytvořená v Unreal Engine 4.23 za pomocí C++ a je hratelná jako videohra přímo v prohlížeči.</label>
+		</p>
+		<br>
+		<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="schauraum.PNG"> 
+		<br>	
 
 
-				
-				<h2><label>Dveře</label></h2>
-				<p style="color: #fff;">					
-					<label id="service">Stejně jako v realitě i zde mají dveře uprostřed viditelný železný bezpečnostní prvek. Při interakci se plynule pohne klika a dveře se otevřou</label>
-				</p>
-				<br>
-				<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="doors.png"> 
-
-				<h2><label>Dekorace</label></h2>
-				<p style="color: #fff;">					
-					<label id="service">Kulisy</label>
-				</p>
-				<br>
-				<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="deco.png"> 
+		<div class="wrapper" id="mainarea" >
+			<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
+		
+				<label style="color: black;">Vaše sezení se připravuje</label>
+				<div id='loadTasks'> </div>
+					
 			</div>
-			
-			<div class="wrapper" id="mainarea" >
-				<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
-			
-					<label style="color: black;">Ihre Sitzung wird vorbereitet</label>
-					<div id='loadTasks'> </div>
-						
-				</div>
-				<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
-				<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
-			</div>
-			<div class="row buttonarea text-center"  id="buttonrow">
+			<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
+			<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
+		</div>
+
+		<div class="row buttonarea text-center"  id="buttonrow">
 			<div class="col-sm-3 text-center"></div>
 			
-				<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Vollbild</button></div>
-				<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" >Neu starten</button></div>
-				
-			
-			</div>
-			<img src="hint.PNG" style="display: block; margin-left: auto; margin-right: auto;"/>
-			<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
-		</main>
+			<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
+		</div>	
+
+		<img src="hint.PNG" style="display: block; margin-left: auto; margin-right: auto;"/>
+		<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
 	</div>
+
+
+
 	
 	<script src=".././js/site.js"></script>
 	<script src="ZabranskyGmbH_Schrm-HTML5-Shipping.UE4.js"></script>
