@@ -27,7 +27,7 @@
 	
 	<link rel="icon" href="../favicon.ico">
 </head>
-<body id="mainpage" style="background-color:black">
+<body id="mainpage" >
 
 	<div>
 		<h1><label>Schauraum 3D</label></h1> 
@@ -36,11 +36,15 @@
 		<p style="color: #fff;">					
 			<label id="service">Tento <strong>nekomerční projekt</strong> je ipspirován produktovým showroomem firmy Zabransky GmbH. Jednoduchá scéna vytvořená v Unreal Engine 4.23 za pomocí C++ a je hratelná jako videohra přímo v prohlížeči.</label>
 		</p>
-		<br>
-		<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="schauraum.PNG"> 
+	
 	</div>
 
-
+	<div class="row buttonarea text-center"  id="buttonrow">
+		<div class="col-sm-3 text-center"></div>
+		
+		<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
+	</div>	
+	
 	<div class="wrapper" id="mainarea" >
 		<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
 	
@@ -52,11 +56,7 @@
 		<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
 	</div>
 
-	<div class="row buttonarea text-center"  id="buttonrow">
-		<div class="col-sm-3 text-center"></div>
-		
-		<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
-	</div>	
+
 
 
 	<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
