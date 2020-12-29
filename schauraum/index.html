@@ -29,7 +29,7 @@
 </head>
 <body id="mainpage" style="background-color:black">
 
- <div>
+	<div>
 		<h1><label>Schauraum 3D</label></h1> 
 		<h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">Vizualizace produktu</label></h3> <br><br><br>
 
@@ -38,32 +38,28 @@
 		</p>
 		<br>
 		<img style="width: 50%; display: block;margin-left: auto; margin-right: auto;" src="schauraum.PNG"> 
-		<br>	
-
-
-		<div class="wrapper" id="mainarea" >
-			<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
-		
-				<label style="color: black;">Vaše sezení se připravuje</label>
-				<div id='loadTasks'> </div>
-					
-			</div>
-			<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
-			<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
-		</div>
-
-		<div class="row buttonarea text-center"  id="buttonrow">
-			<div class="col-sm-3 text-center"></div>
-			
-			<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
-		</div>	
-
-		<img src="hint.PNG" style="display: block; margin-left: auto; margin-right: auto;"/>
-		<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
 	</div>
 
 
+	<div class="wrapper" id="mainarea" >
+		<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
+	
+			<label style="color: black;">Vaše sezení se připravuje</label>
+			<div id='loadTasks'> </div>
+				
+		</div>
+		<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
+		<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
+	</div>
 
+	<div class="row buttonarea text-center"  id="buttonrow">
+		<div class="col-sm-3 text-center"></div>
+		
+		<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
+	</div>	
+
+
+	<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>
 	
 	<script src=".././js/site.js"></script>
 	<script src="ZabranskyGmbH_Schrm-HTML5-Shipping.UE4.js"></script>
