@@ -173,6 +173,6 @@ Module['FS_createPath']('/ZabranskyGmbH_Schrm/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 111, "filename": "/UE4CommandLine.txt"}, {"start": 111, "audio": 0, "end": 87925250, "filename": "/ZabranskyGmbH_Schrm/Content/Paks/ZabranskyGmbH_Schrm-HTML5.pak"}], "remote_package_size": 87925250, "package_uuid": "e4607bc4-ae79-4529-ad08-1762b34516f6"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 111, "filename": "/UE4CommandLine.txt"}, {"start": 111, "audio": 0, "end": 90400251, "filename": "/ZabranskyGmbH_Schrm/Content/Paks/ZabranskyGmbH_Schrm-HTML5.pak"}], "remote_package_size": 90400251, "package_uuid": "bc950c45-09e0-4185-a2b1-59bef6da774d"});
 
 })();
