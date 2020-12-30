@@ -1,6 +1,6 @@
 
 var userLang = navigator.language || navigator.userLanguage; 
-//alert ("The language is: " + userLang);
+alert ("The language is: " + userLang);
 
 
 
@@ -11,8 +11,7 @@ switch(userLang){
     case "de-AT","de-DE", "de-CH":
         //translate to german
         setGerman();
-        break;S
-
+        break;
 
         default:
         //setEnglish(); //do nothing because it is already english by default
