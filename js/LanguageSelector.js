@@ -1,6 +1,6 @@
 
 var userLang = navigator.language; 
-alert ("The language is: " + userLang);
+//alert ("The language is: " + userLang);
 
 
 //override the default english version by available language
