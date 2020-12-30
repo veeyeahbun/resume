@@ -1,14 +1,22 @@
 
-var userLang = navigator.language || navigator.userLanguage; 
+var userLang = navigator.language; 
 alert ("The language is: " + userLang);
 
 
-
-switch(userLang){
-    case "cs-CZ":     
+//override the default english version by available language
+switch(userLang)
+{
+    case "cs":
+    case "sk":
+    case "cs-CZ":   
+    case "sk-SK":    
         setCzech();
         break;
-    case "de-AT","de-DE", "de-CH":
+
+    case "de":
+    case "de-AT":
+    case "de-DE":
+    case "de-LI":
         //translate to german
         setGerman();
         break;
