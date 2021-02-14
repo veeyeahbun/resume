@@ -1,4 +1,5 @@
-﻿var canvas = document.getElementById('nokey'),
+﻿var canvas = document.getElementById('canvas'),
+    intro = document.getElementById('intro'),
     can_w = parseInt(canvas.getAttribute('width')),
     can_h = parseInt(canvas.getAttribute('height')),
     ctx = canvas.getContext('2d');
@@ -203,7 +204,8 @@ function getDisOf(b1, b2) {
 
 // add balls if there a little balls
 function addBallIfy() {
-    if (balls.length < window.innerWidth/15) {
+  
+    if (balls.length < canvas.clientWidth/10) {
         balls.push(getRandomBall());
     }
 }
@@ -294,13 +296,13 @@ window.addEventListener('resize', function (e) {
 
 function goMovie() {  
 
-    document.body.style.backgroundImage = "url('./contents/keyboard.png')";
+  
     console.log('hit');
 
     initCanvas();   
       //initialize my service text   
        
-    initBalls(window.innerWidth/20);
+    initBalls(canvas.clientWidth/2);
     window.requestAnimationFrame(render);
     canvas.style.width = '100%';
    
@@ -318,7 +320,7 @@ goMovie();
 
 
 // particles mouse effect 
-var mainpage = document.getElementById('mainpage');
+var mainpage = document.getElementById('intro');
 mainpage.addEventListener('mouseenter', function () {
     console.log('mouseenter');
     mouse_in = true;
@@ -338,7 +340,7 @@ mainpage.addEventListener('mouseleave', function () {
 });
 mainpage.addEventListener('mousemove', function (e) {
     var e = e || window.event;
-    mouse_ball.x = e.pageX;
+    mouse_ball.x = e.pageX +10;
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 
@@ -347,7 +349,7 @@ mainpage.addEventListener('mousemove', function (e) {
 
 
 mainpage.addEventListener('click', function (e) {
-    spawnBalls(e.pageX , e.pageY);
+    spawnBalls(e.pageX+10 , e.pageY);
 });
 
 

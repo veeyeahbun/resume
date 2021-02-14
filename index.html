@@ -1,124 +1,654 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jan Ručil - fullstack developer</title>
-    <link rel="preload" href="./contents/keyboard.png" as="image">
-    <link rel="preload" href="./js/UniverseAnimation.js" as="script">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/site.css">
+<!--
+New Event
+http://www.templatemo.com/tm-486-new-event
+-->
+<title>Jan Ručil - software developer</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/site.css">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
 
 </head>
-<body  id="mainpage" style="overflow-y: hidden; ">
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+
+	<div class="sk-rotating-plane"></div>
+
+</div>
 
 
-    <div class="maincontent">
-        <canvas class="centered" style="width: 100%;" id="nokey">
-        </canvas>
-        <main >
-            <div>
-                <h1 id="jr" ><label>Jan Ručil</label></h1> 
-                <br>
-                <h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">fullstack developer</label><img height="25px" style="margin-left: 10px;margin-top: -5px;" src="./contents/logo-png.png"></h3> <br><br><br>
-                <ul class="keywords" id="keywords">
-                    <li>C#</li>
-                    <li>.NET</li>
-                    <li>XAML</li>
-                    <li>MVVM</li>					
-                    <li>ASP.NET</li>
-                    <li>C++</li>
-                    <li>UE4</li>
-                </ul><br><br>
-                <p style="color: #fff;"><label id="service">I create complex apps, 3D simulations and games</label> </p>
-          
-   
-                <div class="companies" id="companies">
-                    <ul class="companies_top">
-                        <li class="mcp">
-                            <img src="contents/mcp.png" width="100" alt="Mcp">
-                            <div style="background-color: transparent">
-                                <span><label><a href="https://www.algorithm-factory.com" target="_blank">MCP GmbH</a><br /><label margin="0px" id="mcpPraktikum">Trainee</label></label></span>
-                                <span><label>08/2018 - 12/2018</label></span>
-                            </div>
-                        </li>
-                        <li class="zabransky">
-                            <img src="contents/zabransky.JPG" width="100" alt="Zabransky">
-                            <div style="background-color: transparent;">
-                                <span><label><a href="https://www.zabransky.at" target="_blank">Zabransky GmbH</a><br />Fullstack developer</label></span>
-                                <span><label id="zabranskyTimeline">01/2019 - present</label></span>
-                            </div>
-                        </li>
-                    </ul>S
-                </div>   
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+
+
+	<div class="container"  >
+ 
+		<!-- navbar header -->
+		<div class="navbar-header" >
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a style="color: white;" href="#" class="navbar-brand"><img class="img-responsive" src="images/logo2.png"> </a>
+		</div>
+
+		<div class="collapse navbar-collapse" >
+
+			<ul class="nav navbar-nav navbar-right" >
+				<li onselect="hidelogo()" id="intro_listitem"><a href="#intro" class="smoothScroll">Intro</a></li>
+				<li><a href="#overview" class="smoothScroll" id="about_me">About me</a></li>
+				<li><a href="#reference" class="smoothScroll" id="my_references">Projects</a></li>
+				<li><a href="#service" class="smoothScroll" id="my_services">Specialization</a></li>
+				<li><a href="#faq" class="smoothScroll">FAQ</a></li>
+				<li><a href="#contact" class="smoothScroll" id="my_contact" >Contact</a></li>		
+				<li class="dropdown" id="dropdown" >
+			
+					<ul class="dropdown-menu" id="dropdown-menu">	
+							<li><a onclick="setGerman()"><img src="images/de.png"> Deutsch</a></li>
+							<li><a onclick="setCzech()"><img src="images/cz.png"> Česky</a></li>
 				
-                 <div id="lastprojects">        
-                 <label style="text-decoration: underline;margin-bottom: 5px;color:white" id="last">Recent realizations:</label><br>
-                    <ul class="lastprojects">    
-					    <li id="3dschauraum">
-                            <a href="./showroom/index.html" target="_blank" rel="noopener noreferrer" >3D Showroom. </a><label id="winzab"> - product visualization </label>                          
-                            <img alt="alternative text" title="created in Unreal Engine 4" style="margin-top: -2px;" src="./contents/ue4.png">     
-                        </li>
-                        <li id="zabapp">
-                            <a href="https://play.google.com/store/apps/details?id=com.zabranskygmbh.app" target="_blank" rel="noopener noreferrer">Zabransky GmbH</a><label > - intern app (Xamarin) </label>            
-                           
-                            <img alt="alternative text" title="including backend (ASP.NET Core 3.1 + SQL Server)" style="margin-top: -5px;" src="./contents/backend.png">               
-                            <img alt="alternative text" title="available at Google Play" style="margin-top: -5px;" src="./contents/playstore.png">
-                        </li>
-                        <li id="winzab2">
-                            <a href="#">Winzab2 </a><label > - Company information system </label>                          
-                            <img alt="alternative text" title="including backend (SQL Server)" style="margin-top: -2px;" src="./contents/backend.png">     
-                        </li>
-                    </ul>
-                </div> 
-               <br /><br>
-               <p><label id="kontakt">For more info contact me per <a style="text-decoration: underline;" href="mailto:office@janrucil.dev">email</a>.</label></p>
-                <!-- <br />
-                <div id="btngroup" class="btn-group">
-                    <button class="btn btn-primary" onclick="window.location = 'about.html'" style="margin-right: 5px;"><label>O mně & jak pracuji</label></button>
-                    <button style="margin-left: 5px;" onclick="window.location = 'cena.html'" class="btn btn-primary">Odhad ceny vývoje</button>
-                </div> -->
-            </div>
-        </main>
-    
-    
-        <!-- <div class="footer" id="contacts-pad" >
-        
-    
-            <ul class="contacts">
-                <li>
-                    <a width="20px" height="20px" href="mailto:rucil.jan@gmail.com">
-                        <img width="20px" height="20px" src="./contents/envelope.png" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/jan-ručil-62aa3b1a5">
-                        <img  width="20px" height="20px" src="./contents/Linkedin.png"  />
-                    </a>
-                </li>
+						</ul>
+							<a id="flag"><img src="images/en.png"> <i class="fa fa-caret-down"></i></a>  
+				</li>
+			</ul>
 
-    
-                <li>
-                    <a href="https://www.facebook.com/honza.ruciI">
-                        <img width="20px" height="20px" src="./contents/fb.png" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/janrucil">
-                        <img width="20px" height="20px" src="./contents/github.png" />
-                    </a>
-                </li>
-            </ul>
-        </div>   
-    </div> -->
+		</div>
 
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/site.js"></script>
-    <script src="js/UniverseAnimation.js"></script>
-    <script src="js/Index.html.js"></script>
+	</div>
+</div>
 
-    <script src="js/LanguageSelector.js"></script>
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section id="intro"  style="position: sticky; z-index: 0;">
+
+	<div  class="container mainpage" style="position: absolute;z-index: 1;">
+		<div style="float: left; position: fixed;">
+			<h1 id="jr" style="float: left;"><label>Jan Ručil</label></h1> 
+			<br>
+			<br>
+			<br>
+			<br>
+			<h3 style="background-color: #9f9f9f;border-radius: 10px;float: left;padding: 0px 5px;"><label style="color:black;font-weight:bold" id="sd">software engineer</label><img height="25px" style="margin-left: 10px;margin-top: -5px;" src="./images/logo-png.png"></h3> <br><br><br>
+			<ul class="keywords" id="keywords">
+				<li>C#</li>
+				<li>.NET</li>
+				<li>XAML</li>
+				<li>JavaScript</li>					
+				<li>T-SQL</li>
+				<li>C++</li>
+			</ul><br><br><br>
+	
+			<label style="color: #fff;float: left;" id="caption">Creator of custom digital products.</label>	
+			<br>
+			<div class="companies" id="companies" style="float: left;">
+				<ul class="companies_top" style="float: left;">
+					<li class="mcp">
+						<img src="images/mcp.png" width="100" alt="Mcp">
+						<div style="background-color: transparent">
+							<span><a href="https://www.algorithm-factory.com" target="_blank">MCP GmbH</a><br /><span margin="0px" id="mcpPraktikum">Trainee</span></span>
+							<span><label>08/2018 - 12/2018</label></span>
+						</div>
+					</li>
+					<li class="zabransky">
+						<img src="images/zabransky.JPG" width="100" alt="Zabransky">
+						<div style="background-color: transparent;">
+							<span><a href="https://www.zabransky.at" target="_blank">Zabransky GmbH</a><br />Fullstack developer</span>
+							<span id="zabranskyTimeline">01/2019 - present</span>
+						</div>
+					</li>
+				</ul>
+			</div>   	<br><br>
+					<br><br>	<br><br>		<br>			
+			 <div id="lastprojects" style="float: left;">        
+			 <label style="text-decoration: underline;margin-bottom: 5px;float: left; color:white" id="last">Recent projects:</label><br><br>
+				<ul class="lastprojects">    
+					<li id="3dschauraum">
+						<a href="./showroom/index.html" target="_blank" rel="noopener noreferrer" style="z-index:9999999;" >3D Showroom. </a><span id="winzab"> - product visualization </span>                          
+						<img alt="alternative text" title="created in Unreal Engine 4" style="margin-top: -2px;" src="./images/ue4.png">     
+					</li>
+					<li id="zabapp">
+						<a href="https://play.google.com/store/apps/details?id=com.zabranskygmbh.app" target="_blank" rel="noopener noreferrer">Zabransky GmbH</a><span > - intern app (Xamarin) </span>            
+					   
+						<img alt="alternative text" title="including backend (ASP.NET Core 3.1 + SQL Server)" style="margin-top: -5px;" src="./images/backend.png">               
+						<img alt="alternative text" title="available at Google Play" style="margin-top: -5px;" src="./images/playstore.png">
+					</li>
+					<li id="winzab2">
+						<a href="#">Winzab2 </a><span > - Company information system </span>                          
+						<img alt="alternative text" title="including backend (SQL Server)" style="margin-top: -2px;" src="./images/backend.png">     
+					</li>
+				</ul>
+			</div> 
+		   <br /><br>		   <br /><br>	<br>	  
+		   <p style="float: left;color: #fff;" id="kontakt">For more info contact me per <a style="text-decoration: underline; z-index: 9999999;" href="mailto:office@janrucil.dev">email</a>.</p>
+			<!-- <br />
+			<div id="btngroup" class="btn-group">
+				<button class="btn btn-primary" onclick="window.location = 'about.html'" style="margin-right: 5px;"><label>O mně & jak pracuji</label></button>
+				<button style="margin-left: 5px;" onclick="window.location = 'cena.html'" class="btn btn-primary">Odhad ceny vývoje</button>
+			</div> -->
+		</div>
+	</div>
+	<canvas id="canvas" class="centered" style="position: absolute; width: 10%;">
+	</canvas>	
+</section>
+
+<!-- =========================
+    DETAIL SECTION   
+============================== -->
+<section id="detail" class="parallax-section" style="position: relative;z-index: 1;">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="wow  col-md-3 col-sm-3" >
+				<i class="fa fa-globe"></i>
+				<h3>Web</h3>
+				<p id="web_desc">Websites, apps and API solutions</p>
+			</div>
+			<div class="wow col-md-3 col-sm-3" >
+				<i class="fa fa-mobile"></i>
+				<h3 id="mobile_header">Mobile</h3>
+				<p id="mobile_desc">apps for Android and iOS.</p>
+			</div>
+			<div class="wow col-md-3 col-sm-3">
+				<i class="fa fa-desktop"></i>
+				<h3>Desktop</h3>
+				<p id="desktop_desc">software with or without user interface.</p>
+			</div>
+
+			<div class="wow col-md-3 col-sm-3">
+				<i class="fa fa-gamepad"></i>
+				<h3 id="games_header">Games</h3>
+				<p id="games_desc"> Indie games and 3D simulations</p>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="overview" class="parallax-section" >
+	<div class="container" >
+		<h2 id="about_h" style="float:initial;">The right adress for individual solutions</h2>
+		<br><br>
+		<div class="row">
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+				<h3 id="specialist" >Experienced specialist</h3>
+				<p id="specialist_p">I have years of experience and knowledge from various fields: networking, databases, security, 3D rendering, design and architecture). For smaller projects I can cover the work of a full team. I´m very productive and delivering top quality code in short time.</p>
+				<br><br><br>
+				<h3 id="contact_person">The perfect contact person</h3>
+				<p id="contact_p">Time is money. Don´t waste it with agencies. I am an experienced B2B contact partner and I will personally guide you from the design to the release of your digital product. Communication is the key to success.</p>		
+			</div>					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/overview-img.jpg" class="img-responsive" alt="Overview">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- =========================
+    VIDEO SECTION   
+============================== -->
+<!-- <section id="video" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.3s">
+				<h2>Watch Video</h2>
+				<h3>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+			</div>
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section> -->
+
+
+<!-- =========================
+    reference SECTION   
+============================== -->
+<section id="reference" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+					<h2 id="recent_projects">Recent projects</h2>
+					<p id="recent_projects_p">I will better let my work speak for me:</p>
+				</div>
+			</div>
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-reference" class="owl-carousel">
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="reference-wrapper" >
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>					
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a href="#" >
+							<div style="display: inline-block; overflow: hidden;">
+								<img  src="images/reference-img1.jpg" class="img-responsive" alt="reference">
+							</div>						
+							<div class="reference-thumb">
+								<h3>Schauraum</h3>
+								<h6>3D simulation</h6>
+							</div>
+						</a>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    SERVICES SECTION   
+============================== -->
+<section id="service" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2 id="specialization_h">Specialization</h2>
+
+				</div>
+			</div>
+			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#tday" aria-controls="tday" role="tab" data-toggle="tab">Web</a></li>
+					<li><a href="#sday" aria-controls="sday" role="tab" data-toggle="tab">Mobile</a></li>			
+					<li><a href="#fday" aria-controls="fday" role="tab" data-toggle="tab">Desktop</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">		
+					<div role="tabpanel" class="tab-pane active" id="tday">
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img6.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Static websites</h3>
+							<h4>HTML5, CSS3, JavaScript</h4>
+							<p>I can create a beautiful websites for you.</p>
+						</div>
+						<!-- service divider -->
+						<div class="service-divider col-md-12 col-sm-12"></div>
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img7.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 05.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 850</span>
+							</h6>
+							<h3>Dynamic web applications</h3>
+							<h4>C#, ASP.NET Core 5</h4>
+							<p> </p>
+						</div>
+						<!-- service divider -->
+						<div class="service-divider col-md-12 col-sm-12"></div>
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img8.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>API webservice solutions</h3>
+							<h4>C#, ASP.NET Core 5, </h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="sday">
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img4.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Android app development</h3>
+							<h4>By Matt Lee</h4>
+							<p>Integer rutrum viverra magna, nec ultrices risus rutrum nec. Pellentesque interdum vel nisi nec tincidunt. Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.</p>
+						</div>
+						<!-- service divider -->
+						<div class="service-divider col-md-12 col-sm-12"></div>
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img5.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 01.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 450</span>
+							</h6>
+							<h3>iOS app development</h3>
+							<h4>By David Orlando</h4>
+							<p>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</p>
+						</div>					
+					</div>
+					<div role="tabpanel" class="tab-pane" id="fday">
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img1.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 09.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Windows apps with graphical user interface </h3>
+							<h4>C#, .NET Core 5, WPF</h4>
+							<p>This is the "classic" kind of software you know as the user. It´s great for business apps. This is what I excell at.</p>
+						</div>
+					
+						<!-- service divider -->
+						<div class="service-divider col-md-12 col-sm-12"></div>											
+						<!-- service speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/service-img3.png" class="img-responsive" alt="service">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 360</span>
+							</h6>
+							<h3>Console or background apps without graphical user interface</h3>
+							<h4>By Johnathan Mark</h4>
+							<p>If you want to perform a specific routine or task, this is a good way to do so. It can be a service running in the background and / or on the server.</p>
+						</div>
+						<!-- service divider -->
+						<div class="service-divider col-md-12 col-sm-12"></div>					
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!-- =========================
+    FAQ SECTION   
+============================== -->
+<section id="faq" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<!-- Section title
+			================================================== -->
+			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
+				<div class="section-title">
+					<h2>Frequently asked questions</h2>
+					<p>Here are the answers to common questions:</p>
+				</div>
+			</div>
+			<div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingOne">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          							 Are you a UI/UX designer?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      						<div class="panel-body">
+        						<p>No. For simple projects (like this web), I could do it and it will look nice, but I´m not a professional.</p>
+								<p>I sometimes work closely together with a very talented UI/UX designer, she does the premium visuals for me.</p>
+      						</div>
+   						 </div>
+ 					</div>
+    				<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingTwo">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          							Can you handle both frontend and backend?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      						<div class="panel-body">
+                            	<p>Yes. I can configure your backend on your hardware all-inclusive (firewall, port forwarding, hosting, etc) or use a paid third-party service like Azure or Firebase. 
+        						I can also connect your frontend apps with a new or existing backend</p>
+      						</div>
+   						 </div>
+ 					</div>
+ 					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingThree">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          							How do you work?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      						<div class="panel-body">
+                            	<p>If you present me your project and we make a deal, I will start gatherning requirements from you and make the first prototypes, sketches</p>
+        						<p>Then I choose the right way to do it, and I´ll start coding and present you the first demos. After your feedback I will code again, till you are 100% satisfied and release follows</p>
+      						</div>
+   						 </div>
+ 					 </div>
+
+					  <div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingFour">
+						   <h4 class="panel-title">
+							 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								   Do you have experience with "Scrum"
+							 </a>
+						   </h4>
+					 </div>
+						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						   <div class="panel-body">
+							 <p>Yes. I love to work in team because I can always learn something new from experienced people. But I am a solo wolf and I´m way more productive when I work 100% alone.</p>
+						   </div>
+						 </div>
+				   </div>
+
+ 				 </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- =========================
+    CONTACT SECTION   
+============================== -->
+<section id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+				<div class="contact_des">
+					<h3>Contact</h3>
+					<Label>Got a project idea? Let me know </label>
+				
+		
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
+				<div class="contact_detail">
+					<div class="section-title">
+						<h2>Inbox me:</h2>
+					</div>
+					<form action="#" method="post">
+						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+					  	<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+					  	<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your message"></textarea>
+						<div class="col-md-6 col-sm-10">
+							<input name="submit" type="submit" class="form-control" id="submit" value="SEND">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp" data-wow-delay="0.5s">Copyright &copy; 2021 Jan Ručil • <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Privacy policy</a></span></p>
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+					<li><a href="#" class="fa fa-envelope wow fadeInUp" data-wow-delay="1.6s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+					<li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i style="color: #fff;" class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/LanguageSelector.js"></script>
+<script src="js/UniverseAnimation.js"></script>
+
 </body>
 </html>
