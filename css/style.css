@@ -21,7 +21,7 @@ body {
 }
 
 footer{
-  background: white;
+  background: transparent;
   z-index: 10;
   position: relative;
 }
@@ -68,7 +68,7 @@ a {
 }
 
 a:hover  .img-responsive{
-  transform: scale(1.05);
+  transform: scale(1.02);
   overflow: hidden;
   display: block;
   transition: all 0.75s ease;
@@ -89,6 +89,7 @@ a:hover  .img-responsive{
 }
 
 #detail, #video,
+#detail2,
 #reference, 
 #service,
 #sponsors, 
@@ -98,12 +99,14 @@ a:hover  .img-responsive{
 }
 
 #detail,
+#detail2,
 #reference, #sponsors,
 footer {
   text-align: center;
 }
 
 #overview h3,
+#detail2 h3,
 #detail h3, #video h3,
 #register h3,
 #venue h3,
@@ -217,6 +220,10 @@ footer {
     margin-bottom: 0;
     background-color: #101010;
     z-index: -99;
+}
+
+.navbar {
+  justify-content: center;
 }
 
 .custom-navbar .navbar-brand {
@@ -355,7 +362,7 @@ li {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: #fff;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -387,7 +394,7 @@ li {
 }
 
 #overview{
-  background: #f9f9f9;
+  background: #fff;
 }
 
 
@@ -395,12 +402,14 @@ li {
 /*---------------------------------------
     Detail section              
 -----------------------------------------*/
-#detail {
+#detail,
+#detail2 {
     background: #222;
     color: #ffffff;
 }
 
-#detail .fa {
+#detail .fa ,
+#detail2 .fa {
   color: lightyellow;
   font-size: 48px;
 }
@@ -452,7 +461,12 @@ li {
     padding-bottom: 22px;
 }
 
+.videoInsert {
 
+
+  object-fit: fill;
+
+}
 
 /*---------------------------------------
    service section              
@@ -461,6 +475,12 @@ li {
     color: #808080;
     font-size: 12px;
 }
+
+#service{
+  background-color: #f9f9f9;
+  font-size: 12px;
+}
+
 
 #service h3 {
   margin-top: 16px;
@@ -597,7 +617,7 @@ li {
   padding-right: 2rem;
   background: rgb(0,0,0,0.5);
   color: lightgray;
-  padding: 50px;
+  padding:50px 100px;
 }
 
 #contact .contact_detail {

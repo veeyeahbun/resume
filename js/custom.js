@@ -97,11 +97,11 @@ $(document).ready(function() {
 
   var dropdown = document.getElementById('dropdown');
   dropdown.addEventListener('mouseenter', function () {
-    console.log('bu');
+    
     document.getElementById('dropdown-menu').style.opacity = 1;
 });
 dropdown.addEventListener('mouseleave', function () {
-  console.log('ba');
+  
   document.getElementById('dropdown-menu').style.opacity = 0;
   document.getElementById('dropdown-menu').style.visibility = "visible";
   document.getElementById('dropdown-menu').style.display = "inline-block";
