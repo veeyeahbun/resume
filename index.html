@@ -285,7 +285,7 @@ http://www.templatemo.com/tm-486-new-event
 			</div>		
 		
 			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
-				<img src="images/about.png" class="img-responsive" alt="Overview">
+				<img src="images/about.jpg" class="img-responsive" alt="Overview">
 
 			</div>
 		</div>	
@@ -333,13 +333,15 @@ http://www.templatemo.com/tm-486-new-event
 					<div class="section-title">
 						<h2 id="inboxme">Inbox me:</h2>
 					</div>
-					<form action="#" method="post" id="contactform"> 
-						<input name="name" type="text" class="form-control" id="name" placeholder="From: (optional)">
-					  	<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your message"></textarea>
-						<div class="col-md-6 col-sm-10">
-							<input name="submit" type="submit" class="form-control" id="submit" value="SEND">
-						</div>
-					</form>
+					<div id="contactform">
+						<form onsubmit="return sendEmail()"  > 
+							<input name="from" type="text" class="form-control" id="name" placeholder="From: (optional)">
+							  <textarea name="message" rows="5" class="form-control" id="message" placeholder="Your message"></textarea>
+							<div class="col-md-6 col-sm-10">
+								<input  type="submit" class="form-control" id="submit" value="SEND">
+							</div>
+						</form>
+					</div>				
 				</div>
 			</div>
 		</div>
@@ -465,6 +467,9 @@ http://www.templatemo.com/tm-486-new-event
 <script src="js/custom.js"></script>
 <script src="js/LanguageSelector.js"></script>
 <script src="js/UniverseAnimation.js"></script>
+
+
+<script src="js/MailTool.js"></script>
 
 </body>
 </html>

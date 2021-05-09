@@ -78,7 +78,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     
     document.getElementById('inboxme').innerHTML = "Schreiben Sie mir:";
     document.getElementById('wien').innerHTML = "Wien, Österreich";
-    document.getElementById('contactform').innerHTML = "<input name=\"name\" type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Absender: (unpflichtig)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Nachricht\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input name=\"submit\" type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SENDEN\"></div>"
+    document.getElementById('contactform').innerHTML = "<form  onsubmit=\"event.preventDefault(); return nachrichtSenden()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Absender: (unpflichtig)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Nachricht\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input  type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SENDEN\"></div></form>"
 
 
 }
@@ -134,7 +134,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
     document.getElementById('inboxme').innerHTML = "Napište mi:";
     document.getElementById('wien').innerHTML = "Vídeň, Rakousko";
-    document.getElementById('contactform').innerHTML = "<input name=\"name\" type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Odesílatel: (nepovinné)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Zpráva\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input name=\"submit\" type=\"submit\" class=\"form-control\" id=\"submit\" value=\"POSLAT\"></div>"
+    document.getElementById('contactform').innerHTML = "<form  onsubmit=\"event.preventDefault(); return poslatZpravu()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Odesílatel: (nepovinné)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Zpráva\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input type=\"submit\" class=\"form-control\" id=\"submit\" value=\"POSLAT\"></div></form>"
 
 }
 
@@ -193,6 +193,6 @@ document.getElementById('caption').innerHTML = "Digital nomad & passionate game 
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
     document.getElementById('wien').innerHTML = "Vienna, Austria";
-    document.getElementById('contactform').innerHTML = "<input name=\"name\" type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Sender: (optional)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Message\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input name=\"submit\" type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SEND\"></div>"
+    document.getElementById('contactform').innerHTML = "<form onsubmit=\"event.preventDefault(); return sendEmail()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Sender: (optional)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Message\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SEND\"></div></form>"
 
 }
