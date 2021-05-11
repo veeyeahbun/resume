@@ -52,7 +52,7 @@ function poslatZpravu()
 //send the email
 function send()
 {      
-    var url = "http://185.126.23.114/mailtool/api/email/send?message=" + document.getElementById("message").value + "&from=" + document.getElementById("from").value;
+    var url = "https://mailtool.azurewebsites.net/api/email/send?message=" + document.getElementById("message").value + "&from=" + document.getElementById("from").value;
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", url, true); // false for synchronous request
     xmlHttp.send();      
