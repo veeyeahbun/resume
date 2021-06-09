@@ -56,7 +56,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('kontakt').innerHTML = "Für mehr Auskunft kontaktieren Sie mich per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>Email</a>.";
 
     document.getElementById('games_header').innerHTML = "Spiele & 3D";
-    document.getElementById('games_desc').innerHTML = "Unabhängige Spiele, Simulationen und 3D Kunst";
+    document.getElementById('games_desc').innerHTML = "Unabhängige Spiele, Simulationen und 3D Grafik";
 
     document.getElementById('cust_header').innerHTML = "Geschäftslösungen";
     document.getElementById('cust_desc').innerHTML = " Businesssoftware & maßgeschneiderte Apps";
@@ -113,7 +113,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
    
 
     document.getElementById('games_header').innerHTML = "Hry & 3D";
-    document.getElementById('games_desc').innerHTML = "Nezávislé hry, simulace a 3D umění";
+    document.getElementById('games_desc').innerHTML = "Nezávislé hry, simulace a 3D grafika";
 
     document.getElementById('cust_header').innerHTML = "Podniková řešení";
     document.getElementById('cust_desc').innerHTML = "Firemní software & appky na míru.";
@@ -169,7 +169,7 @@ document.getElementById('caption').innerHTML = "Digital nomad & passionate game 
     document.getElementById('kontakt').innerHTML = "For more info contact me per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
    
     document.getElementById('games_header').innerHTML = "Games & 3D";
-    document.getElementById('games_desc').innerHTML = "Indie-games, simulations and 3D art.";
+    document.getElementById('games_desc').innerHTML = "Indie-games, simulations and 3D graphics.";
 
        
     document.getElementById('cust_header').innerHTML = "Enterprise solutions";

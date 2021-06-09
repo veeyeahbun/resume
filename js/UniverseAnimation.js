@@ -77,7 +77,7 @@ function randomArrayItem(arr) {
 function randomNumFrom(min, max) {
     return Math.random() * (max - min) + min;
 }
-console.log(randomNumFrom(0, 10));
+
 // Random Ball
 function getRandomBall() {
     var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
@@ -288,24 +288,20 @@ function initCanvas() {
 
 
 window.addEventListener('resize', function (e) {
-    console.log('Window Resize...');
-    initCanvas(); 
-   
+    
+    initCanvas();   
   
 });
 
 function goMovie() {  
-
-  
-    console.log('hit');
+ 
 
     initCanvas();   
       //initialize my service text   
        
     initBalls(canvas.clientWidth/2);
     window.requestAnimationFrame(render);
-    canvas.style.width = '100%';
-   
+    canvas.style.width = '100%';   
 
 }
 
@@ -322,13 +318,13 @@ goMovie();
 // particles mouse effect 
 var mainpage = document.getElementById('intro');
 mainpage.addEventListener('mouseenter', function () {
-    console.log('mouseenter');
+    
     mouse_in = true;
     balls.push(mouse_ball);
 });
 
 mainpage.addEventListener('mouseleave', function () {
-    console.log('mouseleave');
+    
     mouse_in = false;
     var new_balls = [];
     Array.prototype.forEach.call(balls, function (b) {
