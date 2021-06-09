@@ -771,7 +771,7 @@ var TASK_DOWNLOADING = 0;
 var TASK_COMPILING = 1;
 var TASK_SHADERS = 2;
 var TASK_MAIN = 3;
-var loadTasks = [ 'Downloading', 'Compiling WebAssembly', 'Building shaders', 'Launching engine'];
+var loadTasks = [ 'Stahování', 'Sestavení', 'Building shaders', 'Launching engine'];
 
 function taskProgress(taskId, progress) {
 	var c = document.getElementById('compilingmessage');
