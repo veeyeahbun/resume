@@ -408,8 +408,8 @@ var enableWriteToIndexedDB = enableReadFromIndexedDB && (location.search.indexOf
 enableReadFromIndexedDB = false;
 enableWriteToIndexedDB = false;
 
-if (!enableReadFromIndexedDB) showWarningRibbon('Running with IndexedDB access disabled.');
-else if (!enableWriteToIndexedDB) showWarningRibbon('Running in read-only IndexedDB access mode.');
+//if (!enableReadFromIndexedDB) showWarningRibbon('Running with IndexedDB access disabled.');
+//else if (!enableWriteToIndexedDB) showWarningRibbon('Running in read-only IndexedDB access mode.');
 
 
 function getIDBRequestErrorString(req) {
