@@ -73,7 +73,7 @@ var Module = {
 	assetDownloadProgress: {}, // Track how many bytes of each needed asset has been downloaded so far.
 
 	UE4_indexedDBName: 'UE4_assetDatabase_ZabranskyGmbH_Schrm', // this should be an ascii ID string without special characters that is unique to the project that is being packaged
-	UE4_indexedDBVersion: 202012162017, // Bump this number to invalidate existing IDB storages in browsers.
+	UE4_indexedDBVersion: 202106091131, // Bump this number to invalidate existing IDB storages in browsers.
 };
 
 
@@ -408,8 +408,8 @@ var enableWriteToIndexedDB = enableReadFromIndexedDB && (location.search.indexOf
 enableReadFromIndexedDB = false;
 enableWriteToIndexedDB = false;
 
-// if (!enableReadFromIndexedDB) showWarningRibbon('Running with IndexedDB access disabled.');
-// else if (!enableWriteToIndexedDB) showWarningRibbon('Running in read-only IndexedDB access mode.');
+if (!enableReadFromIndexedDB) showWarningRibbon('Running with IndexedDB access disabled.');
+else if (!enableWriteToIndexedDB) showWarningRibbon('Running in read-only IndexedDB access mode.');
 
 
 function getIDBRequestErrorString(req) {
@@ -771,7 +771,7 @@ var TASK_DOWNLOADING = 0;
 var TASK_COMPILING = 1;
 var TASK_SHADERS = 2;
 var TASK_MAIN = 3;
-var loadTasks = [ 'Stahování', 'Kompilace', 'Building shaders', 'Launching engine'];
+var loadTasks = [ 'Downloading', 'Compiling WebAssembly', 'Building shaders', 'Launching engine'];
 
 function taskProgress(taskId, progress) {
 	var c = document.getElementById('compilingmessage');
