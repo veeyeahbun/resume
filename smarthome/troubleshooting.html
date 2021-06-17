@@ -25,37 +25,28 @@
 	<body id="mainpage" >
 		<div style="display: block; width: 85%; margin-left: auto;margin-right: auto;">
 			<h1><label>Smart Home</label></h1> 
-			<h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">interactive 3D tour</label></h3> <br><br><br>
-		</div>
+			<h3 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">Problémy se spuštěním</label></h3> <br><br><br>
+			<div >
+				<br>
+				<p>Toto jsou 2 hlavní kámeny úrazu:</p>
+				<h3>1. - Podporuje Váš prohlížeč WebGL2?</h3>
+				<p>WebGL2, neboli Web Graphics Library, je standard pro zobrazování 3D obsahu v prohlížeči. Pokud si chcete zobrazit obsah "Smart Home", pak je podpora a povolení WebGL2 v prohlížeči nutné. Na PC je to většinou bez problémů. Na MACovi je potřeba jej povolit:</p>
+				<a href="https://support.apple.com/cs-cz/guide/safari/sfri20948/mac">https://support.apple.com/cs-cz/guide/safari/sfri20948/mac</a>
+				<img class="img img-responsive" src="../images/AppleTS.PNG">
 
-		<!-- viewport -->
-		<div class="wrapper" id="mainarea" >
-			<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">	
-				<label >Vaše sezení se připravuje</label>
-				<div id='loadTasks'> </div>				
+				<h3>2. - Jste na mobilním zařízení?</h3>
+				<p>Doporučuji stránku zobrazit na PC. Přestože Váš mobil podporuje WebGL2 a obsah se správně načetl, budete mít potíže s ovládáním. Pro mobil je lepší projekt zabalit zvlášť jako appku...</p><br><br><br><br>
+				
 			</div>
-			<canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
 		</div>
-		<!-- buttons -->
-		<div class="row buttonarea text-center"  id="buttonrow">
-			<div class="col-sm-3 text-center"></div>		
-			<div class="col-sm-3 text-center"><button type="button" class="btn btn-primary" id="fullscreen_request">Plná obrazovka</button></div>
-			<div class="col-sm-3 text-center"><a href="troubleshooting.html">Problémy se spuštěním </a></div>
-		</div>	
-		
-		<div class="texthalf text-normal jumbotron " id="logwindow" style='display:none'></div>	
-		<div style="display: block; width: 85%; margin-left: auto;margin-right: auto;">
-	
-		</div>
-		<script src=".././js/site.js"></script>
-		<script src="ZabranskyGmbH_Schrm-HTML5-Shipping.UE4.js"></script>	
 	</body>
 
 
-	<footer   style="position: fixed; bottom: 0; width: 100%; background-color: white";>
+	<footer   style="position: fixed; bottom: 0; width: 100%; background-color: white;">
 		<div class="container">
 			<div  class="row">
-				<div style="text-align: center;"  class="col-md-12 col-sm-12">				
+				<div style="text-align: center;"  class="col-md-12 col-sm-12">
+
 					<p class="wow fadeInUp" data-wow-delay="0.5s">Copyright &copy; 2021 Jan Ručil • <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Privacy policy</a></span></p>
 					<ul class="social-icon">
 						<!-- <li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
