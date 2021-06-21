@@ -133,7 +133,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('specialist_p').innerHTML = "Jsem profesionální fullstack vývojář softwaru se specializací na mobilní a desktopové aplikace. Mým povoláním je tvorba firemních řešení.";
 
 
-    document.getElementById('specialist_g').innerHTML = "Ve volném čse jsem taky vášnivý vývojář her. Zatím jsem žádnou hru nevydal, teď pracuju na svým prvních prototypech.";
+    document.getElementById('specialist_g').innerHTML = "Ve volném čase jsem taky vášnivý vývojář her. Zatím jsem žádnou hru nevydal, teď pracuju na svým prvních prototypech.";
     document.getElementById('contact_h').innerHTML = "Za zeptání nic nedáte";
     document.getElementById('contact_p').innerHTML = "Máte zajímavý nápad nebo projekt?<br> Můžete mě klidně kontaktovat. Za konzultace si nic neúčtuju.";
     document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Berte prosím na vědomí</span> že moje dostupnost je aktuálně méně než 10h týdně. ";
