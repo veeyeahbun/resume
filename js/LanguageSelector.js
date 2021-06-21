@@ -41,7 +41,7 @@ document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Digitaler Nomad & leidenschaftlicher Spielentwickler";
+document.getElementById('caption').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
@@ -49,7 +49,11 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - Gegenwart";
     document.getElementById('last').innerHTML = "Kürzliche Projekte:";
  
-    document.getElementById('theballgame').innerHTML =  "<a href=\"./schauraum/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a><span id=\"winzab\"> - Gelegenheitsspiel (Arcade) </span>"
+    document.getElementById('smarthome').innerHTML =  "<a href=\"./visualisierung/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home</a> - interaktive 3D Visualisierung"
+    + "<img alt=\"alternative text\" title=\"vytvořeno v Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
+
+
+    document.getElementById('theballgame').innerHTML =  "<a href=\"./schauraum/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a> - Gelegenheitsspiel (Arcade)"
     + "<img alt=\"alternative text\" title=\"erstellt in Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
 
 
@@ -61,14 +65,13 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('cust_header').innerHTML = "Geschäftslösungen";
     document.getElementById('cust_desc').innerHTML = " Businesssoftware & maßgeschneiderte Apps";
     document.getElementById('specialist').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
-    document.getElementById('specialist_p').innerHTML = "Ich bin auf Handy- (Android und iOS) und Desktopapps (nur Windows) spezialisiert. Mit 2+ Jahren Fullstackerfahrung kann ich eine App veröffenltichen und für sie den sogenannten Backend (Server mit Datenbank) einrichten, alles aus einer Hand."
-    + "<br>	<br> Vielleicht wissen Sie was ich meine:";
+    document.getElementById('specialist_p').innerHTML = "Ich bin ein professioneller fullstack Softwareentwickler mit Spezialisierung auf Handy- und Desktopapps. Mein Beruf ist es, Firmenlösungen zu erstellen.";
 
     
     document.getElementById('projects_h').innerHTML = "Meine Projekte:";
 
-    document.getElementById('moredetails').innerHTML = "(Kontaktieren Sie mich für mehr Auskunft)";
-    document.getElementById('specialist_g').innerHTML = "Ich habe immer Spiele geliebt. Mit 5 Jahren habe ich bewundert, wie fortgeschritten Super Mario war. Damals hatte ich keinen PC und YouTube hat es nicht gegeben. 20 Jahre später bin ich ein erfahrene Programmierer mit Zugang zu Technologien wie Unreal Engine. Es hindert mich nichts daran, eigene Spiele zu machen :)";
+
+    document.getElementById('specialist_g').innerHTML = "In meiner Freizeit bin ich auch ein Leidenschaftlicher Spielentwickler. Ich habe noch kein Spiel veröffentlicht, ich arbeite nun an meinen ersten Prototypen.";
   
     document.getElementById('contact_h').innerHTML = "Fragen kostet nichts";
     document.getElementById('contact_p').innerHTML = "Sie haben eine interessante Idee oder Projekt?<br>Sie können mich gerne kontaktieren. Ich verrechne nichts fürs Consulting,";
@@ -96,7 +99,7 @@ document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Digitální nomád & vášnivý vývojář her";
+document.getElementById('caption').innerHTML = "Digitální nomád s vášní pro hry";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
 
 
@@ -105,7 +108,11 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
     document.getElementById('last').innerHTML = "Nedávné projekty:";
 
-    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a><span id=\"winzab\"> - příležitostná arkádová hra </span>"
+    document.getElementById('smarthome').innerHTML =  "<a href=\"./vizualizace/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home </a><span id=\"winzab\"></a> - Interaktivní 3D vizualizace</span>"
+    + "<img alt=\"alternative text\" title=\"vytvořeno v Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
+
+
+    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a> - příležitostná arkádová hra"
     + "<img alt=\"alternative text\" title=\"vytvořeno v Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
 
     
@@ -123,14 +130,13 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
 
     document.getElementById('specialist').innerHTML = "Digitální nomád s vášní pro hry";
-    document.getElementById('specialist_p').innerHTML = "Specializuji se na mobilní (Android i iOS) a desktopové (pouze Windows) aplikace. S 2+ lety fullstack zkušeností umím aplikaci publikovat a zajistit pro ni i takzvaný backend (server s databankou), vše z jedné ruky. "
-    + "<br>	<br> Možná víte co myslím:";
+    document.getElementById('specialist_p').innerHTML = "Jsem profesionální fullstack vývojář softwaru se specializací na mobilní a desktopové aplikace. Mým povoláním je tvorba firemních řešení.";
 
-    document.getElementById('moredetails').innerHTML = "(kontaktujte mě pro více detailů)";
-    document.getElementById('specialist_g').innerHTML = "Vždycky jsem miloval videohry. V 5 letech jsem se závistí obdivoval, jak pokročilý byl Super Mario. Tehdy jsem neměl počítač a YouTube neexistoval. Teď, o 20 let později, jsem zkušený programátor s přístupem k moderním technologiím jako Unreal Engine. V tvorbě vlastních her mi nic nebrání :)";
+
+    document.getElementById('specialist_g').innerHTML = "Ve volném čse jsem taky vášnivý vývojář her. Zatím jsem žádnou hru nevydal, teď pracuju na svým prvních prototypech.";
     document.getElementById('contact_h').innerHTML = "Za zeptání nic nedáte";
     document.getElementById('contact_p').innerHTML = "Máte zajímavý nápad nebo projekt?<br> Můžete mě klidně kontaktovat. Za konzultace si nic neúčtuju.";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Berte prosím na vědomí</span> že moje dostupnost je méně než 10h týdně. ";
+    document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Berte prosím na vědomí</span> že moje dostupnost je aktuálně méně než 10h týdně. ";
 
     document.getElementById('inboxme').innerHTML = "Napište mi:";
     document.getElementById('wien').innerHTML = "Vídeň, Rakousko";
@@ -156,13 +162,17 @@ document.getElementById('contact_head').innerHTML = "Contact";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
 
-document.getElementById('caption').innerHTML = "Digital nomad & passionate game developer";
+document.getElementById('caption').innerHTML = "Digital nomad with a passion for games";
     document.getElementById('mcpPraktikum').innerHTML = "Trainee";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
 
     document.getElementById('last').innerHTML = "Recent projects:";
 
-    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a><span id=\"winzab\"> - casual arcade game </span>"
+    document.getElementById('smarthome').innerHTML =  "<a href=\"./visualization/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home </a> - interactive 3D visualization"
+    + "<img alt=\"alternative text\" title=\"vytvořeno v Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
+
+
+    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a> - casual arcade game"
     + "<img alt=\"alternative text\" title=\"vytvořeno v Unreal Engine 4\" style=\"margin-top: -2px;\" src=\"./images/ue4.png\">";
 
     
@@ -178,12 +188,11 @@ document.getElementById('caption').innerHTML = "Digital nomad & passionate game 
     document.getElementById('projects_h').innerHTML = "My projects:";
 
     document.getElementById('specialist').innerHTML = "Digital nomad with passion for games";
-    document.getElementById('specialist_p').innerHTML = "I am specialized on mobile (Android and iOS) and desktop (Windows only) apps. With 2+ years of fullstack experience, I can publish an app & setup the so-called backend (server with database) for it, all-inclusive."
-    + "<br>	<br> Maybe you know what mean:";
+    document.getElementById('specialist_p').innerHTML = "I am a professional fullstack software developer with specialization on mobile and desktop apps. It is my occupation to create business solutions.";
 
-    document.getElementById('moredetails').innerHTML = "(contact me for more details)";
 
-    document.getElementById('specialist_g').innerHTML = "I always loved games. At the age of 5, I wondered with envy how advanced Super Mario was. I had no computer and there was no Youtube at that time. Now, 20 years later, I am a skilled programmer with access to modern technology like Unreal Engine. There is nothing preventing me from making my own games :)";
+
+    document.getElementById('specialist_g').innerHTML = "In my free time I am also a passionate game developer. I haven´t published any games yet, I am now working on my first prototypes.";
   
     document.getElementById('contact_h').innerHTML = "It costs nothing to ask";
     document.getElementById('contact_p').innerHTML = "You´ve got an interesting idea or project?<br> Feel free to contact me. I don´t charge anything for consulting.";
