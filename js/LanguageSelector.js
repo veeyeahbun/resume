@@ -163,7 +163,7 @@ document.getElementById('contact_head').innerHTML = "Contact";
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
 
 document.getElementById('caption').innerHTML = "Digital nomad with a passion for games";
-    document.getElementById('mcpPraktikum').innerHTML = "Trainee";
+    document.getElementById('mcpPraktikum').innerHTML = "Intership";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
 
     document.getElementById('last').innerHTML = "Recent projects:";
