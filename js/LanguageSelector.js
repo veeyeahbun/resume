@@ -62,8 +62,8 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('games_header').innerHTML = "Spiele & 3D";
     document.getElementById('games_desc').innerHTML = "Unabhängige Spiele, Simulationen und 3D Grafik";
 
-    document.getElementById('cust_header').innerHTML = "Geschäftslösungen";
-    document.getElementById('cust_desc').innerHTML = " Businesssoftware & maßgeschneiderte Apps";
+    document.getElementById('cust_header').innerHTML = "Softwarelösungen";
+    document.getElementById('cust_desc').innerHTML = " IT-Infrastruktur & maßgeschneiderte Apps";
     document.getElementById('specialist').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
     document.getElementById('specialist_p').innerHTML = "Ich bin ein professioneller fullstack Softwareentwickler mit Spezialisierung auf Handy- und Desktopapps. Mein Beruf ist es, Firmenlösungen zu erstellen.";
 
@@ -122,8 +122,8 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('games_header').innerHTML = "Hry & 3D";
     document.getElementById('games_desc').innerHTML = "Nezávislé hry, simulace a 3D grafika";
 
-    document.getElementById('cust_header').innerHTML = "Podniková řešení";
-    document.getElementById('cust_desc').innerHTML = "Firemní software & appky na míru.";
+    document.getElementById('cust_header').innerHTML = "Softwarová řešení";
+    document.getElementById('cust_desc').innerHTML = "IT infrastruktura & appky na míru.";
 
     
     document.getElementById('projects_h').innerHTML = "Moje projekty:";
@@ -182,8 +182,8 @@ document.getElementById('caption').innerHTML = "Digital nomad with a passion for
     document.getElementById('games_desc').innerHTML = "Indie-games, simulations and 3D graphics.";
 
        
-    document.getElementById('cust_header').innerHTML = "Enterprise solutions";
-    document.getElementById('cust_desc').innerHTML = "Business software & custom apps.";
+    document.getElementById('cust_header').innerHTML = "Software solutions";
+    document.getElementById('cust_desc').innerHTML = "IT infrastructure & custom apps";
     
     document.getElementById('projects_h').innerHTML = "My projects:";
 

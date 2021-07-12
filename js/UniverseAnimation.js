@@ -47,8 +47,8 @@ ball_color = {
 
 // Random speed
 function getRandomSpeed(pos) {
-    var min = -0.5,
-        max =0.5;
+    var min = -0.35,
+        max =0.35;
     switch (pos) {
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(min, max)];
