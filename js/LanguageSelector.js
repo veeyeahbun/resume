@@ -65,7 +65,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('cust_header').innerHTML = "Softwarelösungen";
     document.getElementById('cust_desc').innerHTML = " IT-Infrastruktur & maßgeschneiderte Apps";
     document.getElementById('specialist').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
-    document.getElementById('specialist_p').innerHTML = "Ich bin ein professioneller fullstack Softwareentwickler mit Spezialisierung auf Handy- und Desktopapps. Mein Beruf ist es, Firmenlösungen zu erstellen.";
+    document.getElementById('specialist_p').innerHTML = "Ich bin ein professioneller fullstack Softwareentwickler mit Spezialisierung auf Handy- und Desktopapps. Meine Programme <strong>optimieren Firmenprozesse und sparen Kosten</strong>.";
 
     
     document.getElementById('projects_h').innerHTML = "Meine Projekte:";
@@ -130,7 +130,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
 
     document.getElementById('specialist').innerHTML = "Digitální nomád s vášní pro hry";
-    document.getElementById('specialist_p').innerHTML = "Jsem profesionální fullstack vývojář softwaru se specializací na mobilní a desktopové aplikace. Mým povoláním je tvorba firemních řešení.";
+    document.getElementById('specialist_p').innerHTML = "Jsem profesionální fullstack vývojář softwaru se specializací na mobilní a desktopové aplikace. Moje programy <strong>optimalizují firemní procesy a šetří náklady</strong>.";
 
 
     document.getElementById('specialist_g').innerHTML = "Ve volném čase jsem taky vášnivý vývojář her. Zatím jsem žádnou hru nevydal, teď pracuju na svým prvních prototypech.";
@@ -188,7 +188,7 @@ document.getElementById('caption').innerHTML = "Digital nomad with a passion for
     document.getElementById('projects_h').innerHTML = "My projects:";
 
     document.getElementById('specialist').innerHTML = "Digital nomad with passion for games";
-    document.getElementById('specialist_p').innerHTML = "I am a professional fullstack software developer with specialization on mobile and desktop apps. It is my occupation to create business solutions.";
+    document.getElementById('specialist_p').innerHTML = "I am a professional fullstack software developer with specialization on mobile and desktop apps. My programmes <strong>optimize company processes and save costs</strong>";
 
 
 
