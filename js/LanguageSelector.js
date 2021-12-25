@@ -41,11 +41,11 @@ document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
+document.getElementById('caption').innerHTML = "Programmierer und 3D Grafiker";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
-    document.getElementById('mcpPraktikum').innerHTML = "Praktikum";
+    document.getElementById('2real').innerHTML = "Freelancer";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - Gegenwart";
     document.getElementById('last').innerHTML = "Kürzliche Projekte:";
  
@@ -59,22 +59,21 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
 
     document.getElementById('kontakt').innerHTML = "Für mehr Auskunft kontaktieren Sie mich per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>Email</a>.";
 
-    document.getElementById('games_header').innerHTML = "Spiele & 3D";
-    document.getElementById('games_desc').innerHTML = "Unabhängige Spiele, Simulationen und 3D Grafik";
+    document.getElementById('games_header').innerHTML = "Meine Spiele";
+    document.getElementById('games_desc').innerHTML = "Indie-Spiele aus eigener Produktion";
 
-    document.getElementById('cust_header').innerHTML = "Geschäftslösungen";
-    document.getElementById('cust_desc').innerHTML = " Businesssoftware & maßgeschneiderte Apps";
-    document.getElementById('specialist').innerHTML = "Digitaler Nomad mit Leidenschaft für Spiele";
-    document.getElementById('specialist_p').innerHTML = "Ich bin ein professioneller fullstack Softwareentwickler mit Spezialisierung auf Handy- und Desktopapps. Mein Beruf ist es, Firmenlösungen zu erstellen.";
+    document.getElementById('cust_header').innerHTML = "Freelance";
+    document.getElementById('cust_desc').innerHTML = "Vertragsarbeit für Partnern";
+    document.getElementById('specialist').innerHTML = "Erfahrener Coder";
+    document.getElementById('specialist_p').innerHTML = "Ich habe Bunte Erfahrungen mit Entwicklung von Geschäftsanwendungen in C#. In Visual Studio fühle ich mich daheim.";
 
     
     document.getElementById('projects_h').innerHTML = "Meine Projekte:";
 
 
-    document.getElementById('specialist_g').innerHTML = "In meiner Freizeit bin ich auch ein Leidenschaftlicher Spielentwickler. Ich habe noch kein Spiel veröffentlicht, ich arbeite nun an meinen ersten Prototypen.";
   
-    document.getElementById('contact_h').innerHTML = "Fragen kostet nichts";
-    document.getElementById('contact_p').innerHTML = "Sie haben eine interessante Idee oder Projekt?<br>Sie können mich gerne kontaktieren. Ich verrechne nichts fürs Consulting,";
+    document.getElementById('contact_h').innerHTML = "Aufstrebender 3D Künstler";
+    document.getElementById('contact_p').innerHTML = "Ich interessiere mich auch für Modelling, Texturen und Animationen.";
     document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Bitte beachten Sie</span> dass ich wenigar als 10 Std. / Woche verfügbar bin.";
 
 
@@ -99,11 +98,11 @@ document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Digitální nomád s vášní pro hry";
+document.getElementById('caption').innerHTML = "Programátor a 3D grafik";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
 
 
-    document.getElementById('mcpPraktikum').innerHTML = "Stáž";
+    document.getElementById('2real').innerHTML = "Freelancer";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - současnost";
 
     document.getElementById('last').innerHTML = "Nedávné projekty:";
@@ -119,23 +118,23 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('kontakt').innerHTML = "Pro více informací mě kontaktujte přes <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
    
 
-    document.getElementById('games_header').innerHTML = "Hry & 3D";
-    document.getElementById('games_desc').innerHTML = "Nezávislé hry, simulace a 3D grafika";
+    document.getElementById('games_header').innerHTML = "Moje hry";
+    document.getElementById('games_desc').innerHTML = "Indie tituly z vlastní produkce";
 
-    document.getElementById('cust_header').innerHTML = "Podniková řešení";
-    document.getElementById('cust_desc').innerHTML = "Firemní software & appky na míru.";
+    document.getElementById('cust_header').innerHTML = "Freelance";
+    document.getElementById('cust_desc').innerHTML = "Práce na zakázku";
 
     
     document.getElementById('projects_h').innerHTML = "Moje projekty:";
 
 
-    document.getElementById('specialist').innerHTML = "Digitální nomád s vášní pro hry";
-    document.getElementById('specialist_p').innerHTML = "Jsem profesionální fullstack vývojář softwaru se specializací na mobilní a desktopové aplikace. Mým povoláním je tvorba firemních řešení.";
+    document.getElementById('specialist').innerHTML = "Zkušený kodér";
+    document.getElementById('specialist_p').innerHTML = "Mám bohaté zkušenosti s vývojem obchodního software v C#. Ve Visual Studiu jsem jako doma.";
 
 
-    document.getElementById('specialist_g').innerHTML = "Ve volném čase jsem taky vášnivý vývojář her. Zatím jsem žádnou hru nevydal, teď pracuju na svým prvních prototypech.";
-    document.getElementById('contact_h').innerHTML = "Za zeptání nic nedáte";
-    document.getElementById('contact_p').innerHTML = "Máte zajímavý nápad nebo projekt?<br> Můžete mě klidně kontaktovat. Za konzultace si nic neúčtuju.";
+   
+    document.getElementById('contact_h').innerHTML = "Nadějný 3D grafik";
+    document.getElementById('contact_p').innerHTML = "Zajímá mě i modelování, textury a animace";
     document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Berte prosím na vědomí</span> že moje dostupnost je aktuálně méně než 10h týdně. ";
 
     document.getElementById('inboxme').innerHTML = "Napište mi:";
@@ -162,8 +161,8 @@ document.getElementById('contact_head').innerHTML = "Contact";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
 
-document.getElementById('caption').innerHTML = "Digital nomad with a passion for games";
-    document.getElementById('mcpPraktikum').innerHTML = "Intership";
+document.getElementById('caption').innerHTML = "Programmer and 3D artist";
+    document.getElementById('2real').innerHTML = "Freelancer";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
 
     document.getElementById('last').innerHTML = "Recent projects:";
@@ -178,24 +177,23 @@ document.getElementById('caption').innerHTML = "Digital nomad with a passion for
     
     document.getElementById('kontakt').innerHTML = "For more info contact me per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
    
-    document.getElementById('games_header').innerHTML = "Games & 3D";
-    document.getElementById('games_desc').innerHTML = "Indie-games, simulations and 3D graphics.";
+    document.getElementById('games_header').innerHTML = "My games";
+    document.getElementById('games_desc').innerHTML = "Indie titles of own production";
 
        
-    document.getElementById('cust_header').innerHTML = "Enterprise solutions";
-    document.getElementById('cust_desc').innerHTML = "Business software & custom apps.";
+    document.getElementById('cust_header').innerHTML = "Freelance";
+    document.getElementById('cust_desc').innerHTML = "Contract work";
     
     document.getElementById('projects_h').innerHTML = "My projects:";
 
-    document.getElementById('specialist').innerHTML = "Digital nomad with passion for games";
-    document.getElementById('specialist_p').innerHTML = "I am a professional fullstack software developer with specialization on mobile and desktop apps. It is my occupation to create business solutions.";
+    document.getElementById('specialist').innerHTML = "Skilled coder";
+    document.getElementById('specialist_p').innerHTML = "I have rich experience with development of business applications in C# (WPF, Xamarin, ASP.NET). I´m very familiar with Visual Studio.";
 
 
 
-    document.getElementById('specialist_g').innerHTML = "In my free time I am also a passionate game developer. I haven´t published any games yet, I am now working on my first prototypes.";
   
-    document.getElementById('contact_h').innerHTML = "It costs nothing to ask";
-    document.getElementById('contact_p').innerHTML = "You´ve got an interesting idea or project?<br> Feel free to contact me. I don´t charge anything for consulting.";
+    document.getElementById('contact_h').innerHTML = "Aspiring 3D artist";
+    document.getElementById('contact_p').innerHTML = "I am also interested in modeling, textures and animations.";
     document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Please note</span> that my current availability is less than 10h / week.";
 
 
