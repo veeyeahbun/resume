@@ -60,12 +60,11 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('kontakt').innerHTML = "Für mehr Auskunft kontaktieren Sie mich per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>Email</a>.";
 
 
-    document.getElementById('games_desc').innerHTML = "Indie-Spiele aus eigener Produktion";
+    document.getElementById('games_desc').innerHTML = "Unabhängiges Studio mit eigener Produktion";
 
-    document.getElementById('cust_header').innerHTML = "Freelance";
-    document.getElementById('cust_desc').innerHTML = "Vertragsarbeit für Partnern";
+    document.getElementById('cust_desc').innerHTML = "Auftragsentwicklung, Freelancing, Outsourcing und Contribution";
     document.getElementById('specialist').innerHTML = "Erfahrener Coder";
-    document.getElementById('specialist_p').innerHTML = "Ich habe Bunte Erfahrungen mit Entwicklung von Geschäftsanwendungen in C#. In Visual Studio fühle ich mich daheim.";
+    document.getElementById('specialist_p').innerHTML = "Ich habe langjährige Erfahrungen mit Entwicklung von Bussinesssoftware in C# <br>Mit C++ bin ich auch vertraut und In Visual Studio fühle ich mich daheim.";
 
     
     document.getElementById('projects_h').innerHTML = "Meine Projekte:";
@@ -73,8 +72,8 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
 
   
     document.getElementById('graphic').innerHTML = "Aufstrebender 3D Künstler";
-    document.getElementById('graphic_p').innerHTML = "Ich interessiere mich auch für Modelling, Texturen und Animationen.";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Bitte beachten Sie</span> dass ich wenigar als 10 Std. / Woche verfügbar bin.";
+    document.getElementById('graphic_p').innerHTML = "Ich interessiere mich auch für Modelling, Texturen und Animationen - obwohl diese gerade nicht zu meinen stärksten Skills gehören";
+    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuelle zeitliche Verfügbarkeit: </span>10 - 20 Std. / Wo";
 
 
     
@@ -119,23 +118,22 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
    
 
     document.getElementById('games_header').innerHTML = "Indie games";
-    document.getElementById('games_desc').innerHTML = "vlastní produkce";
+    document.getElementById('games_desc').innerHTML = "Nezávislé studio s vlastní produkcí";
 
-    document.getElementById('cust_header').innerHTML = "Freelance";
-    document.getElementById('cust_desc').innerHTML = "Práce na zakázku";
+    document.getElementById('cust_desc').innerHTML = "Vývoj na zakázku, freelance, outsourcing a contribution";
 
     
     document.getElementById('projects_h').innerHTML = "Moje hry:";
 
 
     document.getElementById('specialist').innerHTML = "Zkušený kodér";
-    document.getElementById('specialist_p').innerHTML = "Mám bohaté zkušenosti s vývojem obchodního software v C#.<br> Kamarád jsem taky s  C++ a ve Visual Studiu jsem jako doma.";
+    document.getElementById('specialist_p').innerHTML = "Mám letité zkušenosti s vývojem obchodního software v C#.<br> Kamarád jsem taky s  C++ a ve Visual Studiu jsem jako doma.";
 
 
 
     document.getElementById('graphic').innerHTML = "Nadějný 3D grafik";
-    document.getElementById('graphic_p').innerHTML = "Zajímám se taky o modelování, textury a animace. Momentálně je to ale moje slabší stránka";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuální volná časová kapacita: </span>10 - 20 h týdně. ";
+    document.getElementById('graphic_p').innerHTML = "Zajímám se taky o modelování, textury a animace - i když to momentálně nepatří k mým silným stránkám";
+    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuální časová dostupnost: </span>10 - 20 h týdně. ";
 
     document.getElementById('inboxme').innerHTML = "Napište mi:";
     document.getElementById('wien').innerHTML = "Vídeň, Rakousko";
@@ -178,24 +176,22 @@ document.getElementById('caption').innerHTML = "Programmer and 3D artist";
     document.getElementById('kontakt').innerHTML = "For more info contact me per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
    
 
-    document.getElementById('games_desc').innerHTML = "own production";
+    document.getElementById('games_desc').innerHTML = "Indenpendent studio with own production";
 
        
-    document.getElementById('cust_header').innerHTML = "Freelance";
-    document.getElementById('cust_desc').innerHTML = "Contract work";
+    document.getElementById('cust_desc').innerHTML = "Custom development, freelance, outsourcing and contriibution";
     
     document.getElementById('projects_h').innerHTML = "My projects:";
 
     document.getElementById('specialist').innerHTML = "Skilled coder";
-    document.getElementById('specialist_p').innerHTML = "I have rich experience with development of business applications in C# (WPF, Xamarin, ASP.NET). I´m very familiar with Visual Studio.";
+    document.getElementById('specialist_p').innerHTML = "I have years of experience with development of business applications in C# <br> I´m also familiar with C++ and I´m very comfortable in Visual Studio.";
 
 
 
   
     document.getElementById('graphic').innerHTML = "Aspiring 3D artist";
-    document.getElementById('graphic_p').innerHTML = "I am also interested in modeling, textures and animations.";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"text-decoration: underline;\">Please note</span> that my current availability is less than 10h / week.";
-
+    document.getElementById('graphic_p').innerHTML = "I am also interested in modeling, textures and animations - although these aren´t currently my strong skills";
+    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Current availability: </span>10 - 20 h / week. ";
 
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
