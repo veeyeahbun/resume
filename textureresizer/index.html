@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<!--
+     HTML code used with Epic Games HTML5 projects
+
+     much of this is for UE4 development purposes.
+
+     to create a custom HTML file for your project:
+     - make a copy of this file - or make one from scratch
+     - and put it in: "your project folder"/Build/HTML/GameX.html.template
+-->
+
+<html lang="en">
+	<head>
+		<title>Texture Resizer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<link href="ZabranskyGmbH_Schrm-HTML5-Shipping.css" rel="stylesheet">	
+		<link rel="icon" href="../favicon.ico">
+	</head>
+	<body id="mainpage" >
+		<div style="display: block; width: 85%; margin-left: auto;margin-right: auto;">
+			<br>
+			<h2 style="background-color: #9f9f9f;padding: 3px;border-radius: 10px;float: left;"><label style="color:black;font-weight:bold" id="sd">Texture resizer</label></h2> <br><br><br>
+			<br><br>
+			<p>Texture Resizer is a tool that saves me lots of time when working with textures</p>
+		
+			<div>
+				<br>
+				
+				<p>I spent unnecesarry amounts of time in Photoshop. For example I had a 4096x4096 base texture, from which I created copies in smaller resolutions (2048, 1024, 512).</p>
+				<br>
+				<p>If i had 20 files, I would have to load Photoshop 20 times, and would have to click "save" a total of 60 times. But this is now history.</p>
+				<br>
+				<p>I developed a simple programm in C#, which allows me to drag-drop and process all files at once. For each file, all needed outputs are also generated at once.</p>
+				<br>
+				<p>The results are high quality and are identical with doing the same procedure in Photoshop.</p>
+				<br>
+		
+				<div class="row" style="border-color: black;">
+					<div class="col-sm-12">
+						<img class="img img-responsive"  src="../images/textureresizer.png" >
+					</div>	
+				
+				</div>
+	
+				<div class="row" style="height: 150px;">
+					<div class="col-sm-4">
+						<img class="img img-responsive" src="../images/textureresizer2.png" >
+					</div>	
+					<div class="col-sm-4">
+						<img class="img img-responsive" src="../images/textureresizer3.png" >
+					</div>	
+					<div class="col-sm-4">
+						<img class="img img-responsive" src="../images/textureresizer4.png" >
+					</div>	
+				</div>
+				<br>
+				<p style="font-style: italic;">You can download Texture Resizer for free <a target="_blank" href="https://drive.google.com/file/d/1fzSEZjwW33vJuBYca1dOHyHldVrptxPw/view?fbclid=IwAR3J-RTu2N28xbG7Q8flp6IgHQQrHUUjanHy_T7CZvOfkKDo__fbHinSURQ">here</a> (Google Drive) and try yourself.</p>
+			
+			
+		
+				<br>
+				<!-- <p><label id="kontakt">Pro více informací mě kontaktujte přes <a style="text-decoration: underline;" href="mailto:office@janrucil.dev">email</a>.</label></p> -->
+				<br>
+			</div>	
+		</div>
+		<footer style="position: fixed; bottom: 0; width: 100%; background-color: white;">
+			<div class="container">
+				<div  class="row">
+					<div style="text-align: center;"  class="col-md-12 col-sm-12">
+					
+						<p class="wow fadeInUp" data-wow-delay="0.5s"> &copy; Jan Ručil, 2021 • <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Ochrana osobních údajů</a></span></p>
+						<ul class="social-icon">
+							<!-- <li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
+							<li><a href="#" class="fa fa-envelope wow fadeInUp" data-wow-delay="1.6s"></a></li> -->
+						</ul>
+			
+		
+					</div>			
+				</div>
+			</div>
+		</footer>
+		<script src=".././js/site.js"></script>	
+	</body>
+</html>
