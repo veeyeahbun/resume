@@ -173,6 +173,6 @@ Module['FS_createPath']('/SunnyVilla/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 43318439, "filename": "/SunnyVilla/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 43318439, "package_uuid": "ae3e3198-c523-47b3-8c21-f28fdd790bf1"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 40228348, "filename": "/SunnyVilla/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 40228348, "package_uuid": "87058718-b869-4a05-9333-f7b1db3701bd"});
 
 })();
