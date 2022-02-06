@@ -173,6 +173,6 @@ Module['FS_createPath']('/Shoplifter/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 78019394, "filename": "/Shoplifter/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 78019394, "package_uuid": "270c9004-4602-4924-91da-65b8b0436923"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 78019394, "filename": "/Shoplifter/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 78019394, "package_uuid": "e137b027-f5f7-4700-90e1-aa207289c16e"});
 
 })();
