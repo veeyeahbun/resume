@@ -41,7 +41,7 @@ document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Programmierer und 3D Grafiker";
+document.getElementById('caption').innerHTML = "Entwickler und 3D Grafiker";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
@@ -100,7 +100,7 @@ document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Programátor a 3D grafik";
+document.getElementById('caption').innerHTML = "Vývojář a 3D grafik";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
 
 
@@ -163,7 +163,7 @@ document.getElementById('contact_head').innerHTML = "Contact";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
 
-document.getElementById('caption').innerHTML = "Programmer and 3D artist";
+document.getElementById('caption').innerHTML = "Developer and 3D artist";
     document.getElementById('2real').innerHTML = "Freelancer";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
 
