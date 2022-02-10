@@ -358,7 +358,7 @@ li {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/galaxy.png') 75% 0 repeat-y fixed;
+    background: url('../images/galaxy.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -403,13 +403,15 @@ li {
     Detail section              
 -----------------------------------------*/
 #detail,
-#detail2 {
+#detail2, 
+#reference{
     background: #222;
     color: #ffffff;
 }
 
 #detail .fa ,
-#detail2 .fa {
+#detail2 .fa,
+#reference {
   color: lightyellow;
   font-size: 48px;
 }
@@ -429,7 +431,7 @@ li {
    reference section              
 -----------------------------------------*/
 #reference {
-    background: #f9f9f9;
+    background: #222;
 }
 
 #reference h3 {

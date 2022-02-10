@@ -36,7 +36,7 @@ if ( AudioContext ) {
 // low enough that they do not strictly require WebGL 2.
 const requiredWebGLVersion = 1;
 
-const targetOffscreenCanvas = false;
+const targetOffscreenCanvas = true;
 
 // Add ?webgl1 GET param to explicitly test the WebGL 1 fallback version even if browser does support WebGL 2.
 const explicitlyUseWebGL1 = (location.search.indexOf('webgl1') != -1);
@@ -73,7 +73,7 @@ var Module = {
 	assetDownloadProgress: {}, // Track how many bytes of each needed asset has been downloaded so far.
 
 	UE4_indexedDBName: 'UE4_assetDatabase_Shoplifter', // this should be an ascii ID string without special characters that is unique to the project that is being packaged
-	UE4_indexedDBVersion: 202202062108, // Bump this number to invalidate existing IDB storages in browsers.
+	UE4_indexedDBVersion: 202202101214, // Bump this number to invalidate existing IDB storages in browsers.
 };
 
 
@@ -268,7 +268,7 @@ function detectWebGL() {
 // Canvas scaling mode should be set to one of: 1=STRETCH, 2=ASPECT, or 3=FIXED.
 // This dictates how the canvas size changes when the browser window is resized
 // by dragging from the corner.
-var canvasWindowedScaleMode = 2 /*ASPECT*/;
+var canvasWindowedScaleMode = 1 /*STRETCH*/;
 
 // High DPI setting configures whether to match the canvas size 1:1 with
 // the physical pixels on the screen.
