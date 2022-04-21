@@ -173,6 +173,6 @@ Module['FS_createPath']('/ImmoDemo/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 89, "filename": "/UE4CommandLine.txt"}, {"start": 89, "audio": 0, "end": 78118783, "filename": "/ImmoDemo/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 78118783, "package_uuid": "bb65d902-0095-4a12-b029-83001dcf90f4"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 89, "filename": "/UE4CommandLine.txt"}, {"start": 89, "audio": 0, "end": 78810683, "filename": "/ImmoDemo/Content/Paks/pakchunk0-HTML5.pak"}], "remote_package_size": 78810683, "package_uuid": "47ddaead-3c5c-4d64-b8fa-25c191cf88c5"});
 
 })();
