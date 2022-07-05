@@ -65,23 +65,22 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
 
     document.getElementById('specialist_p').innerHTML = "Ich habe mehrjährige Erfahrung in Entwicklung von Geschäftssoftware.";
 
-    document.getElementById('specialist_p2').innerHTML = "Ich kenne mich in Visual Studio sehr gut aus.";
 
     document.getElementById('games_header').innerHTML = "Spiele";
 
 
     document.getElementById('specialist').innerHTML = "Erfahrener Programmierer";
-    document.getElementById('specialist_p').innerHTML = "Nach einigen Jahren Entwicklung von Geschäftsoftware bin ich mit Visual Studio sehr gut vertraut";
+   
   
-    document.getElementById('graphic').innerHTML = "3D Künstler";
-    document.getElementById('graphic_p').innerHTML = "Ich interessiere mich auch für Modellierung, Texturen und Animationen - obwohl diese gerade nicht zu meinen stärksten Skills gehören";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuelle zeitliche Verfügbarkeit: </span>10 - 20 Std. / Wo";
+    document.getElementById('graphic').innerHTML = "3D Grafik";
+    document.getElementById('graphic_p').innerHTML = "Ich mache auch 3D Modellierung & Spielentwicklung";
+    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuelle Verfügbarkeit: </span>10 - 20 Std. / Wo";
 
 
     
     document.getElementById('inboxme').innerHTML = "Schreiben Sie mir:";
     document.getElementById('wien').innerHTML = "Wien, Österreich";
-    document.getElementById('contactform').innerHTML = "<form  onsubmit=\"event.preventDefault(); return nachrichtSenden()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Absender: (unpflichtig)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Nachricht\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input  type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SENDEN\"></div></form>"
+    document.getElementById('contactform').innerHTML = "<form onsubmit=\"event.preventDefault(); return nachrichtSenden()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Absender: (unpflichtig)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Nachricht\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input  type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SENDEN\"></div></form>"
 
 
 }
@@ -115,9 +114,9 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('games_header').innerHTML = "Hry";
     document.getElementById('specialist').innerHTML = "Zkušený programátor";
     document.getElementById('specialist_p').innerHTML = "Mám několikaleté zkušenosti s vývojem obchodního software";
-    document.getElementById('specialist_p2').innerHTML = "Ve Visual Studiu se dobře vyznám.";
+
     document.getElementById('graphic').innerHTML = "3D grafik";
-    document.getElementById('graphic_p').innerHTML = "Zajímám se taky o modelování, textury a animace - i když to momentálně nepatří k mým silným stránkám";
+    document.getElementById('graphic_p').innerHTML = "Věnuji se také 3D modelování & vývoji videoher.";
     document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuální časová dostupnost: </span>10 - 20 h týdně. ";
     document.getElementById('inboxme').innerHTML = "Napište mi:";
     document.getElementById('wien').innerHTML = "Vídeň, Rakousko";
@@ -160,11 +159,9 @@ document.getElementById('caption').innerHTML = "Developer and 3D artist";
     document.getElementById('games_header').innerHTML = "Games";
     document.getElementById('specialist').innerHTML = "Skilled programmer";
     document.getElementById('specialist_p').innerHTML = "I have years of experience in development of enterprise software";
-
-    document.getElementById('specialist_p2').innerHTML = "Visual Studio is very familiar to me.";
-  
+ 
     document.getElementById('graphic').innerHTML = "3D artist";
-    document.getElementById('graphic_p').innerHTML = "I am also interested in modeling, textures and animations - although these aren´t currently my strong skills";
+    document.getElementById('graphic_p').innerHTML = "I also do some 3D Modelling & game development";
     document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Current availability: </span>10 - 20 h / week. ";
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
