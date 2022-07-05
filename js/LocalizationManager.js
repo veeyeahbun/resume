@@ -46,7 +46,7 @@ document.getElementById('caption').innerHTML = "Entwickler und 3D Grafiker";
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
     document.getElementById('2real').innerHTML = "Freelancer";
-    document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - Gegenwart";
+
     document.getElementById('last').innerHTML = "Kürzliche Projekte:";
  
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - Bilderverarbeitungstool";
@@ -100,7 +100,7 @@ document.getElementById('contact_head').innerHTML = "Kontakt";
 document.getElementById('caption').innerHTML = "Vývojář a 3D grafik";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
     document.getElementById('2real').innerHTML = "Freelancer";
-    document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - současnost";
+
     document.getElementById('last').innerHTML = "Nedávné projekty:";
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - nástroj na zpracování obrazu";
 
