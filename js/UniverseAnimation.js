@@ -16,9 +16,9 @@ var ball = {
     phase: 0
 }
 ball_color = {
-    r: 150,
-    g: 150,
-    b: 150
+    r: 160,
+    g: 180,
+    b: 255
 },
     ball_color2 = {
         r: 15,
@@ -26,7 +26,7 @@ ball_color = {
         b: 80
     },
     R = 2,
-    R2 = 10;
+    R2 = 50;
     balls = [],
     alpha_f = 0.03,
     alpha_phase = 0,
@@ -181,7 +181,7 @@ function renderLines() {
             if (fraction < 1) {
                 alpha = (1 - fraction).toString();
 
-                ctx.strokeStyle = 'rgba(150,150,150,' + alpha + ')';
+                ctx.strokeStyle = 'rgba(205,255,252,' + alpha + ')';
                 ctx.lineWidth = link_line_width;
 
                 ctx.beginPath();
@@ -336,8 +336,8 @@ mainpage.addEventListener('mouseleave', function () {
 });
 mainpage.addEventListener('mousemove', function (e) {
     var e = e || window.event;
-    mouse_ball.x = e.pageX +10;
-    mouse_ball.y = e.pageY;
+    mouse_ball.x = e.clientX;
+    mouse_ball.y = e.clientY;
     // console.log(mouse_ball);
 
     //moveMouseBall();
@@ -347,6 +347,9 @@ mainpage.addEventListener('mousemove', function (e) {
 mainpage.addEventListener('click', function (e) {
     spawnBalls(e.pageX+10 , e.pageY);
 });
+
+
+
 
 
 

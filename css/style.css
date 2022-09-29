@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Anonymous Pro', sans-serif;
     font-style: normal;
 		font-weight: 400;
 
@@ -49,6 +49,7 @@ h2 {
 
 h3 {
   line-height: 36px;
+  color: hwb(227 62% 0%);
 }
 
 h5 {
@@ -57,7 +58,7 @@ h5 {
 }
 
 p {
-    color: #707070;
+   
     font-size: 14px;
     line-height: 24px;
 }
@@ -185,7 +186,7 @@ footer {
 .sk-rotating-plane {
   width: 50px;
   height: 50px;
-  background-color: gray ;
+  background-color: #CDFFFC ;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
           animation: sk-rotatePlane 1.2s infinite ease-in-out; }
 
@@ -261,7 +262,7 @@ footer {
 }
 
 .top-nav-collapse .nav li a {
-  color: gray;
+  color: #9FB4FF;
   z-index: 1;
   
 }
@@ -269,7 +270,7 @@ footer {
 .top-nav-collapse .nav li a:hover {
     background: transparent;
     z-index: 1;
-    color: #fff;
+    color: #CDFFFC;
 }
 
 .top-nav-collapse .navbar-nav > li > a:hover,
@@ -280,7 +281,7 @@ footer {
 .top-nav-collapse .nav li.active > a {
   background-color: transparent;
   z-index: 1;
-  color: #fff;
+  color: #D8F8B7;
 }
 
 .navbar-header{
@@ -362,7 +363,7 @@ li {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #fff;
+    color: #9FB4FF;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -406,13 +407,13 @@ li {
 #detail2, 
 #reference{
     background: #222;
-    color: #ffffff;
+    color: #9FB4FF;
 }
 
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color: lightyellow;
+  color:  #CDFFFC;
   font-size: 48px;
 }
 
@@ -435,12 +436,19 @@ li {
 }
 
 #reference h3 {
+  color: #D8F8B7;
     font-size: 18px;
     margin-bottom: 0px;
 }
 
-#reference h6 {
-  color: #666;
+
+#reference h4{
+
+  color: rgb(205, 255, 252);
+}
+
+#reference p {
+  color: #D8F8B7;
   margin-top: 4px;
 }
 
@@ -459,7 +467,6 @@ li {
 }
 
 #reference .reference-wrapper {
-    background: #ffffff;
     padding-bottom: 22px;
 }
 
