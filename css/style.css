@@ -413,7 +413,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  rgb(205, 255, 252);
+  color:  #9fb4ff;
   font-size: 48px;
 }
 
@@ -436,7 +436,7 @@ li {
 }
 
 #reference h3 {
-  color: #D8F8B7;
+  color: #9fb4ff;
     font-size: 18px;
     margin-bottom: 0px;
 }
