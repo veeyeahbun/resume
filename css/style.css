@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   line-height: 36px;
-  color: hwb(227 62% 0%);
+  color: rgb(158, 179, 255);
 }
 
 h5 {
@@ -407,13 +407,13 @@ li {
 #detail2, 
 #reference{
     background: #222;
-    color: #9FB4FF;
+    color: #9fb4ff;
 }
 
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  #CDFFFC;
+  color:  rgb(205, 255, 252);
   font-size: 48px;
 }
 
@@ -624,7 +624,7 @@ li {
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
-  background: rgb(0,0,0,0.5);
+  background: rgb(100,100,100,0.5);
   color: lightgray;
   padding:50px 85px;
 }
@@ -653,10 +653,10 @@ li {
 }
 
 #contact input[type="submit"] {
-  background: #222;
+  background: #9FB4FF;
   border-radius: 100px;
   border: none;
-  color: #ffffff;
+  color: #D8F8B7;
   letter-spacing: 2px;
   height: 50px;
   margin-top: 12px;
@@ -664,7 +664,7 @@ li {
 }
 
 #contact input[type="submit"]:hover {
-  background: lightgray;
+  background: #CDFFFC;
   color: gray;
 }
 
