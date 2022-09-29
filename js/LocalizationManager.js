@@ -47,7 +47,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
 
     document.getElementById('2real').innerHTML = "Freelancer";
 
-    document.getElementById('last').innerHTML = "Kürzliche Projekte:";
+
  
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - Bilderverarbeitungstool";
 
@@ -101,7 +101,7 @@ document.getElementById('caption').innerHTML = "Vývojář a 3D grafik";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
     document.getElementById('2real').innerHTML = "Freelancer";
 
-    document.getElementById('last').innerHTML = "Nedávné projekty:";
+
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - nástroj na zpracování obrazu";
 
     document.getElementById('smarthome').innerHTML =  "<a href=\"./vizualizace/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home </a><span id=\"winzab\"></a> - Interaktivní 3D vizualizace</span>"
@@ -143,7 +143,6 @@ document.getElementById('caption').innerHTML = "Developer and 3D artist";
     document.getElementById('2real').innerHTML = "Freelancer";
     document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
 
-    document.getElementById('last').innerHTML = "Recent projects:";
 
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - image processing tool";
 

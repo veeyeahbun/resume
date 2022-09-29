@@ -270,7 +270,7 @@ footer {
 .top-nav-collapse .nav li a:hover {
     background: transparent;
     z-index: 1;
-    color: #CDFFFC;
+    color: #D8F8B7;
 }
 
 .top-nav-collapse .navbar-nav > li > a:hover,
@@ -281,7 +281,7 @@ footer {
 .top-nav-collapse .nav li.active > a {
   background-color: transparent;
   z-index: 1;
-  color: #D8F8B7;
+  color: #CDFFFC;
 }
 
 .navbar-header{
@@ -363,7 +363,7 @@ li {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #9FB4FF;
+    color: #CDFFFC;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -436,7 +436,7 @@ li {
 }
 
 #reference h3 {
-  color: #9fb4ff;
+  color: #D8F8B7;
     font-size: 18px;
     margin-bottom: 0px;
 }
@@ -444,11 +444,11 @@ li {
 
 #reference h4{
 
-  color: rgb(205, 255, 252);
+  color: #D8F8B7;
 }
 
 #reference p {
-  color: #D8F8B7;
+  color: #CDFFFC;
   margin-top: 4px;
 }
 

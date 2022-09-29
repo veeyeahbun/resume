@@ -265,7 +265,7 @@ background: white;
   }
 
 .companies_top li {
-  border-bottom: 5px solid #9fb4ff;
+  border-bottom: 5px solid #CDFFFC;
 }
 
 
@@ -275,7 +275,7 @@ background: white;
 
 a, a:visited {
   text-decoration: none;
-  color: #CDFFFC;
+  color: #9FB4FF;
 }
 a:hover{
  text-decoration: none;
