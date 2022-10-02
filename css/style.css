@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		
-    font-family: 'Anonymous Pro', sans-serif;
+    font-family: 'Anonymous Pro', sans-serif !important;
     font-style: normal;
 		font-weight: 400;
 
@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   line-height: 36px;
-  color: rgb(158, 179, 255);
+  color: #9FB4FF;
 }
 
 h5 {
@@ -407,7 +407,7 @@ li {
 #detail2, 
 #reference{
     background: #222;
-    color: #9fb4ff;
+    color: #CDFFFC;
 }
 
 #detail .fa ,

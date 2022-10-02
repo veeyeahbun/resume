@@ -316,7 +316,7 @@ goMovie();
 
 
 // particles mouse effect 
-var mainpage = document.getElementById('intro');
+var mainpage = document.getElementById('canvas');
 mainpage.addEventListener('mouseenter', function () {
     
     mouse_in = true;
@@ -335,9 +335,11 @@ mainpage.addEventListener('mouseleave', function () {
     balls = new_balls.slice(0);
 });
 mainpage.addEventListener('mousemove', function (e) {
-    var e = e || window.event;
-    mouse_ball.x = e.clientX;
-    mouse_ball.y = e.clientY;
+    //var e = e || window.event;
+
+    var pos = e.currentTarget.getBoundingClientRect();
+    mouse_ball.x = e.pageX +10;
+    mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 
     //moveMouseBall();
