@@ -73,8 +73,8 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
    
   
     document.getElementById('graphic').innerHTML = "3D Grafik";
-    document.getElementById('graphic_p').innerHTML = "Ich mache auch 3D Modellierung & Spielentwicklung";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuelle Verfügbarkeit: </span>10 - 20 Std. / Wo";
+    document.getElementById('graphic_p').innerHTML = "Ich beschäftige mich auch mit 3D Grafik & Spielentwicklung";
+
 
 
     
@@ -116,8 +116,8 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('specialist_p').innerHTML = "Mám několikaleté zkušenosti s vývojem obchodního software";
 
     document.getElementById('graphic').innerHTML = "3D grafik";
-    document.getElementById('graphic_p').innerHTML = "Věnuji se také 3D modelování & vývoji videoher.";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Aktuální časová dostupnost: </span>10 - 20 h týdně. ";
+    document.getElementById('graphic_p').innerHTML = "Zabývám se také 3D grafice & vývoji videoher.";
+
     document.getElementById('inboxme').innerHTML = "Napište mi:";
     document.getElementById('wien').innerHTML = "Vídeň, Rakousko";
     document.getElementById('contactform').innerHTML = "<form  onsubmit=\"event.preventDefault(); return poslatZpravu()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Odesílatel: (nepovinné)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Zpráva\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input type=\"submit\" class=\"form-control\" id=\"submit\" value=\"POSLAT\"></div></form>"
@@ -161,7 +161,7 @@ document.getElementById('caption').innerHTML = "Developer and 3D artist";
  
     document.getElementById('graphic').innerHTML = "3D artist";
     document.getElementById('graphic_p').innerHTML = "I also do some 3D Modelling & game development";
-    document.getElementById('contact_p2').innerHTML = "<span style=\"font-weight: bold;\">Current availability: </span>10 - 20 h / week. ";
+
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
     document.getElementById('wien').innerHTML = "Vienna, Austria";

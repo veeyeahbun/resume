@@ -630,14 +630,14 @@ li {
 }
 
 #contact .contact_detail {
-  background: #ffffff;
+  background: rgb(100,100,100,0.5);
   padding: 5rem 5rem 12rem 5rem;
 }
 
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #CDFFFC;
   border-radius: 0px;
   box-shadow: none;
   margin-bottom: 16px;
@@ -652,11 +652,15 @@ li {
   height: 45px;
 }
 
+.form-control{
+  color: #CDFFFC !important;
+}
+
 #contact input[type="submit"] {
   background: #9FB4FF;
   border-radius: 100px;
   border: none;
-  color: #D8F8B7;
+  color: black !important;
   letter-spacing: 2px;
   height: 50px;
   margin-top: 12px;
@@ -683,7 +687,7 @@ padding-right: 2rem;
 }
 
 #privacy .contact_detail {
-background: #ffffff;
+background:  rgb(100,100,100,0.5);
 padding: 5rem 5rem 12rem 5rem;
 }
 
@@ -810,7 +814,6 @@ footer {
   }
 
   #contact .contact_detail {
-  background: #ffffff;
   padding: 10rem 3rem 10rem 5rem;
 }
 
