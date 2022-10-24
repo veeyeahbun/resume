@@ -173,6 +173,6 @@ Module['FS_createPath']('/MazeGallery/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 52125031, "filename": "/MazeGallery/Content/Paks/MazeGallery-HTML5.pak"}], "remote_package_size": 52125031, "package_uuid": "0b15788a-07b1-4122-9167-0d974547fbaa"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 52110607, "filename": "/MazeGallery/Content/Paks/MazeGallery-HTML5.pak"}], "remote_package_size": 52110607, "package_uuid": "f659eec5-e0f5-4f4c-92e2-1ea660fd1866"});
 
 })();
