@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   line-height: 36px;
-  color: #9FB4FF;
+  color: #8597d8;
 }
 
 h5 {
@@ -262,7 +262,7 @@ footer {
 }
 
 .top-nav-collapse .nav li a {
-  color: #9FB4FF;
+  color: #8597d8;
   z-index: 1;
   
 }
@@ -413,7 +413,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  #9fb4ff;
+  color:  #8597d8;
   font-size: 48px;
 }
 
@@ -657,7 +657,7 @@ li {
 }
 
 #contact input[type="submit"] {
-  background: #9FB4FF;
+  background: #8091ce;
   border-radius: 100px;
   border: none;
   color: black !important;

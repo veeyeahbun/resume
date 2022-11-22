@@ -127,7 +127,7 @@ canvas{
 
 
 .keywords li {
-  background: #9FB4FF;
+  background: #8597d8;
   padding: 3px;
   border-radius: 5px;
   list-style: none;
@@ -226,7 +226,7 @@ background: white;
               display: block;
               margin-bottom: 0 auto;
               font-size: 13px;
-              color: #CDFFFC;
+              color: #D8F8B7;
 
           }
           .companies_top li > div span > label{
@@ -258,7 +258,7 @@ background: white;
   .companies_bottom li {
       width: 112px;
       height: 4px;
-      background: #9fb4ff;
+      background: #8597d8;
       display: inline-block;
       vertical-align: top;
       margin-right: 12px
@@ -275,7 +275,7 @@ background: white;
 
 a, a:visited {
   text-decoration: none;
-  color: #9FB4FF;
+  color: #8597d8;
 }
 a:hover{
  text-decoration: none;
