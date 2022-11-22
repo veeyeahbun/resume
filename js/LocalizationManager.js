@@ -22,7 +22,7 @@ switch(userLang)
         break;
 
         default:
-        //setEnglish(); //do nothing because it is already english by default
+        setEnglish(); //do nothing because it is already english by default
         break;            
 }
 
