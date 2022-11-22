@@ -350,7 +350,6 @@ li {
         color: gray;
         padding: 0;
     }
-
 }
 
 
@@ -359,15 +358,15 @@ li {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/galaxy.png');
+    background: url('../images/background.png');
     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+    background-size:  cover;
+    background-attachment: fixed;
     color: #CDFFFC;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
-    
+     position: fixed;    
     -webkit-box-align: left;
      -webkit-align-items: top;
       -ms-flex-align: left;
@@ -375,6 +374,7 @@ li {
     height: 100vh;
     text-align: left;
 }
+
 .mainpage {
   margin:200px 175px;
 }
@@ -616,7 +616,7 @@ li {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/galaxy.png') 50% 0 repeat-y fixed;
+    background: url('../images/background.png') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
 }
