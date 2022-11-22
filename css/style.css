@@ -403,12 +403,7 @@ li {
 /*---------------------------------------
     Detail section              
 -----------------------------------------*/
-#detail,
-#detail2, 
-#reference{
-    background: #222;
-    color: #CDFFFC;
-}
+
 
 #detail .fa ,
 #detail2 .fa,
@@ -432,7 +427,7 @@ li {
    reference section              
 -----------------------------------------*/
 #reference {
-    background: #222;
+    background:black;
 }
 
 #reference h3 {
@@ -468,6 +463,7 @@ li {
 
 #reference .reference-wrapper {
     padding-bottom: 22px;
+    background-color: gray;
 }
 
 .videoInsert {
@@ -616,10 +612,11 @@ li {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/background.png') 50% 0 repeat-y fixed;
+    background: url('../images/background2.png') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
 }
+
 
 #contact .contact_des {
   padding-top: 3rem;

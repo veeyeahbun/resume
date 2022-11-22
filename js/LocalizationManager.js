@@ -36,7 +36,7 @@ document.getElementById('flag').innerHTML = "<img src=\"images/de.png\"> <i clas
 
 
 //navbar items
-document.getElementById('my_references').innerHTML = "Kompetenz";
+document.getElementById('my_references').innerHTML = "Spezialisierung";
 document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
@@ -67,7 +67,11 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
 
 
     document.getElementById('games_header').innerHTML = "Was ich mache";
+    document.getElementById('gamedevInfo').innerHTML = "0 published titles, work in progress";
+    document.getElementById('3dvis').innerHTML = "3D visualisation";
+    document.getElementById('3dvisInfo').innerHTML = "Custom 3D assets, renders, simulations and VR";
 
+    document.getElementById('cnetInfo').innerHTML = "Non-gaming server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "Erfahrener Programmierer";
    
@@ -93,7 +97,7 @@ document.getElementById('dropdown-menu').innerHTML = "<li><a onclick=\"setGerman
 document.getElementById('flag').innerHTML = "<img src=\"images/cz.png\"> <i class=\"fa fa-caret-down\"></i>";
 
 //navbar items
-document.getElementById('my_references').innerHTML = "Kompetence";
+document.getElementById('my_references').innerHTML = "Specializace";
 document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
@@ -112,6 +116,15 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
    
     document.getElementById('kontakt').innerHTML = "Pro více informací mě kontaktujte přes <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
     document.getElementById('games_header').innerHTML = "Co dělám";
+
+    document.getElementById('gamedev').innerHTML = "Hry";
+    document.getElementById('gamedevInfo').innerHTML = "0 vydaných titulů, pracuji na tom";
+    document.getElementById('3dvis').innerHTML = "3D vizualizace";
+    document.getElementById('3dvisInfo').innerHTML = "3D assety, rendery, simulace a VR na míru.";
+
+    document.getElementById('cnetInfo').innerHTML = "Neherní server - client aplikace & nástroje";
+
+
     document.getElementById('specialist').innerHTML = "Zkušený programátor";
     document.getElementById('specialist_p').innerHTML = "Mám několikaleté zkušenosti s vývojem obchodního software";
 
@@ -134,8 +147,8 @@ function setEnglish(){
 
     //navbar items
 
-document.getElementById('my_references').innerHTML = "Competence";
-document.getElementById('my_services').innerHTML = "About";
+document.getElementById('my_references').innerHTML = "Specialization";
+document.getElementById('my_services').innerHTML = "About me";
 document.getElementById('my_contact').innerHTML = "Contact";
 document.getElementById('contact_head').innerHTML = "Contact";
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
@@ -156,6 +169,14 @@ document.getElementById('caption').innerHTML = "Software and 3D graphics";
     document.getElementById('kontakt').innerHTML = "For more info contact me per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";  
 
     document.getElementById('games_header').innerHTML = "What I do";
+
+    document.getElementById('gamedev').innerHTML = "Games";
+    document.getElementById('gamedevInfo').innerHTML = "0 published titles, work in progress";
+    document.getElementById('3dvis').innerHTML = "3D visualisation";
+    document.getElementById('3dvisInfo').innerHTML = "Custom 3D assets, renders, simulations and VR";
+
+    document.getElementById('cnetInfo').innerHTML = "Non-gaming server - client applications & utilities";
+
     document.getElementById('specialist').innerHTML = "Skilled programmer";
     document.getElementById('specialist_p').innerHTML = "I have years of experience in development of enterprise software";
  
