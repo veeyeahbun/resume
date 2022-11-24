@@ -18,6 +18,8 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    
+  background-color: #0d1316;
 }
 
 footer{
@@ -727,8 +729,12 @@ background: #f2545f;
 -----------------------------------------*/
 footer {
   background-attachment: fixed;
+  background-color: #0d1316;
 }
 
+footer p {
+  color: #CDFFFC;
+}
 
 
 /* Back top */
