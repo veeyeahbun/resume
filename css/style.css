@@ -737,8 +737,8 @@ footer p {
 /* Back top */
 .go-top {
   background-color: #8597d8;
-  bottom: 2em;
-  right: 2em;
+  bottom: 0.75em;
+  right: 0.75em;
 
   font-size: 32px;
   display: none;
@@ -817,6 +817,8 @@ footer p {
   padding: 10rem 3rem 10rem 5rem;
 }
 
+
+
 }
 
 @media (max-width: 768px) {
@@ -846,6 +848,12 @@ footer p {
   #contact .contact_detail {
     margin-top: 82px;
   }
+
+  #contact .contact_des {
+    padding-top: 3rem;
+    padding:25px 40px;
+  }
+  
 
   .mainpage {
     margin:50px 15px;
