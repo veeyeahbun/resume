@@ -75,7 +75,10 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "Über mich";
-   
+    document.getElementById('specialist_p').innerHTML = "Ich kann auf 5 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
+
+    document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasedly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box ";
+    
   
     
     document.getElementById('inboxme').innerHTML = "Schreiben Sie mir:";
@@ -122,6 +125,9 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('specialist_p').innerHTML = "Mám 5 let profesní zkušenosti s C# / .NET.<br><br>Sestavil jsem komplexní infrastruktury sestávající ze serverových api (ASP) and klientských aplikací (WPF, Xamarin). Pojmy jako OOP, Design Patterns, Clean Code Principles jsou mi dobře známy, stejně jako aktuální trendy v oboru a nejnovější technologie. Píšu kód který se snadno čte, udržuje, testuje a modifikuje. ";
     
 
+    document.getElementById('gamedev').innerHTML = "Poslední 2 roky jsem se taky více začínal zajímat o tvorbu videoher a 3D grafiku. Jako modelovací software používám Blender, a jako herní engine jsem zvolil UnreaI namísto Unity. Taky jsem se zamiloval do vizuální kvality, kterou UE umožňuje dosáhnout.";
+    
+    
 
 
     document.getElementById('inboxme').innerHTML = "Napište mi:";
@@ -168,7 +174,8 @@ document.getElementById('caption').innerHTML = "Programmer and 3D artist";
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "About me";
-    document.getElementById('specialist_p').innerHTML = "I have 5 years of professional experience with C# / .NET.<br><br>I  built some complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.<br><br> For the last 2 years I have also been increasedly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box ";
+    document.getElementById('specialist_p').innerHTML = "I have 5 years of professional experience with C# / .NET.<br><br>I  built some complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
+    document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasedly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box.";
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
     document.getElementById('wien').innerHTML = "Vienna, Austria";

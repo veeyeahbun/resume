@@ -623,13 +623,12 @@ li {
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
-  background: rgb(100,100,100,0.5);
-  color: lightgray;
+  background: #0d131680;
   padding:50px 85px;
 }
 
 #contact .contact_detail {
-  background: rgb(100,100,100,0.5);
+  background: #0d131680;
   padding: 5rem 5rem 12rem 5rem;
 }
 
@@ -668,7 +667,6 @@ li {
 
 #contact input[type="submit"]:hover {
   background: #CDFFFC;
-  color: gray;
 }
 
 /*---------------------------------------
@@ -686,7 +684,6 @@ padding-right: 2rem;
 }
 
 #privacy .contact_detail {
-background:  rgb(100,100,100,0.5);
 padding: 5rem 5rem 12rem 5rem;
 }
 
@@ -739,7 +736,7 @@ footer p {
 
 /* Back top */
 .go-top {
-  background-color: gray;
+  background-color: #8597d8;
   bottom: 2em;
   right: 2em;
 
@@ -751,13 +748,13 @@ footer p {
   height: 60px;
   line-height: 60px;
   text-align: center;
-  color: white;
+  color: #CDFFFC;
   transition: all 0.4s ease-in-out;
 }
 
 .go-top:hover {
-    background: lightgray;
-    color: white;
+    background: #D8F8B7;
+    color: #0d1316;
 }
 
 
