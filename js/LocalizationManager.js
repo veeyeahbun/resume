@@ -168,7 +168,7 @@ document.getElementById('caption').innerHTML = "Programmer and 3D artist";
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "About me";
-    document.getElementById('specialist_p').innerHTML = "I have 5 years of professional experience with C# / .NET.<br><br>I  built some complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
+    document.getElementById('specialist_p').innerHTML = "I have 5 years of professional experience with C# / .NET.<br><br>I built several complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
     document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasedly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box.";
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
