@@ -75,7 +75,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('specialist').innerHTML = "Über mich";
     document.getElementById('specialist_p').innerHTML = "Ich kann auf 5 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
 
-    document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasedly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box ";
+    document.getElementById('gamedev').innerHTML = "Die letzten 2 Jahre bin ich auch immer mehr an Spielentwicklung und 3D-Grafik interessiert gewesen. Ich verwende Blender als Modellingsoftware und habe mich für Unreal als Spielengine entschieden, da ich mich mit etwas Anderem als Unitys C# herausfordern wollte. Habe mich auch in die visuelle Qualität, die die Unreal Engine anbietet, verliebt.";
     
   
     
