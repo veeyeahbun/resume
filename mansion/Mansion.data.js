@@ -173,6 +173,6 @@ Module['FS_createPath']('/Mansion/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 55620267, "filename": "/Mansion/Content/Paks/Mansion-HTML5.pak"}], "remote_package_size": 55620267, "package_uuid": "01ce99d0-348d-4621-b1ff-ebfdf5893d38"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 55924468, "filename": "/Mansion/Content/Paks/Mansion-HTML5.pak"}], "remote_package_size": 55924468, "package_uuid": "eea59d97-8427-4b1b-ae71-b0781d44aac7"});
 
 })();
