@@ -45,7 +45,7 @@ document.getElementById('caption').innerHTML = "Programmierer und 3D-Grafiker";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
-    document.getElementById('2real').innerHTML = "Freelancer";
+
 
 
  
@@ -83,7 +83,6 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('wien').innerHTML = "Wien, Österreich";
     document.getElementById('contactform').innerHTML = "<form onsubmit=\"event.preventDefault(); return nachrichtSenden()\"  > <input name=\"from\" type=\"text\" class=\"form-control\" id=\"from\" placeholder=\"Absender: (unpflichtig)\"><textarea name=\"message\" rows=\"5\" class=\"form-control\" id=\"message\" placeholder=\"Nachricht\"></textarea> <div class=\"col-md-6 col-sm-10\"> <input  type=\"submit\" class=\"form-control\" id=\"submit\" value=\"SENDEN\"></div></form>"
 
-
 }
 
 
@@ -100,14 +99,14 @@ document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 document.getElementById('caption').innerHTML = "Programátor a 3D grafik";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
-    document.getElementById('2real').innerHTML = "Freelancer";
+
 
 
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - nástroj na zpracování obrazu";
 
     document.getElementById('smarthome').innerHTML =  "<a href=\"./vizualizace/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home </a><span id=\"winzab\"></a> - Interaktivní 3D vizualizace</span>";
     
-    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/\" target=\"_blank\" rel=\"noopener noreferrer\" >The Ball Game </a> - příležitostná arkádová hra";
+    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/\" target=\"_blank\ rel=\"noopener noreferrer\" >The Ball Game </a> - příležitostná arkádová hra";
    
     document.getElementById('kontakt').innerHTML = "Pro více informací mě kontaktujte přes <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
     document.getElementById('games_header').innerHTML = "Co dělám";
@@ -148,8 +147,8 @@ document.getElementById('my_contact').innerHTML = "Contact";
 document.getElementById('contact_head').innerHTML = "Contact";
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
 document.getElementById('caption').innerHTML = "Programmer and 3D artist";
-    document.getElementById('2real').innerHTML = "Freelancer";
-    document.getElementById('zabranskyTimeline').innerHTML = "01/2019 - present";
+
+
 
 
     document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - image processing tool";

@@ -27,7 +27,7 @@ http://www.templatemo.com/tm-486-new-event
 
 <!-- Google Font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anonymous+Pro"/>
-
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
@@ -98,24 +98,7 @@ http://www.templatemo.com/tm-486-new-event
 				<li>Vue.js</li>
 			</ul>
 			<br>
-			<div class="companies" id="companies" style="float: left;">
-				<ul class="companies_top" style="float: left;">	
-					<li class="2real">
-						<img src="images/2realistic.png"  alt="2real">
-						<div style="background-color: transparent">
-							<span><a href="https://www.2realistic.com" target="_blank"><label style="color: #D8F8B7;">2Realistic s. r. o.</label></a><br><span style="color: #CDFFFC;" margin="0px" id="2real"></span></span>
-							<span><label style="color: #CDFFFC;">2021-2022</label></span>
-						</div>
-					</li>
-					<li class="paperbunker">
-						<img src="images/paperbunker.png"  alt="Zabransky">
-						<div style="background-color: transparent;">
-							<span><a href="https://paperbunker.cz" style="color: #D8F8B7;" target="_blank">Paperbunker Games</a><br /><span style="color: #CDFFFC;">Freelancer</span></span>
-							<span id="zabranskyTimeline" style="color: rgb(205, 255, 252);">2022</span>
-						</div>
-					</li>
-				</ul>
-			</div>   	
+
 			<br>
 			<br>				
 			 <div id="lastprojects" style="float: left;">        
@@ -141,6 +124,9 @@ http://www.templatemo.com/tm-486-new-event
 				<br>
 				<br>
 				<p style="float: left;" id="kontakt">For more info contact me per <a style="text-decoration: underline; z-index: 9999999;" href="mailto:office@janrucil.dev">email</a>.</p>
+			
+
+			
 			</div> 
 		   
 		 
@@ -153,6 +139,18 @@ http://www.templatemo.com/tm-486-new-event
 	</div>
 	<canvas id="canvas" class="centered" style="position: absolute; width: 10%;">
 	</canvas>	
+	<!-- <div class="scroll-down"></div> -->
+
+	<a href="#reference" class="smoothScroll">	<svg class="arrows">
+		<path class="a1" d="M0 20 L10 30 L25 15"></path>
+		<path class="a2" d="M0 40 L10 50 L25 35"></path>
+		<path class="a3" d="M0 60 L10 70 L25 55"></path>
+	  </svg></a>
+
+
+	
+
+
 </section>
 
 <!-- =========================
@@ -464,6 +462,7 @@ http://www.templatemo.com/tm-486-new-event
 
 
 
+
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i style="color: #fff;" class="fa fa-angle-up"></i></a>
 
@@ -482,5 +481,18 @@ http://www.templatemo.com/tm-486-new-event
 <script src="js/UniverseAnimation.js"></script>
 
 <script src="js/MailTool.js"></script>
+
+<div class="cookies-eu-banner hidden">
+	By clicking ”OK”, you agree to the storing of cookies on your device to
+	enhance site navigation and analyze site usage.
+	<button>OK</button>
+  </div>
+  
+
+<script src="js/cookieBanner.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
+
 </body>
 </html>
