@@ -322,11 +322,15 @@ body {
   padding: 0;
 }
 
+.cookies-eu-banner span{
+  font-size: 24px;
+}
 .cookies-eu-banner {
-  background: #444;
-  color: #fff;
+  background: rgb(205, 255, 252, 0.65);
+  color: #0d1316;
   padding: 6px;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: bold;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -336,7 +340,7 @@ body {
 
 .cookies-eu-banner button {
   text-decoration: none;
-  background: #222;
+  background: green;
   color: #fff;
   border: 1px solid #000;
   cursor: pointer;
@@ -364,7 +368,7 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -30px;
-  bottom: 50px;
+  bottom: 75px;
 }
 
 .arrows path {
