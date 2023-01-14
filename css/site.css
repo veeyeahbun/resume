@@ -323,13 +323,13 @@ body {
 }
 
 .cookies-eu-banner span{
-  font-size: 24px;
+  font-size: 20px;
 }
 .cookies-eu-banner {
   background: rgb(205, 255, 252, 0.65);
   color: #0d1316;
   padding: 6px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-align: center;
   position: fixed;

@@ -78,6 +78,12 @@ $(document).ready(function() {
         } else {
           $('.go-top').fadeOut(200);
         }
+
+        if($(this).scrollTop()>175){
+          $('.arrows').fadeOut(500);
+        }else{
+          $('.arrows').fadeIn(500);
+        }
         });   
         // Animate the scroll to top
       $('.go-top').click(function(event) {
