@@ -36,7 +36,7 @@ document.getElementById('flag').innerHTML = "<img src=\"images/de.png\"> <i clas
 
 
 //navbar items
-document.getElementById('my_references').innerHTML = "Spezialisierung";
+document.getElementById('my_references').innerHTML = "Expertise";
 document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
@@ -61,19 +61,19 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('kontakt').innerHTML = "Für mehr Auskunft kontaktieren Sie mich per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>Email</a>.";
 
 
-    document.getElementById('specialist_p').innerHTML = "Ich kann auf 5 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
+    document.getElementById('specialist_p').innerHTML = "Ich kann auf 4 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
     
 
 
 
-    document.getElementById('games_header').innerHTML = "Was ich mache";
+    document.getElementById('games_header').innerHTML = "Expertise";
     document.getElementById('gamedevInfo').innerHTML = "0 published titles, work in progress";
     document.getElementById('3dvisInfo').innerHTML = "3D-Asset-Erstellung, Rendering, interaktive Simulationen und VR";
 
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "Über mich";
-    document.getElementById('specialist_p').innerHTML = "Ich kann auf 5 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
+    document.getElementById('specialist_p').innerHTML = "Ich kann auf 4 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
 
     document.getElementById('gamedev').innerHTML = "Die letzten 2 Jahre bin ich auch immer mehr an Spielentwicklung und 3D-Grafik interessiert gewesen. Ich verwende Blender als Modellingsoftware und habe mich für Unreal als Spielengine entschieden, da ich mich mit etwas Anderem als Unitys C# herausfordern wollte. Habe mich auch in die visuelle Qualität, die die Unreal Engine anbietet, verliebt.";
     
@@ -93,7 +93,7 @@ document.getElementById('dropdown-menu').innerHTML = "<li><a onclick=\"setGerman
 document.getElementById('flag').innerHTML = "<img src=\"images/cz.png\"> <i class=\"fa fa-caret-down\"></i>";
 
 //navbar items
-document.getElementById('my_references').innerHTML = "Specializace";
+document.getElementById('my_references').innerHTML = "Expertiza";
 document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
@@ -109,7 +109,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
     document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/\" target=\"_blank\ rel=\"noopener noreferrer\" >The Ball Game </a> - příležitostná arkádová hra";
    
     document.getElementById('kontakt').innerHTML = "Pro více informací mě kontaktujte přes <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
-    document.getElementById('games_header').innerHTML = "Co dělám";
+    document.getElementById('games_header').innerHTML = "Expertiza";
     document.getElementById('gamedevInfo').innerHTML = "0 vydaných titulů, pracuji na tom";
     document.getElementById('3dvisInfo').innerHTML = "Tvorba 3D assetů, rendering, interaktivní simulace a VR.";
 
@@ -117,7 +117,7 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
 
     document.getElementById('specialist').innerHTML = "O mě";
-    document.getElementById('specialist_p').innerHTML = "Mám 5 let profesní zkušenosti s C# / .NET.<br><br>Sestavil jsem komplexní infrastruktury sestávající ze serverových api (ASP) and klientských aplikací (WPF, Xamarin). Pojmy jako OOP, Design Patterns, Clean Code Principles jsou mi dobře známy, stejně jako aktuální trendy v oboru a nejnovější technologie. Píšu kód který se snadno čte, udržuje, testuje a modifikuje. ";
+    document.getElementById('specialist_p').innerHTML = "Mám 4 let profesní zkušenosti s C# / .NET.<br><br>Sestavil jsem komplexní infrastruktury sestávající ze serverových api (ASP) and klientských aplikací (WPF, Xamarin). Pojmy jako OOP, Design Patterns, Clean Code Principles jsou mi dobře známy, stejně jako aktuální trendy v oboru a nejnovější technologie. Píšu kód který se snadno čte, udržuje, testuje a modifikuje. ";
     
 
     document.getElementById('gamedev').innerHTML = "Poslední 2 roky jsem se taky více začínal zajímat o tvorbu videoher a 3D grafiku. Jako modelovací software používám Blender, a jako herní engine jsem zvolil UnreaI namísto Unity. Taky jsem se zamiloval do vizuální kvality, kterou UE umožňuje dosáhnout.";
@@ -141,7 +141,7 @@ function setEnglish(){
 
     //navbar items
 
-document.getElementById('my_references').innerHTML = "Specialization";
+document.getElementById('my_references').innerHTML = "Expertise";
 document.getElementById('my_services').innerHTML = "About me";
 document.getElementById('my_contact').innerHTML = "Contact";
 document.getElementById('contact_head').innerHTML = "Contact";
@@ -160,14 +160,14 @@ document.getElementById('caption').innerHTML = "Programmer and 3D artist";
     
     document.getElementById('kontakt').innerHTML = "For more info contact me per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";  
 
-    document.getElementById('games_header').innerHTML = "What I do";
+    document.getElementById('games_header').innerHTML = "Ex­per­ti­se";
     document.getElementById('gamedevInfo').innerHTML = "0 published titles, work in progress";
     document.getElementById('3dvisInfo').innerHTML =  "Creation of 3D assets, rendering, interactive simulations and VR";
 
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "About me";
-    document.getElementById('specialist_p').innerHTML = "I have 5 years of professional experience with C# / .NET.<br><br>I´ve built several complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
+    document.getElementById('specialist_p').innerHTML = "I have 4 years of professional experience with C# / .NET.<br><br>I´ve built several complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
     document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasingly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box.";
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
