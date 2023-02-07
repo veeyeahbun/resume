@@ -61,9 +61,6 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('kontakt').innerHTML = "Für mehr Auskunft kontaktieren Sie mich per <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>Email</a>.";
 
 
-    document.getElementById('specialist_p').innerHTML = "Ich kann auf 4 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
-    
-
 
 
     document.getElementById('games_header').innerHTML = "Expertise";
@@ -73,9 +70,9 @@ document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" t
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "Über mich";
-    document.getElementById('specialist_p').innerHTML = "Ich kann auf 4 Jahre professioneller Erfahrung mit C# / .NET zurückgreifen.<br><br>Ich habe komplexe Infrastrukturen, bestehend aus Server-APIs (ASP) und Klientanwendungen (WPF, Xamarin), zusammengebaut. Begriffe wie OOP, Design Patterns, Clean Code Principles sind mir gut bekannt, sowie auch aktuelle Trends im Bereich und die neuesten Technologien. Ich schreibe Code, der einfach zum Lesen, Warten, Testen und Erweitern ist. ";
+    document.getElementById('specialist_p').innerHTML = "Als Spielentwickler mit starken Codierungsfähigkeiten (dank meinem Hintergrund als C# Anwendungsprogrammierer - WPF, Xamarin, WebAPI) bin ich in der Lage, anspruchsvolle, innovative und spannende Spiele zu entwickeln. Ich verfüge über eine umfassende Erfahrung im Game Design und bin in der Lage, alle Aspekte des Entwicklungsprozesses zu verstehen und zu verwalten.  ";
 
-    document.getElementById('gamedev').innerHTML = "Die letzten 2 Jahre bin ich auch immer mehr an Spielentwicklung und 3D-Grafik interessiert gewesen. Ich verwende Blender als Modellingsoftware und habe mich für Unreal als Spielengine entschieden, da ich mich mit etwas Anderem als Unitys C# herausfordern wollte. Habe mich auch in die visuelle Qualität, die die Unreal Engine anbietet, verliebt.";
+    document.getElementById('gamedev').innerHTML = "Ich habe ein Gespür für intuitive und reibungslose Benutzeroberflächen, mit denen die Spieler interagieren können. Darüber hinaus habe ich Erfahrung in der Überwachung und Optimierung der Spielleistung und der Benutzererfahrung.<br><br>Ich habe an zahlreichen Projekten gearbeitet, an denen ich meine Fähigkeiten als Spieleentwickler und Apps-Programmierer unter Beweis gestellt habe. Meine Projekte umfassen sowohl 2D- als auch 3D-Spiele, sowie Apps und Web-Anwendungen. <br><br>Mein Ziel ist es, innovative und unterhaltsame Spiele zu kreieren, die Spieler auf der ganzen Welt begeistern. Ich freue mich darauf, mehr über Ihre Projekte und Ideen zu erfahren und hoffe, dass wir zusammenarbeiten können.";
     
   
     
@@ -117,10 +114,10 @@ document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" ta
 
 
     document.getElementById('specialist').innerHTML = "O mě";
-    document.getElementById('specialist_p').innerHTML = "Mám 4 let profesní zkušenosti s C# / .NET.<br><br>Sestavil jsem komplexní infrastruktury sestávající ze serverových api (ASP) and klientských aplikací (WPF, Xamarin). Pojmy jako OOP, Design Patterns, Clean Code Principles jsou mi dobře známy, stejně jako aktuální trendy v oboru a nejnovější technologie. Píšu kód který se snadno čte, udržuje, testuje a modifikuje. ";
+    document.getElementById('specialist_p').innerHTML = "Jako vývojář her se silnými kódovacími schopnostmi (díky mému pozadí jako C# programátor aplikací - WPF, Xamarin, WebAPI) jsem schopen vyvíjet náročné, inovativní a zábavné hry. Mám rozsáhlé zkušenosti s designem her a dokážu porozumět a spravovat všem aspektům vývojového procesu. ";
     
 
-    document.getElementById('gamedev').innerHTML = "Poslední 2 roky jsem se taky více začínal zajímat o tvorbu videoher a 3D grafiku. Jako modelovací software používám Blender, a jako herní engine jsem zvolil UnreaI namísto Unity. Taky jsem se zamiloval do vizuální kvality, kterou UE umožňuje dosáhnout.";
+    document.getElementById('gamedev').innerHTML = "Mám smysl pro intuitivní a hladké uživatelské rozhraní, se kterým mohou hráči interagovat. Navíc mám zkušenosti s dohledem a optimalizací herního výkonu a uživatelského zážitku.<br><br>Byl jsem zapojen do mnoha projektů, na kterých jsem potvrdil své schopnosti jako vývojáře her a programátora aplikací. Moje projekty zahrnovaly jak 2D, tak 3D hry, stejně jako aplikace a webové aplikace.<br><br>Mým cílem je vytvářet inovativní a zábavné hry, které budou bavit hráče po celém světě. Těším se na to, že se dozvím více o vašich projektech a nápadech a doufám, že budeme spolupracovat.";
     
     
 
@@ -167,8 +164,8 @@ document.getElementById('caption').innerHTML = "Programmer and 3D artist";
     document.getElementById('cnetInfo').innerHTML = "Server - client applications & utilities";
 
     document.getElementById('specialist').innerHTML = "About me";
-    document.getElementById('specialist_p').innerHTML = "I have 4 years of professional experience with C# / .NET.<br><br>I´ve built several complex infrastructures consisting of server-side apis (ASP) and client apps (WPF, Xamarin). Terms like OOP, Design Patterns, Clean Code Principles are well known to me, as well as the current trends in the field and latest technology. I write code that is easy to read, maintain, test and modify.";
-    document.getElementById('gamedev').innerHTML = "For the last 2 years I have also been increasingly interested in game development and 3D graphics. I use Blender as modelling software and chose the Unreal Engine over Unity as a game engine, as I wanted to challenge myself with something different than Unity´s C#. I also fell in love with the visual quality that UE offers straight out of the box.";
+    document.getElementById('specialist_p').innerHTML = "As a game developer with strong coding skills (thanks to my background as a C# app programmer - WPF, Xamarin, WebAPI) I am able to develop challenging, innovative and exciting games. I have extensive experience in game design and am able to comprehend and manage all aspects of the development process. ";
+    document.getElementById('gamedev').innerHTML = "I have an eye for intuitive and smooth user interfaces with which players can interact. Additionally, I have experience in monitoring and optimizing game performance and user experience.<br><br>I've worked on numerous projects that have showcased my skills as a game developer and app programmer. My projects include both 2D and 3D games, as well as apps and web applications.<br><br>My goal is to create innovative and entertaining games that will captivate players all around the world. I look forward to hearing more about your projects and ideas and hope that we can work together.";
     
     document.getElementById('inboxme').innerHTML = "Inbox me:";
     document.getElementById('wien').innerHTML = "Vienna, Austria";
