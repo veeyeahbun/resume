@@ -8,9 +8,10 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		
-    font-family: 'Anonymous Pro', sans-serif !important;
-    font-style: normal;
-		font-weight: 400;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -20,6 +21,7 @@ body {
     user-select: none;
     
   background-color: #0d1316;
+  color: #1a1b1f;
 }
 
 footer{
@@ -51,7 +53,6 @@ h2 {
 
 h3 {
   line-height: 36px;
-  color: #8597d8;
 }
 
 h5 {
