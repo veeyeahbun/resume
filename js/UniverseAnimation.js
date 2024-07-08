@@ -16,14 +16,14 @@ var ball = {
     phase: 0
 }
 ball_color = {
-    r: 100,
-    g: 120,
+    r: 155,
+    g: 155,
     b: 155
 },
     ball_color2 = {
-        r: 15,
+        r: 255,
         g: 255,
-        b: 80
+        b: 255
     },
     R = 2,
     R2 = 50;
@@ -181,7 +181,7 @@ function renderLines() {
             if (fraction < 1) {
                 alpha = (1 - fraction).toString();
 
-                ctx.strokeStyle = 'rgba(100,127,125,' + alpha + ')';
+                ctx.strokeStyle = 'rgba(155,155,155,' + alpha + ')';
                 ctx.lineWidth = link_line_width;
 
                 ctx.beginPath();
@@ -205,7 +205,7 @@ function getDisOf(b1, b2) {
 // add balls if there a little balls
 function addBallIfy() {
   
-    if (balls.length < canvas.clientWidth/10) {
+    if (balls.length < canvas.clientWidth/25) {
         balls.push(getRandomBall());
     }
 }
@@ -242,7 +242,7 @@ function initBalls(num) {
 }
 
 function spawnBalls(deltaX,deltaY) {
-    for (var i = 1; i <= 5; i++) {
+    for (var i = 1; i <= 3; i++) {
 
         balls.push({
             x: deltaX,

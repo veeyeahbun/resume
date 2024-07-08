@@ -41,7 +41,7 @@ document.getElementById('my_services').innerHTML = "Über mich";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
 
-document.getElementById('caption').innerHTML = "Programmierer und 3D-Grafiker";
+document.getElementById('caption').innerHTML = "Presentation wie ein Kinderspiel:";
 
 document.getElementById('my_policy').innerHTML = "<a href=\"datenschutz.html\" target=\"_blank\"  class=\"smoothScroll\">Datenschutz</a>";
 
@@ -94,16 +94,16 @@ document.getElementById('my_references').innerHTML = "Expertiza";
 document.getElementById('my_services').innerHTML = "O mě";
 document.getElementById('my_contact').innerHTML = "Kontakt";
 document.getElementById('contact_head').innerHTML = "Kontakt";
-document.getElementById('caption').innerHTML = "Programátor a 3D grafik";
+document.getElementById('caption').innerHTML = "Hledáte perfektní interiér? Nechte si ho navrhnout ve 3D!";
 document.getElementById('my_policy').innerHTML = "<a href=\"ochranadat.html\" target=\"_blank\"  class=\"smoothScroll\">Ochrana osobních údajů</a>";
 
 
 
-    document.getElementById('textureresizer').innerHTML =  "<a href=\"./textureresizer/\" target=\"_blank\" rel=\"noopener noreferrer\" >Texture Resizer</a> - nástroj na zpracování obrazu";
+    document.getElementById('smarthome').innerHTML =  "vyhnete se zbytečným nákladům na chyby a předělávky";
 
-    document.getElementById('smarthome').innerHTML =  "<a href=\"./vizualizace/index.html\" target=\"_blank\" rel=\"noopener noreferrer\" >Smart Home </a><span id=\"winzab\"></a> - Interaktivní 3D vizualizace</span>";
+    document.getElementById('textureresizer').innerHTML =  "Získáte jasnou představu o tom, jak má budoucí prostor vypadat";
     
-    document.getElementById('theballgame').innerHTML =  "<a href=\"./3dshowroom/\" target=\"_blank\ rel=\"noopener noreferrer\" >The Ball Game </a> - příležitostná arkádová hra";
+    document.getElementById('theballgame').innerHTML =  "3D návrh vám také pomůže ušetřit čas při výběru materiálů a nábytku.";
    
     document.getElementById('kontakt').innerHTML = "Pro více informací mě kontaktujte přes <a style='text-decoration: underline;' href='mailto:office@janrucil.dev'>email</a>.";
     document.getElementById('games_header').innerHTML = "Expertiza";
@@ -143,7 +143,7 @@ document.getElementById('my_services').innerHTML = "About me";
 document.getElementById('my_contact').innerHTML = "Contact";
 document.getElementById('contact_head').innerHTML = "Contact";
 document.getElementById('my_policy').innerHTML = "<a href=\"privacy.html\" target=\"_blank\"  class=\"smoothScroll\">Privacy policy</a>";
-document.getElementById('caption').innerHTML = "Programmer and 3D artist";
+document.getElementById('caption').innerHTML = "Digital homestaging";
 
 
 

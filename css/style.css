@@ -168,7 +168,11 @@ footer {
   background: white;
 }
 
+#btnAngebot{
 
+  margin: 10px;
+  padding: 5px;
+}
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
@@ -189,7 +193,7 @@ footer {
 .sk-rotating-plane {
   width: 50px;
   height: 50px;
-  background-color: #CDFFFC ;
+  background-color: var(--secondary-color) ;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
           animation: sk-rotatePlane 1.2s infinite ease-in-out; }
 
@@ -265,7 +269,7 @@ footer {
 }
 
 .top-nav-collapse .nav li a {
-  color: #8597d8;
+  color: var(--primary-color);
   z-index: 1;
   
 }
@@ -284,7 +288,7 @@ footer {
 .top-nav-collapse .nav li.active > a {
   background-color: transparent;
   z-index: 1;
-  color: #CDFFFC;
+  color: var(--secondary-color);
 }
 
 .navbar-header{
@@ -361,11 +365,11 @@ li {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/background.png');
+
     -webkit-background-size: cover;
     background-size:  cover;
     background-attachment: fixed;
-    color: #CDFFFC;
+    color: var(--secondary-color);
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -376,6 +380,16 @@ li {
           align-items: left;
     height: 100vh;
     text-align: left;
+}
+
+
+#introvideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-100;
 }
 
 .mainpage {
@@ -411,7 +425,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  #CDFFFC;
+  color:  var(--secondary-color);
   font-size: 48px;
 }
 
@@ -443,7 +457,7 @@ li {
 #reference h4{
 
 
-  color: #CDFFFC;
+  color: var(--secondary-color);
 }
 
 #reference p {
@@ -636,7 +650,7 @@ li {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #CDFFFC;
+  border-bottom: 1px solid var(--secondary-color);
   border-radius: 0px;
   box-shadow: none;
   margin-bottom: 16px;
@@ -652,7 +666,7 @@ li {
 }
 
 .form-control{
-  color: #CDFFFC !important;
+  color: var(--secondary-color) !important;
 }
 
 #contact input[type="submit"] {
@@ -667,7 +681,7 @@ li {
 }
 
 #contact input[type="submit"]:hover {
-  background: #CDFFFC;
+  background: var(--secondary-color);
 }
 
 /*---------------------------------------
@@ -731,13 +745,13 @@ footer {
 }
 
 footer p {
-  color: #CDFFFC;
+  color: var(--secondary-color);
 }
 
 
 /* Back top */
 .go-top {
-  background-color: #8597d8;
+  background-color: var(--primary-color);
   bottom: 1.5em;
   right: 0.75em;
 
@@ -749,7 +763,7 @@ footer p {
   height: 60px;
   line-height: 60px;
   text-align: center;
-  color: #CDFFFC;
+  color: var(--secondary-color);
   transition: all 0.4s ease-in-out;
 }
 
@@ -869,3 +883,24 @@ footer p {
 
 }
 
+
+
+
+@property --primary-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: whitesmoke;
+}
+
+@property --secondary-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #CDFFFC;
+}
+
+
+@property --highlight-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #D8F8B7;
+}

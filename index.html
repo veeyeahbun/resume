@@ -5,7 +5,7 @@
 New Event
 http://www.templatemo.com/tm-486-new-event
 -->
-<title>Jan Ručil - game developer</title>
+<title>Interaktivní vizualizace</title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta charset="UTF-8">
@@ -38,9 +38,7 @@ http://www.templatemo.com/tm-486-new-event
      PRE LOADER       
 ============================== -->
 <div class="preloader">
-
 	<div class="sk-rotating-plane"></div>
-
 </div>
 
 
@@ -60,101 +58,78 @@ http://www.templatemo.com/tm-486-new-event
 		</div>
 		<div class="collapse navbar-collapse" >
 			<ul class="nav navbar-nav navbar-right" >
-				<li onselect="hidelogo()" id="intro_listitem"><a href="#intro" class="smoothScroll">Intro</a></li>
-				<li><a href="#reference" class="smoothScroll" id="my_references">Projects</a></li>
-				<li><a href="#overview" class="smoothScroll" id="my_services">About</a></li>
-
-				<li><a href="#contact" class="smoothScroll" id="my_contact" >Contact</a></li>		
-				<li class="dropdown" id="dropdown" >			
+				<li onselect="hidelogo()" id="intro_listitem"><a href="#intro" class="smoothScroll">Úvod</a></li>
+				<li><a href="#reference" class="smoothScroll" id="my_references">Služby</a></li>
+				<li><a href="#overview" class="smoothScroll" id="my_services">O nás</a></li>
+				<li><a href="#contact" class="smoothScroll" id="my_contact" >Kontakt</a></li>		
+				<li><a href="#angebot" class="btn btn-primary" id="btnAngebot" >Získat cenovou nabídku</a></li>		
+				<!-- <li class="dropdown" id="dropdown" >			
 					<ul class="dropdown-menu" id="dropdown-menu">	
 							<li><a onclick="setGerman()"><img src="images/de.png"> Deutsch</a></li>
 							<li><a onclick="setCzech()"><img src="images/cz.png"> Česky</a></li>				
 						</ul>
 						<a id="flag"><img src="images/en.png"> <i class="fa fa-caret-down"></i></a>  
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
 </div>
-
-
 <!-- =========================
     INTRO SECTION   
 ============================== -->
 <section id="intro"  style="position: sticky; z-index: 0;">
 
+	<video id="introvideo" class="img-responsive" preload="auto" autoplay muted loop>
+		<source src="videos/intro.mp4" type="video/mp4">
+	  </video>
 	<div  class="container mainpage" style="position: absolute;z-index: 1;">
-		<div style="float: left; position: fixed;">
-			<h3 style="background-color: #8597d8;border-radius: 10px;float: left;padding: 0px 5px;"><label style="color:#0d1316;font-weight:bold" id="sd">Jan Ručil</label><img height="25px" style="margin-left: 10px;margin-top: -5px;" src="./images/logo.png"></h3>
-			 <br>
-			 <br>
-			 <br>
-			<label style="color: #CDFFFC;float: left;" id="caption"></label>	
+		<div style="float: left; position: fixed;">		
+			<label style="color: #CDFFFC;float: left;" id="caption">Zařizujete interiér? Nechte si ho navrhnout ve 3D!</label>	
+			<br>
+			<br>
+			<h3 style="background-color: var(--primary-color);border-radius: 10px;float: left;padding: 0px 5px;"><label style="color:#0d1316;font-weight:bold" id="sd">Interaktivní vizualizace</label><img height="25px" style="margin-left: 10px;margin-top: -5px;" src="./images/logo.png"></h3>
+			<br>	
 			<br>
 			<br>	
 			<ul class="keywords" id="keywords">		
-				<li>C#/.NET</li>			
-				<li>MSSQL</li>	
-				<li>MongoDB</li>	
-				<li>ASP</li>
-				<li>WebAPI</li>
-				
-				<br>
-				<br>
-
-				
-				<li style="margin-left: 15px;">WPF</li>
-				<li>Xamarin</li>
-				<li>Blazor</li>
-				<li>MAUI</li>
-				<li>Vue.js</li>
-
-				<br>
-				<br>
-
-				<li>C++</li>
-				<li>UE 5.1</li>				
-				<li>Blender</li>
-				<li>Substance</li>
-				<li>Reaper</li>			
-
+				<li>fotorealistické rendery</li>			
+				<li>animace</li>	
+				<li>průchod prostorem (à la "videohra")</li>	
+				<!-- <li></li>	 -->
+				<br>	
+				<li>různé materiály a provedení</li>
+				<li>funkční dvířka, kohoutky, světla</li>				
+				<br>			
+				<li>neomezený počet pohledů</li>	
+				<li>rychlé vypracování</li>	
+				<li>zavádějící ceny</li>	
+			<br>		
 			</ul>
 			<br>				
-			<br>				
-					
+			<br>		
+			<br>						
 			 <div id="lastprojects" style="float: left;">     
-			<br>				
-			<br>
-			<br>
-
-			 <label style="text-decoration: underline;margin-bottom: 5px;float: left; color:#CDFFFC" id="last">Downloads:</label>
+				<br>	
+				<label>Jaký to má smysl?</label>	
+			 <label style="text-decoration: underline;margin-bottom: 5px;float: left; color:#CDFFFC" id="last"></label>
 			 <br>
-			 <br>
-
 				<ul class="lastprojects">   
 					<li id="textureresizer">
-						<a href="textureresizer.html" target="_blank" rel="noopener noreferrer" style="z-index:9999999;">Texture resizer </a><span id="winzab" > - custom tool for working with image files</span>                          
-   
+						Získáte jasnou představu o tom, jak má budoucí prostor vypadat    
 					</li> 								
 					<li id="theballgame">
-						<a href="#" target="_blank" rel="noopener noreferrer" style="z-index:9999999;" >The Ball Game </a><span id="winzab"> - Casual arcade game </span>                          
-						<img alt="alternative text" title="created in Unreal Engine 4" style="margin-top: -2px;" src="./images/ue4.png">     
+						3D návrh Vám pomůže ušetřit čas při výběru materiálů a nábytku
 					</li> 
 					<li id="smarthome">
-						<a href="vizualizace/index.html" target="_blank" rel="noopener noreferrer" style="z-index:9999999;">Villa</a><span id="winzab"> - 3D virtual tour</span>                          
-						<img alt="alternative text" title="created in Unreal Engine 4" style="margin-top: -2px;" src="./images/ue4.png">     
+						vyhnete se zbytečným nákladům na chyby a předělávky
 					</li> 
 				</ul>
 				<br>
 				<br>
 				<br>
-				<p style="float: left;" id="kontakt">For more info contact me per <a style="text-decoration: underline; z-index: 9999999;" href="mailto:office@janrucil.dev">email</a>.</p>
-			
-
-			
+				<p style="float: left;" id="kontakt">Pro více informací mě můžete kontaktovat přes <a style="text-decoration: underline; z-index: 9999999;" href="mailto:office@janrucil.dev">email</a>.</p>
 			</div> 
-		   
-		 
+		   	 
 			<!-- <br />
 			<div id="btngroup" class="btn-group">
 				<button class="btn btn-primary" onclick="window.location = 'about.html'" style="margin-right: 5px;"><label>O mně & jak pracuji</label></button>
@@ -162,18 +137,18 @@ http://www.templatemo.com/tm-486-new-event
 			</div> -->
 		</div>
 	</div>
-	<canvas id="canvas" class="centered" style="position: absolute; width: 10%;">
-	</canvas>	
-	<!-- <div class="scroll-down"></div> -->
 
+	<!-- <div class="scroll-down"></div> -->
+	<!-- <canvas id="canvas" class="centered" style="position: absolute; width: 10%;">
+	</canvas>	 -->
 
 	<div class="wow fadeIn" data-wow-duration="0.8s" data-wow-delay="2.5s">
 		<a href="#reference" id="arrows" class="smoothScroll">	
 
-			<svg class="arrows">
-				<path class="a1" d="M0 20 L10 30 L25 15"></path>
-				<path class="a2" d="M0 40 L10 50 L25 35"></path>
-				<path class="a3" d="M0 60 L10 70 L25 55"></path>
+			<svg class="arrows" style="display: block;">
+				<path class="a1" d="M0 20 L10 30 L20 20"></path>
+				<path class="a2" d="M0 40 L10 50 L20 40"></path>
+				<path class="a3" d="M0 60 L10 70 L20 60"></path>
 			  </svg>
 			</a>
 	</div>
@@ -231,50 +206,76 @@ http://www.templatemo.com/tm-486-new-event
 <!-- =========================
     reference SECTION   
 ============================== -->
-<section id="reference" class="parallax-section">
+<section id="reference" class="parallax-section" style="z-index: 0;">
+
 	<div class="container">
+		<h4>3Dčko na míru:</h4>
+		<br>
 		<div class="row">
-			<div class="col-md-12 col-sm-12 wow bounceIn">
+			<div class="col-md-4 col-sm-4 wow bounceIn">
 				<div class="section-title">
-					<i class="fa fa-flask-vial"></i>
-					<h3 id=games_header></h3>
+					<i class="fa fa-house-circle-check"></i>
+					<h3 id=games_header>Interiér / Exteriér</h3>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow bounceIn">
+				<div class="section-title">
+					<i class="fa fa-gamepad"></i>
+					<h3 id=games_header>Simulace</h3>
+				</div>
+			</div>			
+			<div class="col-md-4 col-sm-4 wow bounceIn">
+				<div class="section-title">
+					<i class="fa fa-basket-shopping"></i>
+					<h3 id=games_header>Produktové vizualizace</h3>
 				</div>
 			</div>
 			<!-- Testimonial Owl Carousel section
 			================================================== -->
-			<div id="owl-reference" class="owl-carousel">
-				
+			<div id="owl-reference" class="owl-carousel">				
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
 					<div class="reference-wrapper" >
 						<a onmouseover="document.getElementById('theballvid').play()" onmouseout="document.getElementById('theballvid').pause();document.getElementById('theballvid').currentTime=0;" >
 							<div style="display: inline-block;overflow: hidden;">
 								<video id="theballvid" preload="auto" muted="false" preload class="videoInsert img-responsive" >
-									<source src="videos/theball.mp4" type="video/mp4"></source>
+									<source src="videos/kuchyne.mp4" type="video/mp4"></source>
 								</video>    
 									
 							</div>						
 							<div class="reference-thumb">
-								<h4>Gamedev</h4>
-								<p id="gamedevInfo"></p>
+								<h4>Kuchyně</h4>
+								<p id="gamedevInfo">vizualizace prostoru na základě individuálních rozměrů</p>
 							</div>
 						</a>					
-					</div>
-
-				
-				</div>
-		
+					</div>			
+				</div>		
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="reference-wrapper">
 						<a onmouseover="document.getElementById('schauraumvid').play()" onmouseout="document.getElementById('schauraumvid').pause();document.getElementById('schauraumvid').currentTime=0;" >
 							<div style="display: inline-block; overflow: hidden;">
 								<video id="schauraumvid" class="videoInsert img-responsive" preload="auto" muted preload >
-									<source src="videos/arch.mp4" type="video/mp4"></source>
-									</video>    
-													
+									<source src="videos/koupelna.mp4" type="video/mp4"></source>
+									</video>   													
 							</div>						
 							<div class="reference-thumb">
-								<h4>Archviz & 3D-Design</h4>
-								<p id="3dvisInfo"></p>
+								<h4>Koupelna</h4>
+								<p id="3dvisInfo">virtuální obklady a 3D modely existujících sanitních zařízení</p>
+							</div>
+						</a>
+					</div>
+				</div>	
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="reference-wrapper">
+						<a onmouseover="document.getElementById('schauraumvid').play()" onmouseout="document.getElementById('schauraumvid').pause();document.getElementById('schauraumvid').currentTime=0;" >
+							<div style="display: inline-block; overflow: hidden;">
+								<video id="schauraumvid" class="videoInsert img-responsive" preload="auto" muted preload >
+									<source src="videos/obyvak.mp4" type="video/mp4"></source>
+									</video>   													
+							</div>						
+							<div class="reference-thumb">
+								<h4>Obývák</h4>
+								<p id="3dvisInfo">s virtuálním krbem a výhledem do zahrady</p>
 							</div>
 						</a>
 					</div>
@@ -286,24 +287,40 @@ http://www.templatemo.com/tm-486-new-event
 						<a onmouseover="document.getElementById('appsvid').play()" onmouseout="document.getElementById('appsvid').pause();document.getElementById('appsvid').currentTime=0;" >
 							<div style="display: inline-block; overflow: hidden;">
 								<video id="appsvid" class="videoInsert img-responsive" preload="auto" muted preload >
-									<source src="videos/cnet.mp4" type="video/mp4"></source>
+									<source src="videos/zahrada.mp4" type="video/mp4"></source>
+									</video>    													
+							</div>						
+							<div class="reference-thumb">
+								<h4 >Zahrada</h4>
+								<p id="cnetInfo"></p>
+							</div>
+						</a>
+					</div>
+				</div>					
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.3s">
+					<div class="reference-wrapper">
+						<a onmouseover="document.getElementById('appsvid').play()" onmouseout="document.getElementById('appsvid').pause();document.getElementById('appsvid').currentTime=0;" >
+							<div style="display: inline-block; overflow: hidden;">
+								<video id="appsvid" class="videoInsert img-responsive" preload="auto" muted preload >
+									<source src="videos/obchod.mp4" type="video/mp4"></source>
 									</video>    
 													
 							</div>						
 							<div class="reference-thumb">
-								<h4 >C# / .NET</h4>
+								<h4 >Komerční prostory</h4>
 								<p id="cnetInfo"></p>
 							</div>
 						</a>
 					</div>
 				</div>	
-
 			</div>
-		</div>
+		<!-- </div>
+		<canvas id="canvas" class="centered" style="position: absolute; width: 10%;">
+		</canvas>	 -->
 	</div>
+
+
 </section>
-
-
 
 <!-- =========================
     OVERVIEW SECTION   
@@ -312,20 +329,24 @@ http://www.templatemo.com/tm-486-new-event
 	<div class="container" >
 		<div class="row">
 			<div class="wow fadeInUp col-md-9 col-sm-9" data-wow-delay="0.6s">
-				<h3 id="specialist" ></h3>
-				<p id="specialist_p"></p>	
+				<h3 id="specialist" >Prezentace hrou</h3>
+				<p id="specialist_p">Jsme nezávislé 3D studio, které kombinuje příjemné s užitečným. </p>	<br>
+				<p >V naších vizualizacích zúročujeme znalosti s programováním videoher, což nám umožňuje vytvořit plně interaktivní prostor na základě půdorysu. </p>	<br>
+				<p>Krom klasických obrázků a animací tedy zvládeme doslova i "videohru" na míru, ve které je možné např. myškou změnit materiál, projít si prostor ze všech úhlů, měnit světla nebo denní dobu, atd :)</p>	<br>
 			</div>				
 			<div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
 				<!-- <img src="images/Jan-Rucil.jpg" class="img-responsive" alt="Overview"> -->
 			</div>
 		</div>	
-<br><br><br>
+        <br><br><br>
 		<div class="row">
 			<div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
-				<img src="images/unreal.png" class="img-responsive" alt="Overview">
+				<img src="images/my.jpg" class="img-responsive" alt="Overview">
 			</div>
 			<div class="wow fadeInUp col-md-9 col-sm-9" data-wow-delay="0.6s">
-				<p id="gamedev"></p>	
+				<h3>Jeníček a Mařenka</h3>
+				<p id="gamedev">Honzu více zajímá počítač - modelování, textury, nasvětlení, třídy a objekty ... </p>	<br>
+				<p>Marie se zase lépe orientuje v trendech a ergonomii interiérů. Dohromady vytvoříme 3D konfigurátor, který bude nejen zábavný, ale i praktický</p>
 			</div>		
 		</div>	
 	</div>
@@ -370,14 +391,14 @@ http://www.templatemo.com/tm-486-new-event
 			<div class="col-md-5 col-sm-6" >
 				<div class="contact_detail">
 					<div class="section-title">
-						<h2 id="inboxme" style="color: #8597d8;">Inbox me:</h2>
+						<h2 id="inboxme" style="color: #8597d8;">Napište nám:</h2>
 					</div>
 					<div id="contactform">
 						<form onsubmit="return sendEmail()"  > 
-							<input name="from" style="background-color: #CDFFFC;" type="text" class="form-control" id="name" placeholder="From: (optional)">
-							  <textarea name="message" rows="5" class="form-control" id="message" placeholder="Your message"></textarea>
+							<input name="from" style="background-color: #CDFFFC;" type="text" class="form-control" id="name" placeholder="Od koho: (nepovinné)">
+							  <textarea name="message" rows="5" class="form-control" id="message" placeholder="Vaše zpráva"></textarea>
 							<div class="col-md-6 col-sm-10">
-								<input type="submit" class="form-control" id="submit" value="SEND">
+								<input type="submit" class="form-control" id="submit" value="Odeslat">
 							</div>
 						</form>
 					</div>				
@@ -475,7 +496,7 @@ http://www.templatemo.com/tm-486-new-event
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp" data-wow-delay="0.5s">Jan Ručil, 2023  &copy;  <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Privacy policy</a></span></p>
+				<p class="wow fadeInUp" data-wow-delay="0.5s">Jan Ručil, 2024  &copy;  <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Privacy policy</a></span></p>
 				<ul class="social-icon">
 					<!-- <li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
 					<li><a href="#" class="fa fa-envelope wow fadeInUp" data-wow-delay="1.6s"></a></li> -->
@@ -511,8 +532,7 @@ http://www.templatemo.com/tm-486-new-event
 <script src="js/MailTool.js"></script>
 
 <div class="cookies-eu-banner hidden">
-	<span>🍪... </span>By using this site, you agree to the storing of cookies on your device to
-	enhance site navigation and analyze site usage 
+	<span>🍪... </span>Tato stránka NEobsahuje sušenky
 	<button>OK</button> <span> ...🍪</span>
   </div>
   

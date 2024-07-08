@@ -71,6 +71,16 @@ html {
 }
 ¨
 
+
+
+.banner{
+
+  background-color: #8597d8;
+  border-radius: 10px;
+  float: left;
+  padding: 0px 5px;
+}
+
 canvas {
   display: block;
   position: fixed;
@@ -128,7 +138,7 @@ canvas{
 
 
 .keywords li {
-  background: #8597d8;
+  background: var(--primary-color);
   padding: 3px;
   border-radius: 5px;
   list-style: none;
@@ -327,7 +337,7 @@ body {
   font-size: 20px;
 }
 .cookies-eu-banner {
-  background: rgb(133, 151, 216, 0.65);
+  background: var(--primary-color);
   color: #0d1316;
   padding: 6px;
   font-size: 13px;
@@ -547,3 +557,6 @@ input[type="text"]:focus {
       
      
 }
+
+
+
