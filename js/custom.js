@@ -10,9 +10,11 @@ $(window).load(function(){
     -----------------------------------------------*/
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".navbar-fixed-top").addClass("top-nav-collapse");  
+        $("#btnAngebot").addClass("btn btn-primary");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $("#btnAngebot").removeClass("btn btn-primary");
     }
 
 
