@@ -170,6 +170,7 @@ footer {
 
 #btnAngebot{
 
+  /* background: var(--secondary-color); */
   margin: 10px;
   padding: 5px;
 }
@@ -369,7 +370,7 @@ li {
     -webkit-background-size: cover;
     background-size:  cover;
     background-attachment: fixed;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -425,7 +426,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  var(--secondary-color);
+  color:  var(--primary-color);
   font-size: 48px;
 }
 
@@ -457,7 +458,7 @@ li {
 #reference h4{
 
 
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 #reference p {
@@ -634,6 +635,10 @@ li {
     background-position: center center;
 }
 
+#inboxme{
+  color: var(--primary-color);
+}
+
 
 #contact .contact_des {
   padding-top: 3rem;
@@ -650,7 +655,7 @@ li {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
   border-radius: 0px;
   box-shadow: none;
   margin-bottom: 16px;
@@ -666,11 +671,11 @@ li {
 }
 
 .form-control{
-  color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 #contact input[type="submit"] {
-  background: #8091ce;
+  background: var(--secondary-color);
   border-radius: 100px;
   border: none;
   color: #0d1316 !important;
@@ -751,7 +756,7 @@ footer p {
 
 /* Back top */
 .go-top {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   bottom: 1.5em;
   right: 0.75em;
 
@@ -895,7 +900,7 @@ footer p {
 @property --secondary-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #CDFFFC;
+  initial-value: #808fff;
 }
 
 
