@@ -314,7 +314,7 @@ text-align: left;
 .lastprojects li::before {
   list-style: none;
   content: "• ";
-  color: #D8F8B7;
+  color: var(--highlight-color );
 
  padding:0;
  margin:0;

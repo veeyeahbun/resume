@@ -194,7 +194,7 @@ footer {
 .sk-rotating-plane {
   width: 50px;
   height: 50px;
-  background-color: var(--secondary-color) ;
+  background-color: var(--primary-color) ;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
           animation: sk-rotatePlane 1.2s infinite ease-in-out; }
 
@@ -278,7 +278,7 @@ footer {
 .top-nav-collapse .nav li a:hover {
     background: transparent;
     z-index: 1;
-    color: #D8F8B7;
+    color: var(--secondary-color);
 }
 
 .top-nav-collapse .navbar-nav > li > a:hover,
@@ -289,7 +289,7 @@ footer {
 .top-nav-collapse .nav li.active > a {
   background-color: transparent;
   z-index: 1;
-  color: var(--secondary-color);
+  color: var(--highlight-color);
 }
 
 .navbar-header{
@@ -354,7 +354,7 @@ li {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #0d1316;
+        background: var(--background-color);
         color: gray;
         padding: 0;
     }
@@ -449,7 +449,7 @@ li {
 }
 
 #reference h3 {
-  color: #D8F8B7;
+  color: var(--highlight-color);
     font-size: 18px;
     margin-bottom: 0px;
 }
@@ -462,7 +462,7 @@ li {
 }
 
 #reference p {
-  color: #D8F8B7;
+  color: var(--highlight-color);
   margin-top: 4px;
 }
 
@@ -678,7 +678,7 @@ li {
   background: var(--secondary-color);
   border-radius: 100px;
   border: none;
-  color: #0d1316 !important;
+  color: var(--primary-color) !important;
   letter-spacing: 2px;
   height: 50px;
   margin-top: 12px;
@@ -740,7 +740,14 @@ transition: all 0.4s ease-in-out;
 background: #f2545f;
 }
 
+.contacticon{
+  margin-right: 8px; margin-left: 2px;
+  color: var(--highlight-color);
+}
 
+.contactinfo{
+  color: var(--primary-color);
+}
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
@@ -773,7 +780,7 @@ footer p {
 }
 
 .go-top:hover {
-    background: #D8F8B7;
+    background: var(--highlight-color);
     color: #0d1316;
 }
 
@@ -894,18 +901,23 @@ footer p {
 @property --primary-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: whitesmoke;
+  initial-value: #CCD7F2;
+}
+
+@property --highlight-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #FF9A56;
+}
+
+@property --background-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #031131;
 }
 
 @property --secondary-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #808fff;
-}
-
-
-@property --highlight-color {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #D8F8B7;
+  initial-value: #4f6493;
 }
