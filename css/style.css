@@ -444,7 +444,7 @@ li {
    reference section              
 -----------------------------------------*/
 #reference {
-    background:#0d1316;
+    background: url('../images/background.png');
 }
 
 #reference h3 {
