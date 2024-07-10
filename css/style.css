@@ -21,7 +21,7 @@ body {
     user-select: none;
     
   background-color: var(--background-color);
-  color: #1a1b1f;
+  color: var(--background-color);
 }
 
 footer{
@@ -190,7 +190,7 @@ footer {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #0d1316;
+  background: none repeat scroll 0 0 var(--background-color);
 }
 
 .sk-rotating-plane {
