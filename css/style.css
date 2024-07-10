@@ -20,7 +20,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     
-  background-color: #0d1316;
+  background-color: var(--background-color);
   color: #1a1b1f;
 }
 
@@ -94,13 +94,15 @@ a:hover  .img-responsive{
 
 #detail, #video,
 #detail2,
-#reference, 
+#referenceContainer, 
 #service,
 #sponsors, 
 #contact, footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
+
+
 
 #detail,
 #detail2,
@@ -445,7 +447,8 @@ li {
    reference section              
 -----------------------------------------*/
 #reference {
-    background: url('../images/background.png');
+    /* background: url('../images/background.png'); */
+    background-color: var(--background-color);
 }
 
 #reference h3 {
@@ -630,7 +633,8 @@ li {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/background2.png') 50% 0 repeat-y fixed;
+    /* background: url('../images/background2.png') 50% 0 repeat-y fixed; */
+    background-color: var(--background-color);
     background-size: cover;
     background-position: center center;
 }
