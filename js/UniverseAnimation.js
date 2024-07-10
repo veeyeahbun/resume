@@ -275,9 +275,9 @@ function spawnMoreBalls(deltaX, deltaY) {
 // Init Canvas
 function initCanvas() {
 
-    
+    var section = document.getElementById('reference');
     canvas.setAttribute('width', window.innerWidth);
-    canvas.setAttribute('height', window.innerHeight);
+    canvas.setAttribute('height', section.offsetHeight);
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
   
