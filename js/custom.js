@@ -103,17 +103,17 @@ $(document).ready(function() {
 
 
 
-  var dropdown = document.getElementById('dropdown');
-  dropdown.addEventListener('mouseenter', function () {
+//   var dropdown = document.getElementById('dropdown');
+//   dropdown.addEventListener('mouseenter', function () {
     
-    document.getElementById('dropdown-menu').style.opacity = 1;
-});
-dropdown.addEventListener('mouseleave', function () {
+//     document.getElementById('dropdown-menu').style.opacity = 1;
+// });
+// dropdown.addEventListener('mouseleave', function () {
   
-  document.getElementById('dropdown-menu').style.opacity = 0;
-  document.getElementById('dropdown-menu').style.visibility = "visible";
-  document.getElementById('dropdown-menu').style.display = "inline-block";
+//   document.getElementById('dropdown-menu').style.opacity = 0;
+//   document.getElementById('dropdown-menu').style.visibility = "visible";
+//   document.getElementById('dropdown-menu').style.display = "inline-block";
 
-});
+// });
 
 
