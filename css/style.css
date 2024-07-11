@@ -55,6 +55,9 @@ h3 {
   line-height: 36px;
 }
 
+
+
+
 h5 {
     letter-spacing: 1px;
     padding-top: 10px;
@@ -402,6 +405,8 @@ li {
 
 #intro h3 {
   letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -453,15 +458,13 @@ li {
 
 #reference h3 {
   color: var(--highlight-color);
-    font-size: 18px;
-    margin-bottom: 0px;
 }
 
 
 #reference h4{
 
 
-  color: var(--primary-color);
+  font-size: 14px;
 }
 
 #reference p {
@@ -850,54 +853,10 @@ footer p {
 
 
 
-}
-
-@media (max-width: 768px) {
-
-  .custom-navbar .navbar-brand {
-    line-height: 20px;
-  }
-
-  #overview img,
-  #detail .col-md-4,
-  #register form {
-    padding-top: 32px;
-  }
-
-  .nav-tabs > li > a {
-    font-size: 13px;
-  }
-
-  #service img {
-    padding-bottom: 32px;
-  }
-
-  #sponsors img {
-    padding-top: 22px;
-  }
-
-  #contact .contact_detail {
-    margin-top: 82px;
-  }
-
-  #contact .contact_des {
-    padding-top: 3rem;
-    padding:25px 40px;
-  }
-  
-
-  .mainpage {
-    margin:50px 15px;
-  }
-
-  
-}
-
-@media (max-width: 760px) {
-
 
 
 }
+
 
 
 

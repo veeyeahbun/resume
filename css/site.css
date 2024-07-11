@@ -35,12 +35,16 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
 
+#reference h4{
+  font-size: 16px;
+  color: var(--primary-color);
+}
 
 p{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -502,6 +506,86 @@ input[type="text"]:focus {
 
 
 
+
+@media (max-width: 768px) {
+
+  .custom-navbar .navbar-brand {
+    line-height: 20px;
+  }
+
+  #overview img,
+  #detail .col-md-4,
+  #register form {
+    padding-top: 32px;
+  }
+
+  .nav-tabs > li > a {
+    font-size: 13px;
+  }
+
+  #service img {
+    padding-bottom: 32px;
+  }
+
+  #sponsors img {
+    padding-top: 22px;
+  }
+
+  #contact .contact_detail {
+    margin-top: 82px;
+  }
+
+  #contact .contact_des {
+    padding-top: 3rem;
+    padding:25px 40px;
+  }
+  
+
+  .mainpage {
+    margin:50px 15px;
+  }
+
+  
+}
+
+@media (max-width: 760px) {
+
+  #detail .fa ,
+  #detail2 .fa,
+  #reference {
+    color:  var(--primary-color);
+    font-size: 32px;
+  }
+
+
+
+  h3{
+    font-size: 16px;    
+
+  }
+
+  #intro h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #reference h4{
+    font-size: 14px; 
+  }
+  
+  
+  
+
+  body{
+    font-size: 14px;
+  }
+
+  #lastprojects{
+    margin-top: 30vh;
+  }
+  
+}
+
 @media (min-width: 768px) {
 
   .col-sm>img{
@@ -519,11 +603,11 @@ input[type="text"]:focus {
   }
 
   html {
-      font-size: 15px;
+      font-size: 18px;
   }
 
   p{
-    font-size: 15px;
+    font-size: 18px;
   }
 #btngroup{
   width: auto;
