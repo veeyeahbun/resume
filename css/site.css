@@ -381,7 +381,7 @@ body {
   height: 75px;
   position: absolute;
   left: 50%;
-  bottom: 75px;
+  bottom: 60px;
 }
 
 .arrows path {
@@ -507,7 +507,8 @@ input[type="text"]:focus {
 
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
 
   .custom-navbar .navbar-brand {
     line-height: 20px;
@@ -546,10 +547,6 @@ input[type="text"]:focus {
   }
 
   
-}
-
-@media (max-width: 760px) {
-
   #detail .fa ,
   #detail2 .fa,
   #reference {
@@ -560,13 +557,13 @@ input[type="text"]:focus {
 
 
   h3{
-    font-size: 16px;    
+    font-size: 14px;    
 
   }
 
   #intro h3{
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   #reference h4{
@@ -574,19 +571,21 @@ input[type="text"]:focus {
   }
   
   
-  
 
   body{
-    font-size: 13px;
+    font-size: 10px;
   }
 
   #lastprojects{
     margin-top: 30vh;
   }
-  
 }
 
-@media (min-width: 768px) {
+
+
+
+
+@media (min-width: 845px) {
 
   .col-sm>img{
     height:120px;
@@ -643,3 +642,28 @@ input[type="text"]:focus {
 
 
 
+/*---------------------------------------
+   Responsive styles            
+-----------------------------------------*/
+@media (max-width: 980px) {
+
+  p {font-size: 13px;}
+
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+	line-height: 20px;
+  }
+
+
+  #video iframe {
+    margin-top: 42px;
+  }
+
+  #contact .contact_detail {
+  padding: 10rem 3rem 10rem 5rem;
+}
+}

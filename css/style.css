@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-  line-height: 36px;
+  line-height: 30px;
 }
 
 
@@ -826,37 +826,6 @@ footer p {
 }
 
 
-
-/*---------------------------------------
-   Responsive styles            
------------------------------------------*/
-@media (max-width: 980px) {
-
-  p {font-size: 13px;}
-
-  .custom-navbar .navbar-brand {
-    font-size: 2rem;
-  }
-
-  .custom-navbar .nav li a {
-    font-size: 11px;
-	line-height: 20px;
-  }
-
-
-  #video iframe {
-    margin-top: 42px;
-  }
-
-  #contact .contact_detail {
-  padding: 10rem 3rem 10rem 5rem;
-}
-
-
-
-
-
-}
 
 
 
