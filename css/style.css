@@ -643,6 +643,9 @@ li {
     background-position: center center;
 }
 
+#contact_head{
+  color: var(--highlight-color);
+}
 #inboxme{
   color: var(--primary-color);
 }
