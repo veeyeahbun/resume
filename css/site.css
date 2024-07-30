@@ -40,7 +40,7 @@ html {
 
 #reference h4{
   font-size: 16px;
-  color: var(--primary-color);
+  color: var(--highlight-color);
 }
 
 p{

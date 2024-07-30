@@ -421,7 +421,7 @@ li {
 }
 
 #overview{
-  background: #fff;
+  background: var(--primary-color);
 }
 
 
@@ -434,7 +434,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  var(--primary-color);
+  color:  var(--highlight-color);
   font-size: 48px;
 }
 
@@ -458,7 +458,7 @@ li {
 }
 
 #reference h3 {
-  color: var(--highlight-color);
+  color: var(--primary-color);
 }
 
 
@@ -837,23 +837,28 @@ footer p {
 @property --primary-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #CCD7F2;
+  initial-value: whitesmoke;
 }
 
 @property --highlight-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #FF9A56;
+  initial-value: #A69080;
 }
 
 @property --background-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #031131;
+  initial-value: #3e362e;
 }
 
 @property --secondary-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #4f6493;
+  initial-value: #ac8968;
+}
+@property --terciary-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #93785B;
 }
