@@ -434,7 +434,7 @@ li {
 #detail .fa ,
 #detail2 .fa,
 #reference {
-  color:  var(--highlight-color);
+  color:  var(--secondary-color);
   font-size: 48px;
 }
 
