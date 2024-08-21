@@ -13,7 +13,7 @@ thisForm.addEventListener('submit', async function (e) {
     else 
     {      
         const formData = new FormData(thisForm).entries()
-        const response = await fetch('http://80.108.106.121/zigo/api/webmessages', {
+        const response = await fetch('https://80.108.106.121/zigo/api/webmessages', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(Object.fromEntries(formData))
