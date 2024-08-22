@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Honza\\Desktop\\resume-master\\resume-master\\index.html"
+            "file": "C:\\Users\\Honza\\source\\repos\\moje\\interaktivni-vizualizace.cz\\index.html"
         }
     ]
 }

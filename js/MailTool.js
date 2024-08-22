@@ -12,17 +12,20 @@ thisForm.addEventListener('submit', async function (e) {
     }
     else 
     {      
-        const formData = new FormData(thisForm).entries()
+      
+        const formData = new FormData(thisForm).entries();
+        const json = JSON.stringify(Object.fromEntries(formData));
         const response = await fetch('https://janrucil.dev/zigo/api/webmessages', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(Object.fromEntries(formData))
+            body: json
         });
-        const result = await response.json();
-        console.log(result)
-        
-        alert("Vaši zprávu jsem obdržel, díky!");    
-        reset();    
+
+
+        if(await response.status == 200){
+            alert("Vaši zprávu jsem obdržel, díky!");    
+            reset(); 
+        }   
     }
 });
 
@@ -32,6 +35,6 @@ thisForm.addEventListener('submit', async function (e) {
 //reset the form
 function reset()    
 {
-    document.getElementById("message").value = "";    
+    document.getElementById("text").value = "";    
     document.getElementById("from").value = "";  
 }
