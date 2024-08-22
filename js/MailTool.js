@@ -35,6 +35,6 @@ thisForm.addEventListener('submit', async function (e) {
 //reset the form
 function reset()    
 {
-    document.getElementById("text").value = "";    
+    document.getElementById("message").value = "";    
     document.getElementById("from").value = "";  
 }
