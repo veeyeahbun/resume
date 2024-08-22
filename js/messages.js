@@ -6,7 +6,7 @@ const thisForm = document.getElementById('messageform');
 thisForm.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    if(document.getElementById("message").value ==0)
+    if(document.getElementById("text").value ==0)
     {    
         alert("Vaše zpráva je prázdná");
     }
