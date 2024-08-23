@@ -2,13 +2,13 @@
 
 
 //post form data to API
-const thisForm = document.getElementById('messageform');
+const thisForm = document.getElementById('poptavkaForm');
 thisForm.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    if(document.getElementById("text").value ==0)
+    if(document.getElementById("from").value ==0)
     {    
-        alert("Vaše zpráva je prázdná");
+        alert("Zadeje prosím kontakt");
     }
     else 
     {      
@@ -23,7 +23,7 @@ thisForm.addEventListener('submit', async function (e) {
 
 
         if(await response.status == 200){
-            alert("Vaši zprávu jsem obdržel, díky!");    
+            alert("V brzké době se Vám ozveme!");    
             reset(); 
         }   
     }
