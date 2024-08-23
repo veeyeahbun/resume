@@ -54,7 +54,7 @@ $(document).ready(function() {
     $('#contact').parallax("100%", 0.2);
 
   }
-  initParallax();
+ // initParallax();
 
 
   /* Owl Carousel
@@ -62,7 +62,7 @@ $(document).ready(function() {
   $(document).ready(function() {
     $("#owl-reference").owlCarousel({
       autoPlay: 6000,
-      items : 4,
+      items : 3,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
       itemsTablet: [768,1],
@@ -116,4 +116,26 @@ $(document).ready(function() {
 
 // });
 
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+    
+  var ip = '';
+
+  var url = this.documentURI;
+   // Fetch the IP address from the API
+   fetch("https://ipinfo.io/json") 
+   .then(response => response.json())
+   .then(data => {
+       // Display the IP address on the screen
+       ip = `${data.ip}`;
+      
+       return fetch('https://janrucil.dev/zigo/api/webmessages', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: '{"from":"WEBMASTER","text":"'+ url +' served to '+ ip +'"}'         
+      });
+   }); 
+});
 

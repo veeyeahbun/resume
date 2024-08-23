@@ -15,7 +15,7 @@ thisForm.addEventListener('submit', async function (e) {
       
         const formData = new FormData(thisForm).entries();
         const json = JSON.stringify(Object.fromEntries(formData));
-        const response = await fetch('https://janrucil.dev/zigo/api/webmessages', {
+        const response = await fetch('https://janrucil.dev/zigo/api/webinquiries', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: json
@@ -38,5 +38,3 @@ function reset()
     document.getElementById("text").value = "";    
     document.getElementById("from").value = "";  
 }
-
-

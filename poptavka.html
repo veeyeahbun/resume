@@ -57,9 +57,8 @@ http://www.templatemo.com/tm-486-new-event
 				<li onselect="hidelogo()" id="intro_listitem"><a href="index.html" class="smoothScroll">Úvod</a></li>
 				<li><a href="index.html#reference" class="smoothScroll" id="my_references">Služby</a></li>
 				<li><a href="index.html#overview" class="smoothScroll" id="my_services">O nás</a></li>
-				<li><a href="#preise" class="smoothScroll" id="my_services">Ceny</a></li>
-				<li><a href="index.html#contact" class="smoothScroll" id="my_contact" >Kontakt</a></li>		
-				<li><a href="poptavka.html" class="smoothScroll btn btn-primary" id="btnAngebot" >Nezávazná poptávka</a></li>		
+				<li><a href="ceny.html##preise" class="smoothScroll" id="my_services">Ceny</a></li>
+				<li><a href="index.html#contact" class="smoothScroll" id="my_contact" >Kontakt</a></li>			
 				<!-- <li class="dropdown" id="dropdown" >			
 					<ul class="dropdown-menu" id="dropdown-menu">	
 							<li><a onclick="setGerman()"><img src="images/de.png"> Deutsch</a></li>
@@ -80,38 +79,26 @@ http://www.templatemo.com/tm-486-new-event
 		<div class="row" style="margin-top: 150px;">
 			<div class="wow fadeInUp col-md-9 col-sm-9" data-wow-delay="0.6s">
 
-				<h2 >Ceny vizualizací</h2>
+				<h2 >Cenová kalkulace</h2>
 				<br>
-				<h3 >Uvedené ceny jsou pouze orientační, vždy je lepší zavolat a probrat s námi konkrétní zadání</h3>
-				<br>
-		
-				<p>Nicméně i tak jsme schopni definovat základní ceny, jež při dodržení standardního průběhu a počtu korektur mohou odpovídat. Rádi pro Váš projekt vytvoříme i individuální, nezávaznou <a href="poptavka.html"><strong>cenovou nabídku</strong></a>  ZDARMA.</p>	<br>
-
-				<h3 ><strong>Ceník vizualizace interiéru</strong></h3>
-				<p>Vizualizace koupelny od …………………………………………………… <strong>2 900 Kč</strong></p>
-				<p>Vizualizace ložnice od ………………………………………………………… <strong>2 500 Kč</strong></p>	
-				<p>Vizualizace samostatné kuchyně od …………………………… <strong>3 900 Kč</strong></p>
-				<p>Vizualizace obývacího pokoje od …………………………………… <strong>3 900 Kč</strong></p>
-				<p>Vizualizace obývacího pokoje s kuchyní od ……………… <strong>6 900 Kč</strong></p>
-				<p>3D půdorys od ……………………………………………………………………… <strong>2 800 Kč</strong></p>
-				<p></p>	<br>
-
-				<h3 ><strong>Ceník vizualizace exteriéru</strong></h3>
-				<p>Vizualizace rodinného domu od <strong>8 500 Kč</strong></p>
-				<p>Vizualizace bytového domu <strong>ceněno individuálně, dle obdržených podkladů.</strong></p>
-
-				<br>
-				<br>
-				<h3 ><strong>Full House</strong></h3>
-				<p>Vizualizace domu interiér + exteriér od <strong>15 000 Kč</strong></p>
-				<br>
-				<br>
-				<p>Finální ceny vizualizací jsou závislé na zadání zákazníka. Dá se říci, že neexistuje možnost, jak bez kontaktu se zákazníkem určit přesné ceny, a to také u typických realizací.</p>	<br>
-				<p>Cenu vždy ovlivňuje několik základních kritérií. U vizualizací obecně se jedná o požadovanou kvalitu a přesnost dodaných podkladů, množství klientem požadovaných variant, množství požadovaných pohledů a v neposlední řadě také náročnost klienta na kvalitu zpracování.</p>	<br>
-				<p>Poměrně zásadně ji ovlivňuje počet a složitost prvků, které naši 3D modeláři do interiéru modelují dle podkladů. Samozřejmě je také důležitá kvalita podkladů. Z náčrtku rukou na papíře se Vaše představa přenáší hůře, než z kvalitně zpracovaných technických výkresů.</p>	<br>			
-				<p>Mnoho klientů zvládne zaslat zadání emailem a komunikovat celý průběh zakázky telefonicky. Jsou ale náročnější klienti, kteří vyžadují v průběhu projektu několikanásobné osobní konzultace a záleží jim na každém detailu. Naproti tomu jsou také klienti, již nechají finální návrh na naší kreativitě. Ani jedna z variant není špatně, ale velice se liší v časové náročnosti daného projektu.</p>	<br>
+				<h3 >Získejte nezávaznou nabídku pro Váš projekt ZDARMA!</h3>
 				<br>
 		
+				<p>Veškeré Vámi sdělené údaje slouží pouze pro vyřízení této poptávky a dále nebudou nijak zpracovávány. Rádi Vám zavoláme nebo napíšeme, proto potřebujeme znát Vaše příjmení a také Váš telefon nebo email. Ve všední dny Vás budeme obratem kontaktovat.</p>	<br>
+
+				<div >
+					<form id="poptavkaForm" enctype="multipart/form-data"> 
+						<input name="from"  type="text" class="form-control" id="from" placeholder="">
+						  <textarea name="text" rows="5" class="form-control" id="text" placeholder="O projektu ..."></textarea>
+						<!-- <div class="col-md-12 col-sm-12">							
+							<label class="white" for="fileUpload"><p>Vybrat soubor</p></label>
+							<input type="file" name="fileUpload" id="fileUpload"  multiple>								
+						</div> -->
+						<div class="col-md-6 col-sm-6">
+							<input type="submit" class="form-control" id="submit" value="Odeslat">
+						</div>
+					</form>
+				</div>		
 			
 			</div>				
 			<div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
@@ -249,7 +236,7 @@ http://www.templatemo.com/tm-486-new-event
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.parallax.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/wow.min.js"></script>
 
 
