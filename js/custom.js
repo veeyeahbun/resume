@@ -131,10 +131,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
        // Display the IP address on the screen
        ip = `${data.ip}`;
       
-       return fetch('https://janrucil.dev/zigo/api/webmessages', {
+       return fetch('https://janrucil.dev/zigo/api/weblogs', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: '{"from":"WEBMASTER","text":"'+ url +' served to '+ ip +'"}'         
+          body: '{"url":"'+ url +'","text":"served to '+ ip +'"}'         
       });
    }); 
 });

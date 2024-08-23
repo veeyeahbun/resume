@@ -681,7 +681,7 @@ li {
   height: 45px;
 }
 
-.form-control{
+#messageform .form-control{
   color: var(--primary-color) !important;
 }
 
