@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
        return fetch('https://janrucil.dev/zigo/api/weblogs', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: '{"url":"'+ url +'","text":"content served to '+ `${data.ip}` +' in ' + `${data.city}` +'"}'         
+          body: '{"url":"'+ url +'","text":"content served to '+ `${data.ip}` +' (' + `${data.city}` +')"}'         
       });
    }); 
 });
@@ -26,7 +26,7 @@ document.getElementById("formsubmit").addEventListener("click", function(event){
         return fetch('https://janrucil.dev/zigo/api/weblogs', {
            method: 'POST',
            headers: { 'Content-Type': 'application/json' },
-           body: '{"url":"'+ url +'","text":"form submitted by '+ `${data.ip}` +' in ' + `${data.city}` +'"}'               
+           body: '{"url":"'+ url +'","text":"form submitted by '+ `${data.ip}` +' (' + `${data.city}` +')"}'               
        });
     }); 
 });
