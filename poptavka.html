@@ -82,7 +82,7 @@ http://www.templatemo.com/tm-486-new-event
 				<br>
 				<h3 >Získejte cenovou nabídku pro Váš projekt ZDARMA!</h3>
 				<br>		
-				<p>Veškeré Vámi sdělené údaje slouží pouze pro vytvoření cenové nabídky a dále nebudou nijak zpracovávány. Rádi Vám zavoláme nebo napíšeme, proto potřebujeme znát Vaše příjmení a také Váš telefon nebo email. Následně Vás budeme kontaktovat.</p><br>
+				<p>Veškeré Vámi sdělené údaje slouží pouze pro vytvoření cenové nabídky a dále nebudou nijak zpracovávány. Rádi Vám zavoláme nebo napíšeme, proto na Vás potřebujeme kontakt. Následně se Vám ozveme s cenovou kalkulací.</p><br>
 			
 				<div >
 					<form id="poptavkaForm" enctype="multipart/form-data"> 
@@ -121,7 +121,7 @@ http://www.templatemo.com/tm-486-new-event
 								<div class="col-md-6 col-sm-6">								
 									<input id="cbxBytovka" name="bytovka" type="checkbox" value="true">
 										<label for="cbxBytovka">Bytového domu</label></input>
-									<span class="text-danger"></span>
+									<span class="text-danger"></span>	
 								</div>
 								<div class="col-md-6 col-sm-6">								
 									<input id="cbxExterier" name="exterier" type="checkbox" value="true">
@@ -140,7 +140,11 @@ http://www.templatemo.com/tm-486-new-event
 								</div>		
 								<div class="mb-3">
 									<label >Kontakt na Vás</label>
-									<input  class="form-control" id="from" name="from" placeholder="Email nebo telefon"/>
+									<input  class="form-control" id="email" name="email" placeholder="Email *" type="email" required="" oninvalid="if (this.value == ''){this.setCustomValidity('Zadejte prosím Váš email, na který se Vám můžeme ozvat')} if (this.value != ''){this.setCustomValidity('Neplatný email')}" oninput="setCustomValidity('')"/>
+									<input  class="form-control" id="from" name="from" placeholder="Jméno (nepovinné)" type="tel" />
+									<input  class="form-control" id="tel" name="tel" placeholder="Tel. (nepovinný)"  />
+
+								
 									<span class="text-danger"></span>
 								</div>
 								<div class="mb-3 pb-2">
@@ -149,9 +153,9 @@ http://www.templatemo.com/tm-486-new-event
 								</div>		
 								<div class="mb-3" >
 									<br>
-									<p>Máte-li jiz vypracované vlastní 3D assety, může být výsledná cena až o 80% nižší!</p>
+									<p>Máte-li již vypracované vlastní 3D assety, může být výsledná cena až o 80% nižší!</p>
 									<br>
-									<p>3D soubory k účelu nacenění proto neváhejte přiložit vedle.</p>
+									<p>3D soubory proto za účelem nacenění neváhejte přiložit.</p>
 								</div> 
 							</div>			
 							<div class="mb-3 col-md-6 col-sm-6">								

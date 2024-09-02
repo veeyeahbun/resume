@@ -48,7 +48,8 @@ dropArea.addEventListener('drop', (event) => {
 
   dropArea.classList.remove('active');
   // console.log('File left the drag area');
-  dragText.textContent = 'zde přetáhnout & pustit';
+  dragText.textContent = 'přetáhnout & pustit zde';
+
 
 });
 
@@ -123,13 +124,7 @@ const thisForm = document.getElementById('poptavkaForm');
 thisForm.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    if(document.getElementById("from").value ==0)
-    {    
-        alert("Zadeje prosím kontakt");
-    }
-    else 
-    {      
-        var form = new FormData(thisForm);
+    var form = new FormData(thisForm);
 
         uploadedFiles.forEach((item)=>{
             form.append('files', item, item.name);
@@ -145,8 +140,7 @@ thisForm.addEventListener('submit', async function (e) {
         if(await response.status == 200){
             alert("Vaši poptávku jsme přijali a v brzké době se Vám ozveme!");    
             window.location.reload();
-        }   
-    }
+        }  
 });
 
 
