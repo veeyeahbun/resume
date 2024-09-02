@@ -99,12 +99,21 @@ function uploadFile(file){
 // výběr ikonky náhledu
 function iconSelector(file){
 
-  var splitType = (file.type.split('/')[0] == 'application') ? file.type.split('/')[1] : file.type.split('/')[0];
-  if(splitType == 'image'){    
-    let url = window.URL.createObjectURL(file);
-    return url
-  }else
-    return 'images/' + splitType + '.png'
+    if(file.name.toLowerCase().includes('.obj') || file.name.toLowerCase().includes('.fbx') || file.name.toLowerCase().includes('.stp')|| file.name.toLowerCase().includes('.blend')){
+
+        return 'images/3d.png';
+
+    }else{
+        
+        var splitType = (file.type.split('/')[0] == 'application') ? file.type.split('/')[1] : file.type.split('/')[0];
+    
+        if(splitType == 'image'){    
+            let url = window.URL.createObjectURL(file);
+            return url
+        }else
+            return 'images/' + splitType + '.png'
+    }
+
 }
 
 
