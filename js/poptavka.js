@@ -13,12 +13,11 @@ button.onclick = () => {
   fileInput.click();
 };
 
-fileInput.addEventListener('change', function () {
+fileInput.addEventListener('change', function () {  
 
   [...fileInput.files].forEach((file)=>{
     uploadFile(file);
   });  
-  dropArea.classList.add('active');
   //displayFiles();
 });
 
@@ -58,8 +57,7 @@ dropArea.addEventListener('drop', (event) => {
 // upload file function
 function uploadFile(file){  
 
-    var li = document.createElement('li');
- 
+    var li = document.createElement('li'); 
     li.innerHTML = `
     <div class="row">
         <div class="col-md-2">
@@ -145,18 +143,11 @@ thisForm.addEventListener('submit', async function (e) {
         });
 
         if(await response.status == 200){
-            alert("V brzké době se Vám ozveme!");    
-            reset(); 
+            alert("Vaši poptávku jsme přijali a v brzké době se Vám ozveme!");    
+            window.location.reload();
         }   
     }
 });
 
 
 
-
-//reset the form
-function reset()    
-{
-    document.getElementById("text").value = "";    
-    document.getElementById("from").value = "";  
-}
