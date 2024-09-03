@@ -498,6 +498,43 @@ li {
 
 }
 
+
+.screenshot-banner{
+  background-image: url('../images/screenshot.png');
+  background-size: cover;
+  padding: 100px 50px;
+}
+
+.screenshot-banner a{
+  text-decoration: underline !important; 
+  font-weight: bold;
+}
+
+.screenshot-banner a:hover{
+
+  color: var(--background-color);
+
+}
+
+.info-banner{
+
+  background-color: var(--highlight-color);
+  border-radius: 5%;
+  padding: 50px;
+  color: var(--primary-color);
+}
+
+.info-banner a{
+  color: var(--primary-color);
+  text-decoration: underline !important; 
+  font-weight: bold;
+}
+
+.info-banner a:hover{
+
+  color: var(--background-color);
+
+}
 /*---------------------------------------
    service section              
 -----------------------------------------*/

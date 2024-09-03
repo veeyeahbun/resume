@@ -278,12 +278,10 @@ background: white;
   }
 
 a, a:visited {
-  text-decoration: none;
-  color: #8597d8;
+  color: var(--highlight-color);
 }
 a:hover{
- text-decoration: none;
-  color: #D8F8B7;
+ color: #8597d8;
 }
 
 
