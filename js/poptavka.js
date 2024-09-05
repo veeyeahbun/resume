@@ -121,7 +121,7 @@ function iconSelector(file){
 
 //POST Form
 const thisForm = document.getElementById('poptavkaForm');
-thisForm.addEventListener('submit', async function (e) {
+thisForm?.addEventListener('submit', async function (e) {
     e.preventDefault();
 
     var form = new FormData(thisForm);

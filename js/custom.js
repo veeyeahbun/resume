@@ -9,19 +9,19 @@ $(window).load(function(){
 /* Mobile Navigation
     -----------------------------------------------*/
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");  
-        $("#btnAngebot").addClass("btn btn-primary");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $("#btnAngebot").removeClass("btn btn-primary");
-    }
+    // if ($(".navbar").offset().top > 50) {
+    //     $(".navbar-fixed-top").addClass("top-nav-collapse");  
+    //     $("#btnAngebot").addClass("btn btn-primary");
+    // } else {
+    //     $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    //     $("#btnAngebot").removeClass("btn btn-primary");
+    // }
 
 
     if ($(".navbar").offset().top > 750) {
-      $(".navbar-header").addClass("navbar-header-collapse");
+      $(".navbar-brand").removeClass("navbar-brand-collapse");
   } else {
-      $(".navbar-header").removeClass("navbar-header-collapse");
+      $(".navbar-brand").addClass("navbar-brand-collapse");
   }
 
 });
@@ -60,7 +60,7 @@ $(document).ready(function() {
   /* Owl Carousel
   -----------------------------------------------*/
   $(document).ready(function() {
-    $("#owl-reference").owlCarousel({
+    document.getElementById("owl-reference")?.owlCarousel({
       autoPlay: 6000,
       items : 3,
       itemsDesktop : [1199,2],

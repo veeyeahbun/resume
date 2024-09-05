@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
-document.getElementById("formsubmit").addEventListener("click", function(event){
+document.getElementById("formsubmit")?.addEventListener("click", function(event){
    var url = document.documentURI;
     // Fetch the IP address from the API
     fetch("https://ipinfo.io/json") 

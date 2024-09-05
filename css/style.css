@@ -247,6 +247,13 @@ footer {
     line-height: 20px;
 }
 
+.navbar-brand img{
+  transition: all 0.5s;
+}
+.navbar-brand-collapse img{
+  scale: 0;
+}
+
 .custom-navbar .nav li a {
   color: transparent;
   z-index: -1;
@@ -519,8 +526,9 @@ li {
 .info-banner{
 
   background-color: var(--highlight-color);
-  border-radius: 5%;
+  border-radius: 10%;
   padding: 50px;
+  
   color: var(--primary-color);
 }
 
