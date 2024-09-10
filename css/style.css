@@ -181,7 +181,7 @@ footer {
   background-size: cover !important;
   position: relative;
   z-index: 1;
-  background: var(--primary-color);
+  background: #fff;
   padding-bottom: 5rem;
 }
 
