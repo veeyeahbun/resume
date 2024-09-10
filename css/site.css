@@ -550,8 +550,8 @@ input[type="text"]:focus {
   
   #detail .fa ,
   #detail2 .fa,
-  #reference {
-    color:  var(--primary-color);
+  #reference,
+  #presentation {
     font-size: 32px;
   }
 

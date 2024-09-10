@@ -60,7 +60,7 @@ $(document).ready(function() {
   /* Owl Carousel
   -----------------------------------------------*/
   $(document).ready(function() {
-    document.getElementById("owl-reference")?.owlCarousel({
+    $('#owl-reference').owlCarousel({
       autoPlay: 6000,
       items : 3,
       itemsDesktop : [1199,2],
