@@ -170,6 +170,26 @@ footer {
   background: #222;
 }
 
+.partners {
+  display: inline-block;
+  text-align: center;
+}
+
+.partners li{
+  display: inline;  
+  margin: 50px;
+}
+
+.partners a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners img{
+  width: 125px;
+  margin: 5px;
+}
 #intro .btn-default:hover {
     background: #ffffff;
     color: #333333;
