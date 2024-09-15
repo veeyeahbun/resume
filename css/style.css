@@ -177,7 +177,7 @@ footer {
 
 .partners li{
   display: inline;  
-  margin: 50px;
+  margin: 25px;
 }
 
 .partners a{
@@ -187,9 +187,10 @@ footer {
 }
 
 .partners img{
-  width: 125px;
+  width: 150px;
   margin: 5px;
 }
+
 #intro .btn-default:hover {
     background: #ffffff;
     color: #333333;
