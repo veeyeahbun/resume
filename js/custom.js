@@ -62,7 +62,7 @@ $(document).ready(function() {
   $(document).ready(function() {
     $('#owl-reference').owlCarousel({
       autoPlay: 6000,
-      items : 3,
+      items : 4,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
       itemsTablet: [768,1],
