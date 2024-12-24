@@ -571,11 +571,15 @@ input[type="text"]:focus {
     font-size: 14px; 
   }
   
-  
+  .keywords span .lastprojects{
+    font-size: 10px !important;
+  }
+
 
   body{
-    font-size: 14px;
+    font-size: 10px;
   }
+
 
   #lastprojects{
     margin-top: 30vh;
@@ -649,6 +653,8 @@ input[type="text"]:focus {
 @media (max-width: 980px) {
 
   p {font-size: 14px;}
+
+
 
   .custom-navbar .navbar-brand {
     font-size: 2rem;
