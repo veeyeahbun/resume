@@ -280,9 +280,14 @@ background: white;
 a, a:visited {
   color: var(--highlight-color);
 }
-a:hover{
- color: #8597d8;
+.btn:hover{
+ background-color: var(--background-color) !important;
 }
+
+a label{
+  color: var(--primary-color);
+}
+
 
 
 a:hover  canvas{
