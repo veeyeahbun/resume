@@ -6,6 +6,10 @@ body {
   background-color: var(--primary-color);
 }
 
+footer p{
+  color: var(--background-color) !important;
+}
+
 .gallery {
   --size: 200px;
   display: grid;
