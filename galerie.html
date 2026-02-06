@@ -1,179 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<!--
+  <head>
+    <!--
 New Event
 http://www.templatemo.com/tm-486-new-event
 -->
-<title>Interaktivní vizualizace</title>
-<meta name="description" content="">
-<meta name="author" content="">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width">
+    <title>Interaktivní vizualizace</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width" />
 
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
-<meta name="keywords" content="vizualizace, vizualizace domu, profesionální vizualizace, tvorba vizualizací, atraktivní vizualizace, vizualizace bytu, vizualizace domu, interiér, grafický návrh, interakce, interaktivní prostor">
-<meta name="description" content="Vytvoříme atraktivní vizualizaci i pro váš projekt – ať už jde o vizualizaci rodinného domu, interieru bytu nebo třeba pozemku.">
-<meta property="og:image" content="images/mockup.png" />
+    <meta name="robots" content="all,follow" />
+    <meta name="googlebot" content="index,follow,snippet,archive" />
+    <meta
+      name="keywords"
+      content="vizualizace, vizualizace domu, profesionální vizualizace, tvorba vizualizací, atraktivní vizualizace, vizualizace bytu, vizualizace domu, interiér, grafický návrh, interakce, interaktivní prostor"
+    />
+    <meta
+      name="description"
+      content="Vytvoříme atraktivní vizualizaci i pro váš projekt – ať už jde o vizualizaci rodinného domu, interieru bytu nebo třeba pozemku."
+    />
+    <meta property="og:image" content="images/mockup.png" />
 
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-<link rel="icon" href="images/logo.png">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
 
-<link rel="stylesheet" href="fonts/fontawesome-free-6.2.1-web/css/all.min.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
 
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/site.css">
-<link rel="stylesheet" href="css/gallery.css">
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="lightGallery/css/lightgallery-bundle.css"
+    />
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
 
-<link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery-bundle.css" />
-<!-- Google Font -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-</head>
-<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
-	
-
-<!-- =========================
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+  </head>
+  <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+    <!-- =========================
      NAVIGATION LINKS     
 ============================== -->
-<div class="navbar navbar-fixed-top custom-navbar top-nav-collapse" role="navigation">
-	<div class="container"  > 
-		<!-- navbar header -->
-		<div class="navbar-header navbar-header-collapse" >
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a style="color: white;" href="./" class="navbar-brand"><img class="img-responsive" src="images/logo2.png"> </a>
-		</div>
-		<div class="collapse navbar-collapse" >
-			<ul class="nav navbar-nav navbar-right" >
-				<li onselect="hidelogo()" id="intro_listitem"><a href="index.html" class="smoothScroll">Úvod</a></li>
-				<li><a href="index.html#overview" class="smoothScroll" id="my_services">O nás</a></li>
-				<li><a href="#gallery" class="smoothScroll" id="my_services">Galerie</a></li>
+    <div
+      class="navbar navbar-fixed-top custom-navbar top-nav-collapse"
+      role="navigation"
+    >
+      <div class="container">
+        <!-- navbar header -->
+        <div class="navbar-header navbar-header-collapse">
+          <button
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+          </button>
+          <a style="color: white" href="./" class="navbar-brand"
+            ><img class="img-responsive" src="images/logo2.png" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li onselect="hidelogo()" id="intro_listitem">
+              <a href="index.html" class="smoothScroll">Úvod</a>
+            </li>
+            <li>
+              <a
+                href="index.html#overview"
+                class="smoothScroll"
+                id="my_services"
+                >O nás</a
+              >
+            </li>
+            <li>
+              <a href="#gallery" class="smoothScroll" id="my_services"
+                >Galerie</a
+              >
+            </li>
 
-				<li><a href="ceny.html" class="smoothScroll" id="my_services">Služby & ceny</a></li>
-				<li><a href="index.html#contact" class="smoothScroll" id="my_contact" >Kontakt</a></li>		
+            <li>
+              <a href="ceny.html" class="smoothScroll" id="my_services"
+                >Služby & ceny</a
+              >
+            </li>
+            <li>
+              <a href="index.html#contact" class="smoothScroll" id="my_contact"
+                >Kontakt</a
+              >
+            </li>
 
-				<li><a href="poptavka.html" class="smoothScroll btn btn-primary" id="btnAngebot" >Nezávazná poptávka</a></li>		
-				<!-- <li class="dropdown" id="dropdown" >			
+            <li>
+              <a
+                href="poptavka.html"
+                class="smoothScroll btn btn-primary"
+                id="btnAngebot"
+                >Nezávazná poptávka</a
+              >
+            </li>
+            <!-- <li class="dropdown" id="dropdown" >			
 					<ul class="dropdown-menu" id="dropdown-menu">	
 							<li><a onclick="setGerman()"><img src="images/de.png"> Deutsch</a></li>
 							<li><a onclick="setCzech()"><img src="images/cz.png"> Česky</a></li>				
 						</ul>
 						<a id="flag"><img src="images/en.png"> <i class="fa fa-caret-down"></i></a>  
 				</li> -->
-			</ul>
-		</div>
-	</div>
-</div>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<!-- =========================
+    <!-- =========================
     OVERVIEW SECTION   
 ============================== -->
-<div id="gallery">
+    <div id="gallery">
+      <div class="gallery">
+        <div class="item" data-src="images/doman.jpg">
+          <img
+            src="images/doman.jpg"
+            title="Obývací pokoj"
+            alt="Obývací pokoj"
+          />
+        </div>
 
-	<div class="gallery">	
-		<div class="item" data-src="images/doman.jpg"> 
-			<img src="images/doman.jpg" title="Obývací pokoj" alt="Obývací pokoj"  />
-		</div>	
-		
-		<div class="item" data-src="images/kueche (2).jpg"> 
-			<img src="images/kueche (2).jpg" title="Vizualizace kuchyně" alt="Vizualizace kuchyně"  />
-		</div>	
-				
-		<div class="item" data-src="images/kueche (1).jpg"> 
-			<img src="images/kueche (1).jpg" title="Vizualizace kuchyně" alt="Vizualizace kuchyně"  />
-		</div>
+        <div class="item" data-src="images/kueche (2).jpg">
+          <img
+            src="images/kueche (2).jpg"
+            title="Vizualizace kuchyně"
+            alt="Vizualizace kuchyně"
+          />
+        </div>
 
-		<div class="item" data-src="images/dvojdum.jpg"> 
-			<img src="images/dvojdum.jpg" title="Dvojdomek" alt="Dvojdomek"  />
-		</div>					
-		<div class="item" data-src="images/malina.jpg"> 
-			<img src="images/malina.jpg" title="Kuchyně" alt="Kuchyně"  />
-		</div>				
-		<div class="item" data-src="images/olg.jpg"> 
-			<img src="images/olg.jpg" title="Obývací pokoj" alt="Obývací pokoj"  />
-		</div>					
-		<div class="item" data-src="images/house.jpg"> 
-			<img src="images/house.jpg" title="Katalogový modulární dům" alt="Katalogový modulární dům"  />
-		</div>					
-		<div class="item" data-src="images/altan (1).jpg"> 
-			<img src="images/altan (1).jpg" title="Venkovní kuchyně" alt="Venkovní kuchyně"  />
-		</div>		
-		<div class="item" data-src="images/altan (2).jpg"> 
-			<img src="images/altan (2).jpg" title="Venkovní kuchyně" alt="Venkovní kuchyně"  />
-		</div>		
-		<div class="item" data-src="images/koupelna (5).jpg"> 
-			<img src="images/koupelna (5).jpg" title="Rekonstrukce koupelny v paneláku" alt="Rekonstrukce koupelny v paneláku"  />
-		</div>				
-		<div class="item" data-src="images/skandi.png"> 
-			<img src="images/skandi.png" alt="Koupelna ve skandinávském stylu" title="Koupelna ve skandinávském stylu"/>
-		</div>			
+        <div class="item" data-src="images/kueche (1).jpg">
+          <img
+            src="images/kueche (1).jpg"
+            title="Vizualizace kuchyně"
+            alt="Vizualizace kuchyně"
+          />
+        </div>
 
-		<!-- <div class="item" data-src="images/kknacht.jpg"> 
+        <div class="item" data-src="images/dvojdum.jpg">
+          <img src="images/dvojdum.jpg" title="Dvojdomek" alt="Dvojdomek" />
+        </div>
+        <div class="item" data-src="images/malina.jpg">
+          <img src="images/malina.jpg" title="Kuchyně" alt="Kuchyně" />
+        </div>
+        <div class="item" data-src="images/olg.jpg">
+          <img src="images/olg.jpg" title="Obývací pokoj" alt="Obývací pokoj" />
+        </div>
+        <div class="item" data-src="images/house.jpg">
+          <img
+            src="images/house.jpg"
+            title="Katalogový modulární dům"
+            alt="Katalogový modulární dům"
+          />
+        </div>
+        <div class="item" data-src="images/altan (1).jpg">
+          <img
+            src="images/altan (1).jpg"
+            title="Venkovní kuchyně"
+            alt="Venkovní kuchyně"
+          />
+        </div>
+        <div class="item" data-src="images/altan (2).jpg">
+          <img
+            src="images/altan (2).jpg"
+            title="Venkovní kuchyně"
+            alt="Venkovní kuchyně"
+          />
+        </div>
+        <div class="item" data-src="images/koupelna (5).jpg">
+          <img
+            src="images/koupelna (5).jpg"
+            title="Rekonstrukce koupelny v paneláku"
+            alt="Rekonstrukce koupelny v paneláku"
+          />
+        </div>
+        <div class="item" data-src="images/skandi.png">
+          <img
+            src="images/skandi.png"
+            alt="Koupelna ve skandinávském stylu"
+            title="Koupelna ve skandinávském stylu"
+          />
+        </div>
+
+        <!-- <div class="item" data-src="images/kknacht.jpg"> 
 			<img src="images/kknacht.jpg" title="Interaktivní průchod - noční režim" alt="Interaktivní průchod - noční režim"  />
 		</div>	 -->
-		
-		<div class="item" data-src="images/flas.jpg"> 
-			<img src="images/flas.jpg" alt="Exteriér RD" title="Exteriér RD"/>
-		</div>	
 
-		<div class="item" data-src="images/plant.png"> 
-			<img src="images/plant.png" alt="Kuchyň s obývákem" title="Kuchyň s obývákem"/>
-		</div>	
-		<div class="item" data-src="images/kuchyň 4.jpg"> 
-			<img src="images/kuchyň 4.jpg" title="Kuchyň do novostavby" alt="Kuchyň do novostavby"  />
-		</div>				
-	
-		<div class="item" data-src="images/202.jpg"> 
-			<img src="images/202.jpg" alt="Kuchyň - garsonka" title="Kuchyň - garsonka"/>
-		</div>
-		<!-- <div class="item" data-src="images/depp.jpg"> 
+        <div class="item" data-src="images/flas.jpg">
+          <img src="images/flas.jpg" alt="Exteriér RD" title="Exteriér RD" />
+        </div>
+
+        <div class="item" data-src="images/plant.png">
+          <img
+            src="images/plant.png"
+            alt="Kuchyň s obývákem"
+            title="Kuchyň s obývákem"
+          />
+        </div>
+        <div class="item" data-src="images/kuchyň 4.jpg">
+          <img
+            src="images/kuchyň 4.jpg"
+            title="Kuchyň do novostavby"
+            alt="Kuchyň do novostavby"
+          />
+        </div>
+
+        <div class="item" data-src="images/202.jpg">
+          <img
+            src="images/202.jpg"
+            alt="Kuchyň - garsonka"
+            title="Kuchyň - garsonka"
+          />
+        </div>
+        <!-- <div class="item" data-src="images/depp.jpg"> 
 			<img src="images/depp.jpg" alt="Kuchyň s obývákem" title="Kuchyň s obývákem"/>
-		</div> -->					
-	
-		<div class="item" data-src="images/kuchyň (1).jpg"> 
-			<img src="images/kuchyň (1).jpg" title="Vizualizace kuchyně" alt="Vizualizace kuchyně" />
-		</div>
-					
-		<div class="item" data-src="images/bylonebylo.jpg"> 
-			<img src="images/bylonebylo.jpg" title="Vizualizace dětského pokoje" alt="Vizualizace dětského pokoje" />
-		</div>	
-		<div class="item" data-src="images/spz.png"> 
-			<img src="images/spz.png" alt="Škoda Superb" title="Škoda Superb"/>
-		</div>	
-		<div class="item" data-src="images/zahrada.jpg"> 
-			<img src="images/zahrada.jpg" title="Katalogový skleník" alt="Katalogový skleník" />
-		</div>	
+		</div> -->
 
-	</div>
-</div>
-<!-- =========================
+        <div class="item" data-src="images/kuchyň (1).jpg">
+          <img
+            src="images/kuchyň (1).jpg"
+            title="Vizualizace kuchyně"
+            alt="Vizualizace kuchyně"
+          />
+        </div>
+
+        <div class="item" data-src="images/bylonebylo.jpg">
+          <img
+            src="images/bylonebylo.jpg"
+            title="Vizualizace dětského pokoje"
+            alt="Vizualizace dětského pokoje"
+          />
+        </div>
+        <div class="item" data-src="images/spz.png">
+          <img src="images/spz.png" alt="Škoda Superb" title="Škoda Superb" />
+        </div>
+        <div class="item" data-src="images/zahrada.jpg">
+          <img
+            src="images/zahrada.jpg"
+            title="Katalogový skleník"
+            alt="Katalogový skleník"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- =========================
     SERVICES SECTION   
 ============================== -->
-<!-- <section id="service" class="parallax-section">
+    <!-- <section id="service" class="parallax-section">
 
 </section> -->
-<!-- =========================
+    <!-- =========================
     CONTACT SECTION   
 ============================== -->
 
-
-<!-- =========================
+    <!-- =========================
     FAQ SECTION   
 ============================== -->
-<!-- <section id="faq" class="parallax-section">
+    <!-- <section id="faq" class="parallax-section">
 	<div class="container">
 		<div class="row">
 			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
@@ -251,52 +358,63 @@ http://www.templatemo.com/tm-486-new-event
 	</div>
 </section> -->
 
-<!-- =========================
+    <!-- =========================
     FOOTER SECTION   
 ============================== -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp" data-wow-delay="0.5s">interaktivni-vizualizace.cz, 2025  &copy;  <span id="my_policy" style="text-decoration: underline;"><a href="privacy.html" target="_blank"  class="smoothScroll">Ochrana osobních údajů</a></span></p>
-				<ul class="social-icon">
-					<!-- <li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <p class="wow fadeInUp" data-wow-delay="0.5s">
+              interaktivni-vizualizace.cz, 2025 &copy;
+              <span id="my_policy" style="text-decoration: underline"
+                ><a href="privacy.html" target="_blank" class="smoothScroll"
+                  >Ochrana osobních údajů</a
+                ></span
+              >
+            </p>
+            <ul class="social-icon">
+              <!-- <li><a href="#" class="fa fa-github wow fadeInUp" data-wow-delay="1s"></a></li>
 					<li><a href="#" class="fa fa-envelope wow fadeInUp" data-wow-delay="1.6s"></a></li> -->
-				</ul>
-			</div>			
-		</div>
-	</div>
-</footer>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- Back top -->
+    <a href="#back-top" class="go-top"
+      ><i style="color: #fff" class="fa fa-angle-up"></i
+    ></a>
 
-<!-- Back top -->
-<a href="#back-top" class="go-top"><i style="color: #fff;" class="fa fa-angle-up"></i></a>
-
-<!-- =========================
+    <!-- =========================
      SCRIPTS   
 ============================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/log.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/wow.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/log.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
 
-<script src="lightGallery/lightgallery.min.js"></script>
+    <script src="lightGallery/lightgallery.min.js"></script>
 
-<!-- lightgallery plugins -->
-<script src="lightGallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
-<script src="lightGallery/plugins/zoom/lg-zoom.umd.js"></script>
+    <!-- lightgallery plugins -->
+    <script src="lightGallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="lightGallery/plugins/zoom/lg-zoom.umd.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+      data-cfasync="false"
+    ></script>
 
-<script type="text/javascript">
-    lightGallery(document.getElementById('gallery'), {
+    <script type="text/javascript">
+      lightGallery(document.getElementById("gallery"), {
         plugins: [lgZoom, lgThumbnail],
-		selector: '.item',
-        speed: 500
-    });
-</script>
-</body>
+        selector: ".item",
+        speed: 500,
+      });
+    </script>
+  </body>
 </html>
